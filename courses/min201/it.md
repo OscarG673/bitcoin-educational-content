@@ -24,41 +24,30 @@ Se avete bisogno di aiuto per il vostro progetto, è stato creato un gruppo Tele
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Benvenuti!
+## Panoramica del corso
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Benvenuti in MINING 201: un'introduzione al mining. Ajelex, Jim & Rogzy sono felici di accompagnarvi nei vostri primi passi concreti in questa nuova industria. Speriamo che il corso vi piaccia e che vi uniate all'avventura del mining casalingo!
+Benvenuto al corso MIN201: Introduzione al mining. Ajelex, Jim & Rogzy sono lieti di guidarti nei tuoi primi passi in questo settore. Speriamo che il corso sia di tuo gradimento e che tu possa iniziare l'avventura del home mining!
 
-### Panoramica del corso
+Questo corso ti porta nel cuore dell'industria del mining di Bitcoin offrendoti una comprensione degli aspetti teorici e pratici. Che tu sia un principiante o abbia già familiarità con l'argomento, questo percorso ti permetterà di comprendere le sfide economiche e tecniche legate al mining, realizzando al contempo un progetto pratico di riutilizzo di un ASIC per il riscaldamento domestico.
 
-In questo corso, la prima sezione sarà dedicata alla teoria del mining con Ajelex. Discuteremo approfonditamente dei vari argomenti legati al mining, il che ci permetterà di comprendere meglio questa industria e le sfide economiche e geopolitiche ad essa legate.
+**Sezione 2: Tutto sul mining**  
+In questa sezione ti forniremo una comprensione approfondita del mining di Bitcoin. Tratteremo il funzionamento tecnico del mining, il suo ruolo nel protocollo Bitcoin e le sue implicazioni economiche e geopolitiche. Scoprirai anche la complessa relazione tra il prezzo del bitcoin e l'hashrate, così come le problematiche legate alla sovranità e alla regolamentazione del settore.
 
-Nella seconda sezione, ci immergeremo in un affascinante caso pratico, imparando a trasformare un vecchio minatore S9 in un riscaldamento ausiliario per la casa. Grazie a guide scritte e video, tutti i passaggi necessari saranno spiegati in dettaglio, garantendo il successo del vostro progetto innovativo.
+**Sezione 3: Home mining e riutilizzo del calore**  
+Passeremo quindi all'applicazione pratica con il concetto di Attakai, che mira a democratizzare l'home mining trasformando i miner S9 usati in dispositivi di riscaldamento domestico. Imparerai come acquistare e modificare un ASIC usato, preparando l'attrezzatura necessaria per le modifiche hardware.
 
-Questo viaggio di apprendimento vi mostrerà che l'industria del mining è più complessa di quanto sembri, offrendo una prospettiva equilibrata sul dibattito ecologico ad essa legato. Un supporto continuo sarà disponibile tramite un gruppo Telegram dedicato agli studenti e tutti i componenti necessari saranno facilmente accessibili sulla nostra piattaforma di e-commerce.
+**Sezione 4: Attakai - Modifica del software di un Antminer S9**  
+Qui imparerai come configurare il tuo Antminer S9 per l'uso domestico. Ti guideremo attraverso i passaggi per configurare un bridge Wi-Fi/Ethernet, resettare il tuo dispositivo, installare BraiinsOS+ e ottimizzarlo per il mining.
 
-### Curriculum:
+**Sezione 5: Attakai - Modifica delle ventole**  
+Per ottimizzare il tuo Antminer S9 come sistema di riscaldamento ausiliario, questa sezione ti insegnerà come sostituire le ventole dell'alimentazione e le ventole principali. Queste modifiche sono essenziali per ridurre il rumore e migliorare l'efficienza termica del dispositivo.
 
-Sezione Teorica:
+**Sezione 6: Attakai - Configurazione**  
+Infine, imparerai come unirti a un pool di mining e ottimizzare le prestazioni del tuo Antminer S9. Scoprirai come raggiungere un'efficienza energetica ottimale e minare i tuoi primi satoshi in modo efficace.
 
-- Spiegazione del mining.
-- L'industria del mining.
-- Le sfumature dell'industria del mining.
-- Il mining nel protocollo bitcoin.
-- Prezzo del bitcoin e hashrate, una correlazione? Sovranità e regolamentazione
-- Intervista a un professionista dell'industria del mining
-
-Sezione Pratica: Attakai
-
-- Introduzione ad Attakai.
-- Guida all'acquisto.
-- Modifica del software di un Antminer S9.
-- Sostituzione delle ventole per ridurre il rumore.
-- Configurazione di una pool.
-- Configurazione di un Antminer S9 con Braiins OS+.
-
-Pronti per iniziare questa avventura affascinante? Tuffiamoci insieme nel mondo affascinante del mining casalingo!
+Pronto a scoprire il mondo del mining di Bitcoin e affrontare la sfida pratica di Attakai? Cominciamo!
 
 # Conoscere tutto sul mining
 
@@ -203,7 +192,6 @@ La speculazione circonda l'uso futuro dello spazio dei blocchi, ma è generalmen
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Chi ha il potere? Bitcoin, energia e produttori](https://www.youtube.com/watch?v=4wywK6BfDw8)
 
 Il ruolo dei minatori nella rete Bitcoin è stato un argomento di intenso dibattito durante la guerra dei blocchi. Sebbene siano essenziali per la sicurezza e la funzionalità della rete, i minatori non detengono necessariamente il potere ultimo nell'ecosistema Bitcoin. L'equilibrio tra i minatori, i nodi e gli utenti finali garantisce l'integrità e la distribuzione della rete.
 
@@ -245,7 +233,6 @@ Per riassumere, i minatori rafforzano la rete Bitcoin contro la censura utilizza
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Come ottenere un bitcoin bianco e immacolato?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, prezzo e redditività
 
@@ -307,13 +294,9 @@ Di fronte a campagne come quelle di Greenpeace e ai dati spesso fuorvianti di al
 
 In conclusione, nonostante il rischio normativo e la possibilità di un divieto del mining in Europa, l'arma più potente rimane l'educazione e l'informazione. Una comprensione chiara e precisa del mining, del suo funzionamento e del suo impatto può aiutare a demistificare l'industria e a combattere la disinformazione, offrendo così una migliore resistenza alle regolamentazioni potenzialmente dannose. L'iniziativa di formare ed informare le persone sul mining, come avviene in questa discussione, è un passo nella giusta direzione per garantire la sostenibilità e la crescita del mining in Europa e nel mondo. Gli sforzi continui per educare e informare sono essenziali per assicurare un futuro sicuro e prospero per l'industria del mining di Bitcoin.
 
-## Intervista a un professionista dell'industria del mining
 
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
 
-### Dietro le quinte del mining industriale - Sebastien Gouspillou
 
-![Dietro le quinte del mining industriale - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Home-mining e riutilizzo del calore
 
@@ -795,11 +778,11 @@ Questo pone un limite superiore alla velocità di hashing che una macchina può 
 
 Il risultato finale è una velocità di hashing più elevata per watt di elettricità, il che significa margini di profitto più elevati per i minatori. La ragione per cui le macchine non vengono distribuite con questo tipo di software è che la varianza per macchina non è desiderabile, poiché i clienti vogliono sapere esattamente cosa stanno ottenendo ed è quindi una cattiva idea per i produttori vendere un prodotto che non ha prestazioni costanti e prevedibili da una macchina all'altra. Inoltre, l'autoregolazione del chip richiede considerevoli risorse di sviluppo, poiché è complessa da implementare. I produttori già spendono molte risorse per sviluppare i propri firmware. Ci sono soluzioni software che consentono di implementare l'autotuning, come Braiins OS+. Inoltre, migliora le prestazioni dell'ASIC fino al 20%.
 
-# Conclusione
+# Sezione finale
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Valuta questo corso
+## Recensioni & Valutazioni
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -812,30 +795,4 @@ Il risultato finale è una velocità di hashing più elevata per watt di elettri
 ## Conclusione
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Congratulazioni per aver completato questo corso!
-
-Siamo lieti che tu abbia raggiunto questa importante tappa nel tuo percorso di apprendimento.
-
-Grazie alla tua dedizione e al tuo impegno, hai acquisito preziose conoscenze e competenze che ti serviranno nel tuo sviluppo professionale.
-
-Per continuare ad esplorare in profondità l'universo Bitcoin, ti invitiamo a scoprire tutti gli altri corsi disponibili su Plan ₿ Network:
-
-#### Scopri Bitcoin e i suoi fondamenti con
-
-https://planb.network/courses/btc101
-
-#### Scopri il Lightning Network con
-
-https://planb.network/courses/lnp201
-
-#### Padroneggia i principi della privacy su Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Scopri la storia delle origini di Bitcoin con
-
-https://planb.network/courses/his201
-
-#### Comprendi come funziona il portafoglio Bitcoin con
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

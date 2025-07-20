@@ -39,11 +39,12 @@ Kursus ini telah disponsori oleh TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Pengantar
+## Ikhtisar Kursus
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Selamat datang di kursus ECO104!
 
-### Kita hidup di dunia di mana:
+**Kita hidup di dunia di mana:**
 
 ● Hanya [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) orang yang tinggal di masyarakat yang dianggap "bebas secara demokratis." Namun, bahkan di dalam fraksi istimewa ini, pelanggaran hak asasi manusia semakin umum—dari pembekuan rekening bank hingga sensor. 80% sisanya menemukan diri mereka berjuang dengan penjajahan aturan otoriter. Hanya dua dekade yang lalu, hampir setengah populasi dunia menikmati kebebasan dasar.
 
@@ -62,7 +63,7 @@ Dengan demikian, kursus ini tidak hanya untuk mereka yang menghadapi inflasi yan
 
 Dengan pemikiran ini, misi kami adalah membawa Anda ke garis depan perubahan dalam lanskap keuangan kita saat ini, menantang norma yang ada dan menawarkan solusi alternatif. Dengan menggali sejarah uang, memecahkan misteri Bitcoin, dan menjelajahi Tether dan dunia stablecoin, kami bertujuan untuk menginspirasi individu untuk membayangkan kembali masa depan keuangan mereka.
 
-### Apa yang diharapkan:
+**Apa yang diharapkan:**
 
 **Modul 1: Harga Kemajuan - Tinjauan Lebih Dekat pada Sistem Keuangan Kita**
 Kami memulai eksplorasi kami dengan mengintip di balik tirai sistem keuangan kita saat ini, di mana sensor keuangan, ketidaksetaraan kekayaan, dan inflasi mengganggu kehidupan sehari-hari kita. Melalui sejarah singkat uang, kami akan melihat bagaimana kita menemukan diri kita di posisi saat ini, menerangi beberapa titik nyeri utama yang kita semua alami.
@@ -484,7 +485,7 @@ Sebelum penciptaan Bitcoin, sekelompok visioner meletakkan dasar bagi Bitcoin ka
 
 #### The Cypherpunks
 
-The Cypherpunks adalah sekelompok pemberontak yang paham teknologi yang berkumpul pada tahun 70-an untuk memperjuangkan kebebasan individu dan hak-hak sipil menggunakan satu alat yang kuat: kriptografi. Mereka percaya bahwa kemampuan untuk mengenkripsi informasi akan memberi orang kekuatan untuk mengambil kembali kontrol dari otoritas terpusat. Bayangkan dapat menjaga komunikasi online Anda tetap pribadi dan aman dari mata-mata - itulah yang mereka perjuangkan!
+The Cypherpunks adalah sekelompok pemberontak yang paham teknologi yang berkumpul pada tahun 80-an untuk memperjuangkan kebebasan individu dan hak-hak sipil menggunakan satu alat yang kuat: kriptografi. Mereka percaya bahwa kemampuan untuk mengenkripsi informasi akan memberi orang kekuatan untuk mengambil kembali kontrol dari otoritas terpusat. Bayangkan dapat menjaga komunikasi online Anda tetap pribadi dan aman dari mata-mata - itulah yang mereka perjuangkan!
 
 Salah satu hasil paling terkenal dari Cypherpunks adalah daftar surat Cypherpunks, yang didirikan pada tahun 1992. Melalui daftar tersebut, individu dapat berbagi ide dan mendiskusikan teknologi kriptografi, konsep mata uang digital, dan inisiatif yang berfokus pada privasi. Ini mengarah pada pembentukan komunitas individu yang berpikiran sama, termasuk pengembang, aktivis, dan peneliti.
 
@@ -1642,11 +1643,11 @@ Semoga pemahaman baru ini memberdayakan Anda untuk menavigasi dunia keuangan yan
 
 Masa Depan Cerah!
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Evaluasi Kursus
+## Ulasan & Penilaian
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1654,35 +1655,4 @@ Masa Depan Cerah!
 ## Kesimpulan
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Selamat atas penyelesaian kursus ini!
-
-Kami sangat senang Anda telah berhasil mencapai tonggak ini dalam perjalanan pembelajaran Anda.
-
-Melalui dedikasi dan keterlibatan Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan bermanfaat dalam pengembangan profesional Anda.
-
-Untuk terus mendalami dunia Bitcoin, kami mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di Plan ₿ Network:
-
-#### Pelajari Bitcoin dan dasar-dasarnya dengan
-
-https://planb.network/courses/btc101
-
-#### Perbarui keamanan online Anda dengan
-
-https://planb.network/courses/scu101
-
-#### Pelajari Lightning Network dengan
-
-https://planb.network/courses/lnp201
-
-#### Pelajari Pemikiran Ekonomi Mazhab Austria dengan
-
-https://planb.network/courses/eco201
-
-#### Pelajari sejarah asal-usul Bitcoin dengan
-
-https://planb.network/courses/his201
-
-#### Pahami munculnya hiperinflasi dengan
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

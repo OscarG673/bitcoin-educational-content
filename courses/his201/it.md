@@ -20,11 +20,12 @@ Questo corso è, naturalmente, centrato sulla figura di Satoshi Nakamoto, le cui
 # Introduzione
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Introduzione alla storia della creazione di Bitcoin
+## Panoramica del corso
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Benvenuto al corso HIS201!
 Questo corso mira a raccontarti la storia della creazione di Bitcoin in un modo che non hai mai letto prima. Spesso trascurata, è tuttavia ricca di dettagli affascinanti. Ci impegneremo a descriverla in tutta la sua complessità, dalla sua concezione da parte di Satoshi Nakamoto alla sua precoce scomparsa e il passaggio di testimone alla comunità.
 
-### Breve panoramica
+**Breve panoramica**
 
 Bitcoin è stato progettato da un individuo (o un gruppo) che utilizza lo pseudonimo di Satoshi Nakamoto. Il 31 ottobre 2008, ha condiviso un white paper che descriveva il suo modello tramite una oscura mailing list email su Internet. L'8 gennaio 2008, ha implementato il suo concetto pubblicando il codice sorgente del software e lanciando la rete minando i primi blocchi della catena. Desideroso di attrarre un numero critico di utenti, ha promosso la sua creazione attraverso vari canali di comunicazione.
 
@@ -46,7 +47,7 @@ La creazione di Bitcoin era anche nel contesto della chiusura statale di sistemi
 
 Infine, il progetto Bitcoin è l'erede dell'etos del movimento cypherpunk, un movimento di crittografi ribelli degli anni '90, che cercavano di preservare la privacy e la libertà delle persone su Internet attraverso l'uso proattivo della crittografia. Bitcoin si allinea a progetti come b-money, bit gold o RPOW immaginati da queste persone alla fine degli anni '90 e all'inizio degli anni 2000. Satoshi Nakamoto li ha menzionati, anche se non ne era a conoscenza prima di progettare Bitcoin e probabilmente non faceva parte del movimento originale.
 
-### Programma del Corso
+**Programma del Corso**
 
 Questo corso è diviso in quattro parti, che si concentrano rispettivamente sulle origini di Bitcoin (3 capitoli), la sua lenta emergenza (3 capitoli), la sua ascesa iniziale (3 capitoli) e la formazione della sua comunità (4 capitoli). In totale, include 12 capitoli che sono i seguenti (è specificato anche il periodo di riferimento):
 
@@ -64,7 +65,7 @@ Questo corso è diviso in quattro parti, che si concentrano rispettivamente sull
 - La Scomparsa di Satoshi (Dicembre 2010–Aprile 2011)
 - La Comunità Prende il Controllo (Aprile 2011–Settembre 2011)
 
-### Dettagli
+**Dettagli**
 
 Tutte le date e gli orari sono forniti secondo il fuso orario UTC (corrispondente al Meridiano di Greenwich) e possono quindi differire dalle date americane. È probabile che Satoshi Nakamoto si trovasse negli Stati Uniti mentre lavorava al suo progetto. Tuttavia, Bitcoin è un progetto internazionale, che includeva notevolmente contributi dallo sviluppatore finlandese Martti Malmi (Ora dell'Europa Orientale, UTC+2 / UTC+3), e ci riferiremo quindi al fuso orario universale. Pertanto, diciamo che il lancio effettivo della rete principale ha avuto luogo il 9 gennaio alle 2:54 AM, piuttosto che l'8 gennaio alle 6:54 PM, che corrisponde al fuso orario della costa orientale (Pacific Time, UTC-8 / UTC-7).
 
@@ -78,6 +79,7 @@ Il contenuto è parzialmente adattato dal libro francese [*L'Élégance de Bitco
 
 Si noti che per le versioni non in inglese di questo corso, la maggior parte delle citazioni proviene dall'inglese americano e sono state tradotte per l'occasione. Il termine *coin* è generalmente tradotto come "unità" (e non "pezzo") quando si riferisce all'unità di conto.
 
+Pronto a esplorare l'incredibile saga della creazione di Bitcoin? Allora immergiamoci insieme in questa storia fuori dal comune!
 # Le Origini di Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -239,6 +241,7 @@ La visione originale di PayPal era rivoluzionaria, in linea con la visione liber
 
 > "Naturalmente, ciò che chiamiamo 'comodo' per gli utenti americani sarà rivoluzionario per il mondo in via di sviluppo. Molti dei governi di questi paesi giocano con le loro valute in modo irresponsabile. Usano l'inflazione e talvolta svalutazioni valutarie all'ingrosso, come abbiamo visto in Russia e in diversi paesi del Sud-Est asiatico l'anno scorso, per sottrarre ricchezza ai loro cittadini. La maggior parte delle persone comuni lì non ha mai l'opportunità di aprire un conto offshore o di mettere le mani su più di qualche banconota di una valuta stabile come i dollari USA. Alla fine, PayPal sarà in grado di cambiare questo. In futuro, quando renderemo il nostro servizio disponibile al di fuori degli Stati Uniti e con la continua espansione della penetrazione di Internet a tutti i livelli economici delle persone, PayPal darà ai cittadini di tutto il mondo un controllo più diretto sulle loro valute di quanto abbiano mai avuto prima. Sarà quasi impossibile per i governi corrotti rubare ricchezza ai loro cittadini attraverso i loro vecchi mezzi perché, se ci provano, le persone passeranno a dollari, sterline o yen, abbandonando effettivamente la valuta locale senza valore per qualcosa di più sicuro."
 
+![Peter Thiel il 20 ottobre 1999, durante il suo discorso a Oakland, California per l'Independent Institute](assets/en/11.webp)
 Peter Thiel il 20 ottobre 1999, durante il suo discorso a Oakland, California per l'Independent Institute (fonte: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
 Tuttavia, le cose non si sono evolute nella direzione desiderata, e PayPal ha dovuto conformarsi a ogni tipo di regolamentazione finanziaria, tanto che il servizio è ora famoso per la sua censura dei pagamenti e il congelamento dei conti in tutto il mondo. Era ingenuo credere che un tale sistema potesse sfidare il potere consolidato.
@@ -354,7 +357,7 @@ Il concetto di Ripple si basava sull'idea che il denaro fosse essenzialmente com
 
 Ecco un video introduttivo di Ripple realizzato nel 2011:
 
-![Video (Youtube) della presentazione di Ripple nel 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 Nonostante l'entusiasmo della sua comunità e qualche migliaio di utenti, Ripple aveva gravi difetti che ne impedivano il successo. In particolare, [soffriva](https://fiatjaf.com/3cb7c325.html) del "problema dell'impegno decentralizzato": durante un pagamento, i partecipanti non potevano impegnarsi in modo sicuro per garantire la catena di prestiti, un problema che sarebbe stato risolto in seguito da Lightning. (*originale: "the problem of the decentralized commit"*)
 
@@ -433,6 +436,7 @@ In seguito a questo annuncio, Satoshi riceve alcune risposte, ma la maggior part
 - Infine, un individuo di nome Ray Dillinger (che usa lo pseudonimo bear) [si chiede](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html) sul valore dell'unità di conto, lamentando il fatto che "le prove di lavoro computazionali non hanno valore intrinseco" e criticando la loro natura inflazionistica a causa dell'evoluzione tecnica dell'hardware informatico. Satoshi [risponde](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) che "l'aumento della velocità dell'hardware è contabilizzato" dall'aggiustamento periodico della difficoltà di produzione.
 Sebbene lo scetticismo sia l'atteggiamento predominante nella lista, non è condiviso da tutti gli iscritti alla mailing list. In particolare, una persona si distingue dagli altri per il suo entusiasmo: Hal Finney, che ha una visione ottimistica del futuro e che non ha mai rinunciato all'idea del denaro elettronico, nonostante i fallimenti degli anni '90. Egli [afferma](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) in merito alcuni anni dopo che "i barbuti della crittografia [...] tendono a diventare cinici" ma che lui "era più idealista" avendo "sempre amato la crittografia, il suo mistero e il suo paradosso". Così, il 7 novembre, scrive in una [email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) alla lista che "Bitcoin sembra essere un'idea molto promettente" e confronta il modello di Satoshi con il bit gold di Nick Szabo.
 
+![Hal Finney nel 2007](assets/en/22.webp)
 Hal Finney nel 2007
 
 ### Politica Monetaria e Codice Software
@@ -557,6 +561,8 @@ L'11 febbraio, Satoshi pubblicò un [messaggio di introduzione](https://p2pfound
 
 > "Il problema fondamentale con la valuta convenzionale è tutta la fiducia che è necessaria affinché funzioni. Dobbiamo fidarci della banca centrale affinché non svaluti la valuta, ma la storia delle valute fiat è piena di violazioni di quella fiducia. Dobbiamo fidarci delle banche per custodire i nostri soldi e trasferirli elettronicamente, ma queste li prestano in ondate di bolle di credito con appena una frazione in riserva. Dobbiamo fidarci che proteggano la nostra privacy, per non lasciare che i ladri d'identità svuotino i nostri conti. I loro significativi costi operativi rendono impossibili i micropagamenti."
 Nel suo [profilo](https://p2pfoundation.ning.com/profile/SatoshiNakamoto), afferma di essere un uomo giapponese, ma non è tutto. Un aggiornamento dell'interfaccia nel 2011 ha rivelato la sua età: 35 anni, il che significa che aveva 32 o 33 anni nel 2009. Poi, nel 2014, è stato [scoperto](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) che aveva indicato una specifica data di nascita: 5 aprile 1975. Questa data, apparentemente innocua, è probabilmente un riferimento composto al divieto per i cittadini americani di possedere oro tra il 1933 e il 1975 negli Stati Uniti. Il giorno del 5 aprile si riferisce al giorno in cui questo divieto fu stabilito dall'[Ordine Esecutivo 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) firmato dal Presidente Franklin Delano Roosevelt il 5 aprile 1933, e l'anno 1975 corrisponde alla sua abrogazione con l'emanazione del [Public Law 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Questo dettaglio è molto importante poiché questo divieto ha posto fine allo standard aureo classico (dove si poteva ottenere oro in cambio di una banconota rappresentativa), ha permesso la svalutazione del dollaro (attraverso il Gold Reserve Act nel 1934) e ha facilitato l'istituzione del regime monetario a tassi di cambio fluttuanti che conosciamo a seguito dello shock di Nixon del 1971.
+
+![Profilo di Satoshi Nakamoto sul forum della P2P Foundation il 17 marzo 2011](assets/en/26.webp)
 
 Profilo di Satoshi Nakamoto sul forum della P2P Foundation il 17 marzo 2011 (fonte: [cattura del forum](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
 
@@ -796,6 +802,7 @@ Maggio 2010 è segnato anche da un evento fondamentale: il primo acquisto di un 
 "Pagherò 10.000 bitcoin per un paio di pizze... magari due grandi così ne ho un po' avanzate per il giorno dopo. Mi piace avere della pizza avanzata da sgranocchiare più tardi. Puoi fare la pizza tu stesso e portarla a casa mia o ordinarla per me da un servizio di consegna, ma quello che sto cercando è ottenere cibo consegnato in cambio di bitcoin senza che io debba ordinare o prepararlo personalmente, un po' come ordinare un 'piatto per la colazione' in un hotel o qualcosa del genere, ti portano semplicemente qualcosa da mangiare e sei felice! (...) Se sei interessato per favore fammelo sapere e possiamo organizzare un accordo."
 Questa offerta fu accettata dopo quattro giorni. Fu un giovane californiano di nome Jeremy Sturdivant ad accettare lo scambio sul servizio di messaggistica istantanea IRC.
 
+![Jeremy Sturdivant nel maggio 2018](assets/en/40.webp)
 Jeremy Sturdivant nel maggio 2018 (fonte: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 
 Il 22 maggio, ordinò due pizze da Papa John's che furono consegnate a Laszlo a Jacksonville, Florida. Ricevette 10.000 bitcoin in cambio, del valore di circa $44 al tasso di mercato Bitcoin. Ecco una fotografia di queste due pizze, condivisa da Laszlo stesso:
@@ -1093,7 +1100,7 @@ Due settimane dopo, in assenza di una risposta, un secondo membro del forum venn
 L'EFF ha impiegato un po' di tempo prima di iniziare ad accettare donazioni pubbliche. Dopo una negoziazione, la comunità li ha convinti a pubblicare un indirizzo per le donazioni sul loro sito web. Il 9 novembre, l'indirizzo è apparso sulla [pagina delle donazioni](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Gli utenti di Bitcoin hanno [iniziato](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) a trasferire fondi.
 Pochi giorni dopo, un [post](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) scritto sull'argomento dal blogger jimbobway, ha attirato l'attenzione su Bitcoin. Questo articolo è stato [condiviso](https://news.ycombinator.com/item?id=1905522) su HackerNews. È stato anche trascritto in video da BitcoinMedia usando Xtranormal:
 
-![Video "Bitcoin and the EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 Questa è una notizia molto positiva per Bitcoin poiché entrambe le iniziative condividono valori comuni. Inoltre, l'EFF è rinomata per fornire protezione legale a progetti di conservazione della privacy e condivisione dei dati come Tor e BitTorrent. Lo stesso Satoshi Nakamoto ne è consapevole ed è particolarmente sostenitore delle azioni dell'organizzazione, come mostrato nel suo [commento](https://mmalmi.github.io/satoshi/#email-254) fatto in una delle sue email indirizzate a Gavin Andresen il 6 gennaio 2011:
 > "L'EFF è davvero importante. &nbsp;Vogliamo mantenere buone relazioni con loro. &nbsp;Siamo il tipo di progetto che apprezzano; hanno aiutato il progetto TOR e hanno fatto molto per proteggere la condivisione di file P2P."
@@ -1220,14 +1227,6 @@ Questo aspetto misterioso che circonda il creatore di Bitcoin è stato ben riass
 >
 > Cosa rappresenta la S?"
 
-## Valuta il corso
-<chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Esame Finale
-<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Il Passaggio alla Comunità
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
@@ -1286,7 +1285,7 @@ I primi incontri tra utenti di Bitcoin furono iniziati da Bruce Wagner, il condu
 
 Febbraio segna anche la [prima presentazione filmata](https://www.youtube.com/watch?v=koIq58UoNfE) di Bitcoin, condotta da Gavin Andresen l'8 durante un evento organizzato nella sua città natale di Amherst, Massachusetts. Intitolata "Making Money", la presentazione del nuovo principale manutentore del progetto include numerosi elementi linguistici che caratterizzeranno il modo in cui la criptovaluta viene presentata negli anni successivi.
 
-![Video (Youtube) del discorso di Gavin ad Amherst nel febbraio 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 Anche se i primi eventi si svolsero negli Stati Uniti, la comunità francese non rimase indietro. Il 25 maggio, per segnare la visita di Gavin Andresen a Parigi, fu organizzato un pranzo nel quartiere de La Défense, al quale parteciparono figure di spicco come Lucien Grondin, David François e Jon Matonis (che era anche in visita).
 
@@ -1300,7 +1299,7 @@ Presentazione di Bitcoin da parte di Renaud Lifchitz il 15 giugno 2011 (fonte: [
 
 In seguito a questa esperienza, la comunità parigina [organizzò](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) un raduno sociale, che si svolse l'11 luglio. Questo evento riunì individui come Pierre Noizat o Émilien Dutang.
 Sul fronte internazionale, la prima conferenza collettiva su Bitcoin si è svolta dal 19 al 21 agosto a New York. Questo incontro, organizzato da Bruce Wagner, ha riunito personalità come Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès e Charlie Lee. Sebbene Wagner avesse promesso tre giorni di eventi, si sono tenute solo quattro presentazioni: la sua e quelle di Gavin Andresen, Jeff Garzik e Stefan Thomas.
-![Video (Youtube) dell'intervento di Gavin il 20 agosto 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Più avanti nell'anno, a novembre, si terrà una conferenza europea [a Praga](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901). Tra i relatori notevoli ci saranno lo sviluppatore Amir Taaki, il fondatore del Partito Pirata svedese Rick Falkvinge e il presentatore Max Keiser. L'anno seguente, un evento simile sarà [organizzato a Londra](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
@@ -1310,7 +1309,7 @@ Anche l'anno 2011 è stato un anno in cui la copertura mediatica si è notevolme
 
 In primo luogo, i video sull'argomento hanno iniziato a proliferare su Youtube. Il 22 marzo è apparso il primo video di alta qualità su Bitcoin. Questo video, semplicemente intitolato "Cos'è Bitcoin?", è stato prodotto da Stefan Thomas (justmoon) grazie al [crowdfunding](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) della comunità. È stato pubblicato sul portale WeUseCoins dedicato all'educazione e alla popolarizzazione della criptovaluta. Sono seguiti altri video introduttivi prodotti in modo indipendente, come [quello di howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) ad aprile, [quello di Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY), o [quello di Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) a giugno.
 
-![Cos'è Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 Ad aprile, il tema della valuta digitale è stato trattato da importanti testate giornalistiche mainstream come [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), e [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). A maggio, il movimento ha guadagnato slancio, e Bitcoin è stato menzionato quasi ovunque, in particolare su [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), su [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), su [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), e su [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 ![Gavin Andresen su Forbes ad aprile 2011](assets/en/68.webp)
 Gavin Andresen su Forbes ad aprile 2011 (fonte: [archivio Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
@@ -1343,9 +1342,9 @@ In secondo luogo, Bitcoin non è stato costruito in un giorno. Anche dopo il ril
 In terzo luogo, Bitcoin è cresciuto organicamente. È stato in grado di svilupparsi discretamente, attirando gradualmente le persone. Per quasi un anno e mezzo, è stato un progetto molto confidenziale, noto agli appassionati e ai curiosi. È stato solo dopo il slashdotting del luglio 2010 che ha iniziato ad esplodere. La frenesia speculativa su di esso non si è realmente impostata fino al 2011, quando il prezzo è aumentato esponenzialmente fino a $32.
 In quarto luogo, Bitcoin è stata una creazione altruistica. Satoshi Nakamoto ha offerto Bitcoin al mondo. Ha rilasciato il programma sotto una licenza libera. Non ha cercato fama, profitto, né potere. Ha garantito la sicurezza del mining della rete per più di un anno, senza chiedere alcuna compensazione. Anche se ha accumulato più di un milione di bitcoin, non li ha mai spesi. Alla fine è scomparso, principalmente a causa delle paure legate all'attenzione generata dal caso WikiLeaks, lasciando il progetto a riposare su una comunità, senza una figura dominante unica.
 Nel 2011, Satoshi è scomparso, ma Bitcoin è sopravvissuto. La criptovaluta ha addirittura decollato definitivamente, sia dal punto di vista mediatico che economico. La macchina era stata avviata e nessuno poteva fermarla.
-# Conclusione
+# Sezione finale
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
-## Valuta questo corso
+## Recensioni & Valutazioni
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
 <isCourseReview>true</isCourseReview>
 ## Esame finale
@@ -1353,28 +1352,4 @@ Nel 2011, Satoshi è scomparso, ma Bitcoin è sopravvissuto. La criptovaluta ha 
 <isCourseExam>true</isCourseExam>
 ## Conclusione
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-Congratulazioni per aver completato questo corso!
-
-Siamo lieti che tu abbia raggiunto questa importante tappa nel tuo percorso di apprendimento.
-
-Grazie alla tua dedizione e al tuo impegno, hai acquisito preziose conoscenze e competenze che ti serviranno nel tuo sviluppo professionale.
-
-Per continuare a esplorare in profondità l'universo Bitcoin, ti invitiamo a scoprire tutti gli altri corsi disponibili su Plan ₿ Network:
-
-#### Scopri Bitcoin e i suoi fondamenti con
-https://planb.network/courses/btc101
-
-#### Scopri la Scuola Austriaca di Economia con
-https://planb.network/courses/eco201
-
-#### Ottieni e proteggi i tuoi primi bitcoin con
-https://planb.network/courses/btc102
-
-#### Aggiorna la tua sicurezza online con
-https://planb.network/courses/scu101
-
-#### Scopri l'evoluzione della libertà attraverso i secoli con
-https://planb.network/courses/phi201
-
-#### Comprendi le basi del mining con
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

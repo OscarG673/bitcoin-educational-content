@@ -39,11 +39,12 @@ Khóa học này được tài trợ bởi TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Giới thiệu
+## Tổng quan về khóa học
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Chào mừng bạn đến với khóa học ECO104!
 
-### Chúng ta sống trong một thế giới mà:
+**Chúng ta sống trong một thế giới mà:**
 
 ● Chỉ có [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) người dân được sống trong các xã hội được coi là "tự do dân chủ." Tuy nhiên, ngay cả trong phần nhỏ có đặc quyền này, sự vi phạm quyền con người ngày càng trở nên phổ biến - từ việc đóng băng tài khoản ngân hàng đến kiểm duyệt. 80% còn lại đang bị mắc kẹt bởi sự xâm phạm của các chế độ chuyên quyền. Chỉ mới hai thập kỷ trước thôi, gần một nửa dân số thế giới được hưởng những quyền tự do cơ bản nhất.
 
@@ -62,7 +63,7 @@ Mặc dù triển vọng của chúng ta có vẻ ảm đạm, mục tiêu của
 
 Với ý nghĩ này, sứ mệnh của chúng tôi là đưa bạn lên tiền tuyến của sự thay đổi cho lĩnh vực tài chính hiện tại của chúng ta, thách thức các quy chuẩn hiện hữu và đề xuất các giải pháp thay thế. Thông qua việc khám phá lịch sử phát triển của tiền tệ, làm sáng tỏ bản chất của Bitcoin, và khám phá Tether và thế giới của các đồng stablecoin, chúng tôi mong muốn truyền cảm hứng cho mọi cá nhân để họ làm mới lại tương lai tài chính của bản thân.
 
-### Điều bạn có thể mong đợi:
+**Điều bạn có thể mong đợi:**
 
 **Mô-đun 1: Cái giá của sự tiến bộ - Một cái nhìn chi tiết hơn về hệ thống tài chính của chúng ta**
 Chúng ta bắt đầu khám phá của mình bằng cách nhìn vào phía sau bức màn của hệ thống tài chính hiện tại, nơi kiểm duyệt tài chính, bất bình đẳng về tài sản và lạm phát đang huỷ hoại cuộc sống hàng ngày của chúng ta. Thông qua một lịch sử ngắn gọn về sự phát triển của tiền tệ, chúng ta sẽ xem xét cách xác định vị trí hiện tại của mình, làm sáng tỏ một số điểm đau chính yếu mà chúng ta đều đang trải qua.
@@ -488,7 +489,7 @@ Trước khi Bitcoin được tạo ra, một số người tiên phong đã đ�
 
 #### Các Cypherpunks
 
-Các Cypherpunks là một nhóm những người yêu công nghệ nổi loạn đã tập hợp cùng nhau vào những năm 70 để đấu tranh cho tự do cá nhân và quyền tự do dân sự bằng một công cụ mạnh mẽ: mật mã học. Họ tin rằng khả năng mã hóa thông tin sẽ cho mọi người lấy lại được quyền kiểm soát từ các cơ quan quyền lực tập trung. Hãy tưởng tượng bạn có thể giữ thông tin liên lạc trực tuyến của mình riêng tư và an toàn khỏi những ánh mắt tò mò - đó là điều họ đang đấu tranh cho!
+Các Cypherpunks là một nhóm những người yêu công nghệ nổi loạn đã tập hợp cùng nhau vào những năm 80 để đấu tranh cho tự do cá nhân và quyền tự do dân sự bằng một công cụ mạnh mẽ: mật mã học. Họ tin rằng khả năng mã hóa thông tin sẽ cho mọi người lấy lại được quyền kiểm soát từ các cơ quan quyền lực tập trung. Hãy tưởng tượng bạn có thể giữ thông tin liên lạc trực tuyến của mình riêng tư và an toàn khỏi những ánh mắt tò mò - đó là điều họ đang đấu tranh cho!
 
 Một trong những kết quả đáng chú ý nhất của các Cypherpunks là danh sách gửi thư Cypherpunks (Cypherpunks mailing list), được thành lập vào năm 1992. Thông qua danh sách này, các cá nhân có thể chia sẻ ý tưởng và thảo luận về công nghệ mật mã, khái niệm tiền tệ số và các sáng kiến tập trung vào quyền riêng tư. Điều này dẫn đến sự hình thành của một cộng đồng những người có cùng chí hướng, bao gồm các nhà phát triển - lập trình viên, nhà hoạt động và nhà nghiên cứu.
 
@@ -1662,11 +1663,11 @@ Hy vọng rằng sự hiểu biết mới mẻ này sẽ trao quyền cho bạn 
 
 Tương lai tươi sáng!
 
-# Kết luận
+# Phần cuối
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Đánh giá khóa học
+## Nhận xét & Đánh giá
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1674,35 +1675,4 @@ Tương lai tươi sáng!
 ## Kết luận
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Chúc mừng bạn đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc này trong hành trình học tập của mình.
-
-Thông qua sự cống hiến và tham gia của bạn, bạn đã đạt được những kiến thức và kỹ năng quý giá sẽ phục vụ tốt cho sự phát triển nghề nghiệp của bạn.
-
-Để tiếp tục đi sâu vào thế giới Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
-
-#### Khám phá Bitcoin và những điều cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Cập nhật bảo mật trực tuyến của bạn với
-
-https://planb.network/courses/scu101
-
-#### Khám phá Lightning Network với
-
-https://planb.network/courses/lnp201
-
-#### Tìm hiểu về Tư duy Kinh tế của Trường phái Áo với
-
-https://planb.network/courses/eco201
-
-#### Khám phá lịch sử nguồn gốc của Bitcoin với
-
-https://planb.network/courses/his201
-
-#### Hiểu về sự xuất hiện của siêu lạm phát với
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

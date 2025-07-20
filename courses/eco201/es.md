@@ -16,28 +16,36 @@ Esta corriente de pensamiento ya cuenta con varios siglos de historia y tiene de
 
 +++
 
-# Introducción a ECON
+# Introducción
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Introducción
+## Visión general del curso
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Hola a todos y bienvenidos a Econ 201: Introducción a la Economía Austriaca.
+¡Bienvenido al curso ECO201!
 
-En este curso ofrecido por Théo Mogenet, descubrirás esta rama de la economía que difiere mucho de la doctrina keynesiana. Hasta ahora, es posible que hayas aprendido que la producción y gestión del dinero eran responsabilidad de los bancos centrales, con la idea de que la impresión y el gasto monetario promueven el crecimiento. Sin embargo, existe otra corriente de pensamiento económico: la economía austriaca. Con más de 200 años de investigación y desarrollo, reflexiones filosóficas y escritos de autores reconocidos, este enfoque enfatiza una visión más sobria del crecimiento y la racionalidad humana en nuestra economía.
+En este curso, ofrecido por Théo Mogenet, descubrirás una escuela de pensamiento económico que se distingue fundamentalmente de la doctrina keynesiana predominante. Hasta ahora, es posible que te hayan enseñado que la gestión del dinero y la política económica son principalmente competencia de los bancos centrales, con la idea de que la impresión de dinero y el gasto público estimulan el crecimiento económico. Sin embargo, existe un enfoque alternativo más coherente: **La Escuela Austriaca de Economía**.
 
-En realidad, la economía es un campo extremadamente social y complejo, compuesto por una miríada de pequeños actores interconectados que contribuyen juntos a formar un todo coherente. En lugar de abordar esta disciplina a través de ecuaciones matemáticas, debemos entenderla desde la perspectiva de la lógica humana y la sociología. En este curso, exploraremos los conceptos fundamentales de la economía austriaca. Tu instructor, Théo Mogenet, es un profesor apasionado y competente de economía austriaca.
+Con más de dos siglos de investigación, reflexión filosófica y escritos de autores renombrados como Carl Menger, Ludwig von Mises y Friedrich Hayek, esta escuela de pensamiento adopta una perspectiva diferente, favoreciendo una visión descentralizada de la economía, basada en el individuo y la racionalidad humana.
 
-Para comenzar, te ofrecemos un video adicional que explicará cómo funciona nuestro sistema financiero actual. Descubrirás cómo interactúan los bancos comerciales y los bancos centrales y cómo impulsan la economía. Abordaremos a los principales actores de nuestro mundo financiero y cómo esta centralización de poder entre ciertas instituciones económicas puede llevar a abusos y crisis financieras.
+La economía es, en realidad, un campo profundamente social y complejo, compuesto por numerosos actores independientes que interactúan libremente para formar un conjunto coherente. Para comprender este sistema dinámico, la Escuela Austriaca favorece el análisis cualitativo, basado en la lógica humana, la sociología y el estudio de los procesos de mercado, en lugar de ecuaciones matemáticas rígidas.
 
-En la segunda parte de este curso, examinaremos la diferencia entre el keynesianismo y la economía austriaca, explorando sus respectivas corrientes de pensamiento, métodos de reflexión y herramientas que utilizan para establecer la verdad económica. También estudiaremos la formación de las crisis económicas. ¿Se debe a la incompetencia humana, la manipulación del mercado o la euforia colectiva de las personas? Exploraremos cómo nuestras fases de crecimiento, declive, recesión y edad dorada son creadas por las emociones humanas.
+En este curso, explorarás los principios fundamentales de esta escuela de pensamiento. Théo Mogenet, tu instructor, es un apasionado defensor de este enfoque económico y te guiará pedagógicamente a través de los conceptos clave de la Escuela Austriaca, mostrándote cómo estas ideas se aplican particularmente bien al mundo de Bitcoin.
 
-Este curso será una combinación de economía y filosofía, con una discusión abierta entre Théo y yo. Si tienes alguna pregunta durante este curso, no dudes en hacerlas en nuestro Discord, al que encontrarás el enlace en la descripción.
+**Sección 1: Introducción a ECON**  
+Comenzaremos con una introducción general a la Escuela Austriaca de Economía, explorando sus orígenes históricos y los fundamentos de su pensamiento. Esta sección también cubre conceptos esenciales como el dinero, el crédito, los bancos y los bancos centrales. Comprenderás por qué estas instituciones juegan un papel central en el pensamiento austríaco, especialmente en su crítica a las intervenciones monetarias.
 
-Agradezco sinceramente a Théo por producir este curso y espero que sea un excelente profesor para ti. Nos divertimos mucho creando este contenido. Este curso es accesible para todos y, creo, será esencial para seguir nuestros futuros cursos más detallados sobre economía. Este curso sentará las bases necesarias para explorar en más detalle ciertas teorías económicas que solo tocaremos brevemente aquí.
-Si estás listo para embarcarte en esta aventura, te invito a hacer clic en el siguiente video y comenzar con el video adicional sobre nuestro sistema financiero actual. Ahora le doy la palabra a Théo. Gracias a él por colaborar con Descoupes Bitcoin en la realización de este video. Nos vemos muy pronto. ¡Adiós!
+**Sección 2: Fundamentos Teóricos**  
+Esta sección profundizará en los conceptos fundamentales de la Escuela Austriaca, como la teoría subjetiva del valor, que explica por qué el valor de un bien no es objetivo sino que depende de la utilidad percibida por cada individuo. También descubrirás cómo el dinero surge naturalmente como un fenómeno social, así como los conceptos de preferencia temporal, interés y capital que están en el corazón de la teoría de libre mercado austríaca.
+
+**Sección 3: Perspectivas Económicas Austriacas**  
+Aquí exploraremos las aplicaciones prácticas de la teoría austríaca. Aprenderás en detalle la teoría austríaca del ciclo económico, que explica cómo las manipulaciones monetarias provocan auges artificiales seguidos de recesiones. También veremos por qué el cálculo económico es imposible bajo un sistema socialista y cómo la metodología austríaca, basada en la praxeología (el estudio de la acción humana), constituye un enfoque único y coherente para comprender los fenómenos económicos.
+
+Este curso es una fusión entre economía y filosofía, dirigido por una discusión abierta entre Théo y yo (Rogzy). Quiero agradecer sinceramente a Théo Mogenet por la creación de este curso. Disfrutamos mucho desarrollando este contenido, diseñado para ser accesible para todos. Este curso constituye una introducción esencial y sentará las bases para nuestros futuros módulos más avanzados sobre economía.
+
+¿Y si la clave para entender la economía actual se encuentra en una teoría de hace varios siglos? ¡Descubrámoslo juntos!
 
 ## Dinero, Crédito, Bancos y Bancos Centrales
 
@@ -45,7 +53,7 @@ Si estás listo para embarcarte en esta aventura, te invito a hacer clic en el s
 
 > "El problema fundamental con la moneda convencional es toda la confianza que se requiere para que funcione. Se debe confiar en el banco central para que no devalúe la moneda, pero la historia de las monedas fiduciarias está llena de violaciones de esa confianza. Se debe confiar en los bancos para que guarden nuestro dinero y lo transfieran electrónicamente, pero lo prestan en oleadas de burbujas de crédito con apenas una fracción en reserva. Debemos confiar en ellos con nuestra privacidad, confiar en que no permitirán que los ladrones de identidad vacíen nuestras cuentas".
 >
-> Satoshi Nakamoto, inventor pseudónimo de Bitcoin
+> Satoshi Nakamoto (seudónimo del creador de Bitcoin).
 
 ### Cómo se Crea el Dinero
 
@@ -57,7 +65,7 @@ Cuando una institución financiera tiene una licencia bancaria, significa básic
 
 Al comprar la casa, le indicas a tu banquero que transfiera dinero a la cuenta del vendedor. Si la cuenta del vendedor está en otro banco, tu banquero notifica al banquero correspondiente en la otra institución para asegurarse de que la cuenta del vendedor sea acreditada correctamente, mientras que se debita tu cuenta por la cantidad correspondiente.
 
-![imagen](assets/Image/1.webp)
+![imagen](assets/en/01.webp)
 
 Figura 1: Creación de Dinero como Entradas Contables
 
@@ -73,35 +81,38 @@ El principal problema con este sistema de reserva fraccionaria es que retiros si
 
 Este dilema dio origen a los bancos centrales modernos. En el siglo XIX en Inglaterra, las repetidas corridas bancarias amenazaban la estabilidad financiera, lo que llevó al establecimiento del Banco de Inglaterra como "prestamista de último recurso". El Banco de Inglaterra tenía la tarea de prestar fondos a los bancos en dificultades durante las crisis para evitar un efecto dominó que pudiera paralizar todo el sistema financiero. Este concepto de los bancos centrales como prestamistas de último recurso se ha extendido desde entonces a nivel mundial y se ha vuelto común.
 
-Además de mantener la estabilidad financiera, los bancos centrales son responsables de establecer tasas de interés clave. Estas tasas determinan el costo al que los bancos con licencia pueden pedir prestado fondos al banco central, definiendo esencialmente el costo de la liquidez para las instituciones financieras que desempeñan un papel crucial en los préstamos en nuestras economías. Por lo tanto, estas tasas sirven como referencia para todo el sistema financiero. Como individuo, las tasas de interés que pagas en tu hipoteca se pueden desglosar en la tasa de política y el margen del banco.
+Además de mantener la estabilidad financiera, los bancos centrales son responsables de establecer tasas de interés clave. Estas tasas determinan el costo al que los bancos con licencia pueden pedir prestado fondos al banco central, definiendo esencialmente el costo de la liquidez para las instituciones financieras que desempeñan un papel crucial en los préstamos en nuestras economías. Por lo tanto, estas tasas sirven como referencia para todo el sistema financiero. Como individuo, las tasas de interés que pagas en tu hipoteca se pueden desglosar en la tasa oficial y el margen del banco.
 
-![image](assets/Image/2.webp)
+![image](assets/en/02.webp)
 
-Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+Figura 2: Bancarrota de Lehman Borthers (15/09/2008)
 
-Durante la gran crisis financiera de 2008, Lehman Brothers, un gran banco de inversión, declaró bancarrota después de sufrir pérdidas significativas en sus tenencias de valores hipotecarios y experimentar retiros masivos de clientes preocupados. En respuesta a esta crisis financiera sin precedentes, los banqueros centrales de todo el mundo inyectaron grandes cantidades de liquidez en los mercados financieros, fusionaron bancos de inversión en dificultades con bancos comerciales y redujeron las tasas de política a casi cero en un esfuerzo por evitar un colapso sistémico.
+Durante la gran crisis financiera de 2008, Lehman Brothers, un gran banco de inversión, declaró bancarrota después de sufrir pérdidas significativas en sus tenencias de valores hipotecarios y experimentar retiros masivos de clientes preocupados. En respuesta a esta crisis financiera sin precedentes, los banqueros centrales de todo el mundo inyectaron grandes cantidades de liquidez en los mercados financieros, fusionaron bancos de inversión en dificultades con bancos comerciales y redujeron las tasas a casi cero en un esfuerzo por evitar un colapso sistémico.
 
-Si bien estas medidas evitaron una ola en cascada de quiebras, hicieron poco para aliviar la posterior desaceleración económica. Millones de personas perdieron sus empleos y hogares, el gasto del consumidor se desplomó, las empresas quebraron y los bancos incurrieron en pérdidas sustanciales. A pesar de las tasas de interés históricamente bajas, pocos estaban dispuestos a pedir prestado, lo que resultó en un ciclo vicioso en el que la disminución inicial del gasto y la inversión se reforzaron a sí mismas. En consecuencia, los banqueros centrales tomaron medidas adicionales implementando programas de Flexibilización Cuantitativa (QE, por sus siglas en inglés). Estos programas implicaban que los bancos centrales compraran bonos del gobierno y valores respaldados por hipotecas de los bancos comerciales con reservas del banco central.
+Si bien estas medidas evitaron una ola en cascada de quiebras, hicieron poco para aliviar la posterior desaceleración económica. Millones de personas perdieron sus empleos y hogares, el gasto del consumidor se desplomó, las empresas quebraron y los bancos incurrieron en pérdidas sustanciales. A pesar de las tasas de interés históricamente bajas, pocos estaban dispuestos a pedir prestado, lo que resultó en un ciclo vicioso en el que la disminución inicial del gasto y la inversión se reforzaron a sí mismas. En consecuencia, los banqueros centrales tomaron medidas adicionales implementando programas de Flexibilización Cuantitativa (QE, por sus siglas en inglés, Quantitative Easing ). Estos programas implicaban que los bancos centrales compraran bonos del gobierno y valores respaldados por hipotecas de los bancos comerciales con reservas del banco central.
 
-![image](assets/Image/3.webp)
+![image](assets/en/03.webp)
 
-Figure3 : Interest Rates Across Major Economies / Source: ECB
+Figura 3 : Tipos de interés en las principales economías / Fuente: BCE
 
-Contrariamente a muchas expectativas, los programas de QE no revivieron significativamente el crecimiento económico, pero sí inflaron los activos financieros a niveles históricos. Esto benefició principalmente a los ricos y a las instituciones financieras, ya que ya tenían cantidades sustanciales de dichos activos, ampliando así las disparidades de riqueza. Dada la estructura del sistema bancario explicada anteriormente, este resultado no debería sorprender. Dado que las reservas bancarias no pueden fluir fácilmente hacia la economía real, los programas de QE principalmente impulsaron los precios de los activos sin mejorar efectivamente la situación financiera de las personas promedio.
+Contrariamente a muchas expectativas, los programas de QE no revivieron significativamente el crecimiento económico, pero sí inflaron los activos financieros a niveles históricos. Esto benefició principalmente a los ricos y a las instituciones financieras, dado que ya tenían cantidades sustanciales de dichos activos, ampliando así las disparidades de riqueza. Dada la estructura del sistema bancario explicada anteriormente, este resultado no debería sorprender. Dado que las reservas bancarias no pueden fluir fácilmente hacia la economía real, los programas de QE principalmente impulsaron los precios de los activos sin mejorar efectivamente la situación financiera de las personas promedio.
 
-### The Cantillon Effect
+### El efecto Cantillon
 
 No obstante, se puede extraer un principio económico esencial de este episodio: cuando se crea dinero nuevo, inicialmente beneficia a aquellos más cercanos a la fuente del dinero, a expensas de aquellos más alejados. Esta idea económica se remonta al siglo XVIII, cuando Richard Cantillon la describió en su "Ensayo sobre la naturaleza del comercio en general". Ahora se conoce coloquialmente como el "Efecto Cantillon".
 
-![image](assets/Image/4.webp)
+![image](assets/en/04.webp)
 
-Figure4: Cantillon Effect in a Nutshell / Source: River Financial
+Figura 4: El efecto Cantillon / Fuente: River Financial
+
+> Cuanto más cercano estas de la fuente de creación monetaria, más beneficio recibes.
+
 
 En esta instancia, los banqueros, ejecutivos bancarios, propietarios de acciones y bonos, desarrolladores inmobiliarios, prestamistas de bienes raíces y cualquier persona que posea activos financieros o bienes raíces recibieron una ganancia financiera, mientras que la carga recayó sobre todos los demás. Esta situación persistió durante años y explica en gran medida la creciente desigualdad de riqueza, la sensación de exclusión entre las personas trabajadoras y el aparentemente imparable aumento de los precios de los activos a pesar del lento crecimiento del PIB.
 
 En esencia, el sistema está sesgado. Los bancos son inherentemente inestables, pero su fracaso puede poner en peligro toda la economía. Este riesgo moral incentiva a los ejecutivos bancarios a tomar riesgos excesivos para maximizar los ingresos de su banco, sabiendo que el banco central finalmente los rescatará, trasladando el costo a los contribuyentes. En tales escenarios, los banqueros centrales crean condiciones para una transferencia masiva de poder adquisitivo de las personas trabajadoras y ahorradoras a los propietarios de activos y aquellos conectados al sistema financiero, desconectando así el proceso de creación de riqueza de la acumulación de riqueza.
 
-![image](assets/Image/5.webp)
+![image](assets/en/05.webp)
 
 Figura 5: Distribución de la riqueza en China + Europa + EE. UU. / Fuente: OECD
 
@@ -109,9 +120,9 @@ Figura 5: Distribución de la riqueza en China + Europa + EE. UU. / Fuente: OECD
 
 Durante períodos prolongados de Políticas de Tasa de Interés Cero (ZIRP), los bancos tienen oportunidades limitadas para reconstruir su patrimonio porque sus márgenes se erosionan. Los bancos suelen ganar dinero tomando prestado a tasas a corto plazo y prestando a tasas a largo plazo. Sin embargo, cuando los bancos centrales compran grandes cantidades de bonos y establecen tasas en cero, los bancos tienen poco incentivo para prestar, especialmente a emprendedores y otros tomadores de riesgo. En cambio, asignan sus recursos para titularizar el capital existente o proporcionar préstamos con garantía para satisfacer la demanda de aquellos que se benefician del efecto Cantillon.
 
-Otra consecuencia no deseada de ZIRP es que alienta a los gobiernos a realizar gastos extensos. Dado que los gobiernos no enfrentan costos de endeudamiento y pueden confiar en que los bancos centrales compren sus bonos a través de programas de QE, tienen un incentivo natural para gastar tanto como sea posible, especialmente en contextos democráticos donde el gasto puede obtener votos. Esta tendencia a menudo pasa por alto las consecuencias a largo plazo de tal prodigalidad fiscal, lo que lleva a un aumento significativo en los niveles de deuda pública en las economías desarrolladas desde la Crisis Financiera Global (GFC).
+Otra consecuencia no deseada de ZIRP es que alienta a los gobiernos a realizar gastos extensos. Dado que los gobiernos no enfrentan costos de endeudamiento y pueden confiar en que los bancos centrales compren sus bonos a través de programas de QE, tienen un incentivo natural para gastar tanto como sea posible, especialmente en contextos democráticos donde el gasto puede obtener votos. Esta tendencia a menudo pasa por alto las consecuencias a largo plazo de tal desperdicio fiscal, lo que lleva a un aumento significativo en los niveles de deuda pública en las economías desarrolladas desde la Crisis Financiera Global (GFC).
 
-![image](assets/Image/6.webp)
+![image](assets/en/06.webp)
 
 Figura 6: Deuda Pública y Privada como % del PIB (Mundial, ponderado por el PIB por país) / Fuente: FMI
 
@@ -119,7 +130,7 @@ Con la inflación en aumento debido a la creación sustancial de dinero en respu
 
 ### Conclusión
 
-> "De esta manera (banca de reserva fraccionaria), los gobiernos pueden confiscar la riqueza de las personas en secreto y sin ser observados, y no habría un hombre entre un millón que detectara el robo".
+> "De esta manera (con la reserva fraccionaria bancaria), los gobiernos pueden en secreto y sin ser observados, confiscar la riqueza de las personas y no habría ni un hombre entre un millón que detectara el robo".
 >
 > John Maynard Keynes
 
@@ -138,27 +149,31 @@ En el próximo capítulo, profundizaremos en la piedra angular fundamental de cu
 
 > "El valor solo existe dentro de la conciencia humana"
 >
-> Carl Menger, Principios de Economía Política
+> Carl Menger, Principios de Política Economica
 
 ### La Revolución Marginal
 
-En el corazón del razonamiento económico se encuentra la pregunta del valor. ¿Cómo determinamos el valor de algo? ¿Es el valor una propiedad inherente de las cosas? ¿O es, por el contrario, un fenómeno subjetivo? ¿Cómo comparamos el valor de dos cosas? ¿De dónde proviene el valor?
+En la base del razonamiento económico se encuentra la pregunta acerca del valor. ¿Cómo determinamos el valor de algo? ¿Es el valor una propiedad inherente de las cosas? ¿O es, por el contrario, un fenómeno subjetivo? ¿Cómo comparamos el valor de dos cosas? ¿De dónde proviene el valor?
 
 Estas preguntas han ocupado a economistas y filósofos durante muchos siglos y han recibido numerosas respuestas diferentes. En muchos aspectos, la evolución epistemológica de la economía ha estado marcada por la evolución de las teorías del valor.
 
 Después de que la teoría del valor de la tierra de los fisiócratas, que postulaba que todo valor proviene de la tierra, fuera refutada por la teoría del valor del trabajo de los economistas clásicos, que postulaba que el valor de un bien proviene de la cantidad de trabajo invertido en su producción, fue el turno de la teoría marginal del valor para suplantar a esta última. En la década de 1870, siguiendo a Marx, el último de los economistas clásicos, surgieron casi simultáneamente tres nuevas corrientes de pensamiento económico en torno a una teoría marginal del valor: la escuela de Lausana con Léon Walras, la escuela moderna o neoclásica con William Stanley Jevons y la escuela austriaca con Carl Menger. Esta revolución en la teoría del valor constituyó una renovación significativa del pensamiento económico.
 
-![image](assets/Image/7.webp)
+![image](assets/en/07.webp)
 
 De izquierda a derecha: William Stanley Jevons, Carl Menger, Léon Walras
 
-La teoría marginal del valor sostiene que el valor económico corresponde a lo que un agente económico está dispuesto a pagar por la siguiente unidad de un bien o servicio. Como esta teoría enfatiza el hecho de que los precios se forman en el margen, es decir, para la siguiente unidad de un bien dado, se le denominó "marginalismo".
+La teoría marginal del valor sostiene que el valor económico corresponde a lo que un agente económico está dispuesto a pagar por la siguiente unidad de un bien o servicio. Dado que esta teoría pone énfasis en el hecho de que los precios se forman en el margen, es decir, en relación con la próxima unidad de un bien determinado, recibió el nombre de “marginalismo”.
 
 Es común presentar el marginalismo de estas tres corrientes como similares. De hecho, Walras y Jevons son altamente compatibles, pero la teorización de Menger difiere de las otras de manera profunda. En su obra, ahora considerada fundamental para la teoría económica austriaca, titulada "Grundsätze des Volkswirtschaftlehre" (Principios de Economía Política), publicada en 1874, Menger ofrece una explicación marginal, pero principalmente subjetiva, del valor, a diferencia de Walras y Jevons, quienes consideran que el valor es un fenómeno objetivo y medible.
 
 ### Valor Subjetivo
 
-![image](assets/Image/15.webp)
+![image](assets/en/08.webp)
+
+> El valor no es intrínseco, no está en las cosas. Está dentro de nosotros; es la forma en que el hombre reacciona ante las condiciones de su entorno. El valor no está en las palabras ni en las doctrinas, se refleja en la conducta humana. No importa lo que un hombre o un grupo diga acerca del valor, sino cómo actúan.
+> 
+> Ludwig von Mises, La acción humana
 
 El economista austriaco refuta la concepción de los sucesores de Adam Smith y abandona la idea de que el valor de un bien proviene de la cantidad de trabajo utilizado en su producción, a favor de la noción de que su valor es determinado por el individuo, quien, en cada contexto, realiza un acto mental de valoración con respecto a una cantidad específica de un bien o servicio. Este salto intelectual realizado por Menger desafía la objetividad del valor: para él, el valor no es una propiedad objetiva de los bienes; es simplemente el resultado de la relación que el individuo tiene con esa cosa: "el valor no existe fuera de la conciencia humana".
 En otras palabras, Menger nos invita a considerar que el valor existe solo como un fenómeno psicológico subjetivo dentro del individuo, que el valor no es una propiedad inherente de los bienes, sino que surge de la opinión del individuo sobre la utilidad que pueden obtener de esos bienes.
@@ -175,15 +190,16 @@ A partir de este punto, Menger deduce que el intercambio voluntario entre dos in
 
 Sin embargo, dicho beneficio social, o el valor subjetivo atribuido a un bien, no se puede medir. Para Menger, el valor es un fenómeno cognitivo de comparación (ordinal) en lugar de medición (cardinal). No es, como han pensado los economistas neoclásicos desde Walras y Jevons, la asignación por parte del individuo de un valor numérico que refleje la utilidad que obtienen de él, sino más bien un acto de ordenación de los deseos humanos mediante el cual un individuo expresa que desea una cantidad del bien A más intensamente que una cantidad del bien B.
 
-Cualquier agente puede decir si prefiere 2 plátanos a un curso de economía, pero nadie puede decir razonablemente que valora 2 plátanos en 3.1416 utils, mientras valora un curso de economía en 3 utils, y por lo tanto, prefiere tener los plátanos. Tal descripción de las preferencias humanas, basada en funciones reales continuas, no corresponde a la realidad de los procesos cognitivos que experimentamos en nuestra vida diaria. Un individuo nunca evalúa los bienes que se le presentan comparándolos con un estándar abstracto de utilidad. En cambio, compara subjetivamente diferentes cursos de acción, que no puede juzgar en términos absolutos pero que puede clasificar según su deseabilidad relativa.
+Cualquier agente puede decir si prefiere 2 bananas a un curso de economía, pero nadie puede decir razonablemente que valora 2 bananas en 3.1416 utils, mientras valora un curso de economía en 3 utils, y por lo tanto, prefiere tener las bananas. Tal descripción de las preferencias humanas, basada en funciones reales continuas, no corresponde a la realidad de los procesos cognitivos que experimentamos en nuestra vida diaria. Un individuo nunca evalúa los bienes que se le presentan comparándolos con un estándar abstracto de utilidad. En cambio, compara subjetivamente diferentes cursos de acción, que no puede juzgar en términos absolutos pero que puede clasificar según su deseabilidad relativa.
 
 Esta concepción subjetiva del valor, entendida como una relación psicológica que el individuo mantiene con sus metas y los medios relevantes para alcanzarlas, también permite a los economistas austriacos explicar el fenómeno de la división del trabajo.
 
 ### La División del Trabajo
 
-![image](assets/Image/16.webp)
+![image](assets/en/09.webp)
 
 Visita a una fábrica de clavos, Léonard Defrance (siglo XVIII)
+
 Todos son únicos y tienen una situación personal particular. Por lo tanto, cada persona posee una habilidad superior para realizar ciertas tareas en comparación con sus pares (ventaja absoluta) o una habilidad superior para realizar ciertas tareas en comparación con otros (ventaja comparativa). No puede ser de otra manera; negar este hecho elemental sería afirmar que todos los seres humanos son iguales en todos los aspectos.
 
 En el caso de que un individuo tenga una habilidad superior en comparación con sus pares en la producción de un bien determinado (ventaja absoluta), tiene interés en especializarse en la producción de ese bien y luego intercambiar el excedente obtenido por los bienes que desea. Al hacerlo, satisface su utilidad subjetiva de manera más económica que si se dedicara a la producción de todos los bienes que desea.
@@ -199,7 +215,7 @@ En esencia, existe un beneficio en la especialización, incluso para las persona
 Una vez que el individuo se especializa en una producción particular, puede reservar la cantidad de productos que considere necesaria para su consumo personal e intercambiar el excedente por otros bienes deseados. Al hacerlo, satisface su deseo de los bienes que produce, lo que significa que las unidades restantes de su producción tienen poco valor para ellos. Es lo que los economistas llaman utilidad marginal decreciente: cada unidad adicional de un bien es menos deseada que la anterior. Para otros que carecen de esos bienes, es otra historia: por las mismas razones, tienden a desear los bienes que no producen con más intensidad que los que sí producen. Esto lleva a una situación en la que hay una fuerte asimetría entre las diversas valoraciones subjetivas de los individuos, lo que es altamente propicio para los intercambios: cada parte tiene interés en intercambiar su producción excedente porque de esta manera aumentan su utilidad subjetiva.
 
 El resultado del análisis anterior es que las personas siempre están mejor cuando se especializan en su trabajo y se dedican a los intercambios. Por lo tanto, los economistas austriacos, especialmente Ludwig Von Mises, concluyen que la ventaja productiva que surge de la división del trabajo es la fuerza impulsora detrás del proceso de cooperación social. Aquí, puede ser útil citarlo directamente:
-Los hechos fundamentales que dieron lugar a la cooperación, la sociedad y la civilización, y transformaron al hombre animal en un ser humano, son los hechos de que el trabajo realizado bajo la división del trabajo es más productivo que el trabajo aislado y que la razón del hombre es capaz de reconocer esta verdad. [...] Las personas no cooperan bajo la división del trabajo porque se aman o deberían amarse entre sí. Cooperan porque esto sirve mejor a sus propios intereses.
+Los hechos fundamentales que dieron lugar a la cooperación, la sociedad y la civilización, y que transformaron al hombre-animal en ser humano, son que el trabajo realizado bajo la división del trabajo es más productivo que el trabajo aislado y que la razón humana es capaz de reconocer esta verdad. [...] Los hombres no cooperan bajo la división del trabajo porque se amen unos a otros o debieran amarse, sino porque la cooperación responde mejor a sus propios intereses.
 
 ### Conclusión
 
@@ -243,7 +259,11 @@ Este juego ilustra un problema que se encuentra con frecuencia en la vida real: 
 
 ### Dinero para Resolver Problemas de Coordinación
 
-![image](assets/Image/17.webp)
+![image](assets/en/10.webp)
+
+> El dinero no es una invención del Estado. No es el producto de un acto legislativo. Ni siquiera es necesaria la sanción de la autoridad política para su existencia. Ciertos bienes llegaron a convertirse en dinero de manera bastante natural, como resultado de relaciones económicas que eran independientes del poder del Estado."
+> 
+> Carl Menger, El origen del dinero
 
 Este problema tiene menos impacto en comunidades pequeñas (por ejemplo, familia, círculos de amigos) porque, en esos casos, todos se conocen directamente, lo que permite recordar las contribuciones de cada uno. Suponiendo que abandonar la comunidad (deserción) conlleva un costo, un sistema de reputación basado en la memoria de los agentes individuales suele ser suficiente para evitar los problemas planteados por el dilema del prisionero.
 
@@ -263,12 +283,12 @@ En tiempos pre-civilización, estas tecnologías no existían. Por lo tanto, nue
 
 ### Doble Coincidencia de Deseos y Salibilidad
 
-![image](assets/Image/18.webp)
+![image](assets/en/11.webp)
 
 El dinero puede verse como la solución descubierta por nuestros antepasados para abordar lo que los economistas llaman el problema de la "doble coincidencia de deseos". Este problema tiene tres dimensiones: espacial, temporal e interpersonal.
 
 En un intercambio directo (trueque) entre Alice y Bob, ambos necesitan poseer algo que el otro desee al mismo tiempo y lugar. Mediante el uso de un intercambio indirecto, es decir, a través del dinero, Alice puede comprarle a Bob, y Bob puede usar esa unidad monetaria en otro lugar, en otro momento y con otra persona (siempre y cuando la otra persona acepte esa forma de dinero).
-Para que un bien sirva como dinero, debe tener una alta salabilidad, es decir, debe ser deseado por la mayor cantidad de personas posible, la mayor parte del tiempo. Al utilizar un bien altamente vendible, se resuelve el problema de la doble coincidencia de deseos en términos espaciales e interpersonales: si el bien que uso como dinero es deseado en todas partes y por la mayoría de las personas, puedo separar fácilmente el acto de vender del acto de comprar en términos de ubicación e interacción social.
+Para que un bien sirva como dinero, debe tener una alta salabilidad (aceptación generalizada), es decir, debe ser deseado por la mayor cantidad de personas posible, la mayor parte del tiempo. Al utilizar un bien altamente vendible, se resuelve el problema de la doble coincidencia de deseos en términos espaciales e interpersonales: si el bien que uso como dinero es deseado en todas partes y por la mayoría de las personas, puedo separar fácilmente el acto de vender del acto de comprar en términos de ubicación e interacción social.
 
 Sin embargo, el problema de la salabilidad a lo largo del tiempo es más difícil de resolver por dos razones:
 
@@ -276,7 +296,7 @@ En primer lugar, la entropía (comúnmente conocida como "efecto del tiempo") al
 
 En segundo lugar, la escasez relativa de un bien en el momento "t" no garantiza su escasez relativa en el futuro. Al dedicar suficientes recursos a un área específica de producción, los seres humanos pueden aumentar la oferta de cualquier bien. La única limitación para aumentar la producción de un bien es el costo de oportunidad asociado. En consecuencia, la escasez relativa actual de un bien no puede garantizar su escasez relativa futura. Solo los bienes cuya producción marginal puede aumentarse a costos muy altos pueden ser consistentemente escasos, por eso esta es una característica de los bienes monetarios que han surgido libremente a lo largo de la historia humana.
 
-En tiempos pre-civilizacionales, una variedad de bienes como conchas marinas, joyas elaboradas, collares o cuentas servían como dinero. Estos bienes eran fácilmente transportables, no tenían utilidad directa más allá de su valor ornamental, resistían la entropía (es decir, no se deterioraban con el tiempo), eran naturalmente escasos y/o requerían una cantidad significativa de trabajo especializado para producirse. Dado que el nivel de división del trabajo era bajo en ese momento, y por lo tanto, el costo de oportunidad asociado con la producción de artefactos ornamentales era alto, estos artículos no podían producirse en grandes cantidades. Por lo tanto, aquellos que usaban estos artículos como dinero podían estar seguros de su futura escasez relativa.
+En tiempos pre-civilizacionales, una variedad de bienes como conchas marinas, joyas elaboradas, collares o cuentas (bolitas decorativas) servían como dinero. Estos bienes eran fácilmente transportables, no tenían utilidad directa más allá de su valor ornamental, resistían la entropía (es decir, no se deterioraban con el tiempo), eran naturalmente escasos y/o requerían una cantidad significativa de trabajo especializado para producirse. Dado que el nivel de división del trabajo era bajo en ese momento, y por lo tanto, el costo de oportunidad asociado con la producción de artefactos ornamentales era alto, estos artículos no podían producirse en grandes cantidades. Por lo tanto, aquellos que usaban estos artículos como dinero podían estar seguros de su futura escasez relativa.
 
 El hecho de que nuestros antepasados cazadores-recolectores se dedicaran a estas tareas intensivas en recursos, aunque no generaran bienes con utilidad directa, demuestra las ganancias significativas que esperaban al expandir el alcance espacial, social y temporal del intercambio. Si este no fuera el caso, y les resultara más útil emplear estos recursos en la construcción de refugios, la caza u otras actividades, en lugar de la producción de bienes monetarios, probablemente no encontraríamos tanta evidencia arqueológica de estas actividades artesanales. Otros grupos que utilizaban sus recursos de manera más eficiente habrían disfrutado de un mejor desarrollo y mayor prosperidad, y estas actividades artesanales habrían desaparecido rápidamente en favor de actividades que producen bienes con utilidad directa.
 
@@ -306,14 +326,18 @@ Esta evaluación subjetiva del valor de los bienes futuros en comparación con l
 
 Este concepto de valoración relativa de los bienes futuros sobre los bienes presentes es la raíz del fenómeno del interés. De hecho, en una economía con mercados de capital no manipulados, las tasas de interés de referencia (consideradas libres de riesgo de impago) se determinan en la intersección de la oferta y la demanda de capital. Por lo tanto, estas tasas representan el estado de las preferencias temporales para toda la economía: un aumento en la tasa de interés se produce como resultado de un aumento relativo en la demanda de capital en comparación con la oferta, lo que indica preferencias temporales más altas. Por el contrario, una disminución en las tasas de interés se produce debido a un aumento en el ahorro, es decir, un aumento en la oferta de capital, lo que indica una reducción en las preferencias temporales.
 
-![image](assets/Image/9.webp)
+![image](assets/en/12.webp)
 
 En una economía donde las tasas de interés no son manipuladas por el banco central, tendemos a observar una curva de rendimiento ascendente: a mayor vencimiento de la deuda, mayor es la tasa de interés. La situación opuesta no puede ocurrir porque implicaría que el futuro es más cierto que el presente, lo cual es una imposibilidad lógica.
 El concepto de preferencia temporal y cómo expresamos nuestra propia preferencia temporal a través del consumo y el ahorro es fundamental para los procesos de asignación de capital y producción. Volvamos a la teoría del capital de Eugen von Böhm-Bawerk, estudiante de Menger, para entender exactamente cómo la preferencia temporal afecta la organización de la producción.
 
 ### Teoría del Capital
 
-![image](assets/Image/19.webp)
+![image](assets/en/13.webp)
+
+> El valor presente de los bienes de orden superior es igual al valor del producto final menos el valor de los servicios del capital necesarios para su producción.
+>
+> Carl Menger
 
 Al comienzo de este curso, vimos que, para Carl Menger, los bienes solo se consideran bienes económicos (valorados) porque sirven como medios para fines elegidos y valorados por los individuos. Según esta visión, todo análisis económico gira en torno al consumo porque es en última instancia el objetivo motivador detrás de toda actividad económica. Por lo tanto, para Menger, el punto de partida del análisis económico son los bienes de consumo, o bienes finales, ya que representan el propósito último de la actividad económica. Todos los demás bienes en la economía, que podemos llamar "bienes intermedios", solo tienen valor porque permiten a los individuos obtener estos bienes de consumo: son bienes utilizados en la producción de otros bienes.
 
@@ -329,13 +353,13 @@ Debido a la naturaleza secuencial de la acción humana, estas elecciones interte
 
 Para ilustrar este punto, volvamos al ejemplo dado por Böhm-Bawerk en su obra "Capital and Interest":
 
-![image](assets/Image/10.webp)
+![image](assets/en/14.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe y el desvío de producción:
 
-![image](assets/Image/20.webp)
+![image](assets/en/15.webp)
 
 Robinson Crusoe desembarcando provisiones del naufragio, John Alexander Gilfillan (1793-1864)
 
@@ -358,7 +382,8 @@ Este es un concepto tentador, aunque simple: cualquier extensión de la estructu
 Ahora bien, como se insinuó en el primer capítulo, los bancos centrales han manipulado las tasas de interés durante décadas, mientras que los bancos comerciales han otorgado crédito sin reservas previas, lo que significa que las tasas de interés no representan nuestra preferencia temporal y dan una ilusión de ahorro abundante.
 Esto se ilustra perfectamente en el gráfico a continuación: las tasas a largo plazo son más bajas que las tasas a corto plazo. En primer lugar, esto no tiene absolutamente ningún sentido, porque implicaría que el futuro es más seguro que el presente. En segundo lugar, plantea una pregunta sobre las consecuencias para la asignación de capital: si todos tienen incentivos para actuar como si el ahorro fuera abundante, mientras que los ahorradores no se encuentran en ninguna parte porque no se les recompensa por ahorrar, ¿qué consecuencias podría tener esto para la economía?
 
-![imagen](assets/Image/11.webp)
+![imagen](assets/en/16.webp)
+> Curva de Rendimiento de los bonos governativos de Estados Unidos
 
 ¡Esto es lo que descubriremos en el próximo capítulo dedicado a la Teoría Austriaca del Ciclo Económico!
 
@@ -376,7 +401,7 @@ Esto se ilustra perfectamente en el gráfico a continuación: las tasas a largo 
 
 Fue Ludwig Von Mises, el estudiante más destacado de Böhm-Bawerk y posiblemente el economista austriaco más importante del siglo XX, quien utilizó el razonamiento de capital de Böhm-Bawerk para explicar las causas y dinámicas de los ciclos económicos. Friedrich A. Hayek, discípulo de Mises, posteriormente extendió este razonamiento a sus conclusiones lógicas en trabajos por los cuales fue galardonado con el Premio Nobel de Economía en 1974.
 
-Mises y Hayek comenzaron su análisis con un aumento en el ahorro como punto de partida. Como hemos visto en los capítulos anteriores, cualquier aumento en el ahorro implica necesariamente una disminución correspondiente en el consumo y, por lo tanto, precios relativos más bajos de bienes de consumo. Esto conduce a dos efectos: en primer lugar, una mayor demanda de bienes de capital causada por el aumento de los salarios reales resultantes de la disminución relativa de los precios de los bienes de consumo; y en segundo lugar, un aumento en las ganancias empresariales en las etapas de producción más alejadas del consumo (órdenes inferiores). A medida que los salarios reales aumentan, los empresarios tienen incentivos para economizar el trabajo utilizando más bienes de capital, lo que crea una mayor demanda de bienes de capital y mayores ganancias para los empresarios que producen estos bienes de órdenes inferiores. Por lo tanto, en el contexto de un aumento en el ahorro, es decir, una disminución en las preferencias temporales, las tasas de interés caen, promoviendo el desarrollo de etapas adicionales de producción y una mayor productividad. Este es un clásico desvío de producción bawerkiano y es un resultado muy deseable.
+Mises y Hayek comenzaron su análisis con un aumento en el ahorro como punto de partida. Como hemos visto en los capítulos anteriores, cualquier aumento en el ahorro implica necesariamente una disminución correspondiente en el consumo y, por lo tanto, precios relativos más bajos de bienes de consumo. Esto conduce a dos efectos: en primer lugar, una mayor demanda de bienes de capital causada por el aumento de los salarios reales resultantes de la disminución relativa de los precios de los bienes de consumo; y en segundo lugar, un aumento en las ganancias empresariales en las etapas de producción más alejadas del consumo (órdenes inferiores). A medida que los salarios reales aumentan, los empresarios tienen incentivos para economizar el trabajo utilizando más bienes de capital, lo que crea una mayor demanda de bienes de capital y mayores ganancias para los empresarios que producen estos bienes de órdenes inferiores. Por lo tanto, en el contexto de un aumento en el ahorro, es decir, una disminución en las preferencias temporales, las tasas de interés caen, promoviendo el desarrollo de etapas adicionales de producción y una mayor productividad. Este es un clásico desvío de producción Bawerkiano y es un resultado muy deseable.
 
 Sin embargo, los dos economistas austriacos se preguntaron qué sucedería si la disminución de la tasa de interés, que sirve como punto de partida para este desvío de producción, no se debiera a un aumento en el ahorro, sino más bien a una expansión del crédito.
 
@@ -388,7 +413,7 @@ Para describir este fenómeno de descoordinación temporal y sus consecuencias d
 
 Para facilitar nuestra explicación, volveremos a la clasificación de bienes de Menger y representaremos la estructura productiva en un diagrama compuesto por un número arbitrario de etapas:
 
-![image](assets/Image/12.webp)
+![image](assets/en/17.webp)
 
 En el diagrama anterior, los recursos iniciales pasan por varias etapas de producción, sufriendo transformaciones que los acercan al estado de bienes de consumo final (a través de la interacción con los factores originales de producción: tiempo, tierra, trabajo). La altura del lado derecho del triángulo representa esquemáticamente el PIB, ya que denota la suma de todos los bienes de consumo vendidos en un período. La brecha entre cada barra corresponde al valor agregado (en términos monetarios) generado por cada etapa del proceso. Esta diferencia también se puede ver como el ingreso asociado con cada etapa (ingresos - costos).
 
@@ -396,7 +421,7 @@ Si, a nivel agregado, los agentes económicos aumentan sus ahorros, la cantidad 
 
 Luego obtendremos una estructura de producción extendida, un cambio que se puede representar cualitativamente mediante el siguiente diagrama:
 
-![image](assets/Image/13.webp)
+![image](assets/en/18.webp)
 
 Aquí, el valor monetario de los bienes de consumo demandados ha disminuido, liberando recursos para la creación de una etapa adicional de producción. En este escenario, donde la disminución de las tasas de interés es consecuencia de una disminución del consumo, es decir, un aumento del ahorro, el área del triángulo que representa la cantidad de dinero en circulación permanece sin cambios. La transformación de la estructura de producción (alargamiento) simplemente resulta de una transferencia de poder adquisitivo de una parte de la estructura a otra.
 
@@ -411,7 +436,7 @@ Con tasas de interés más bajas, los empresarios pueden pedir prestados más re
 
 Ten en cuenta que esta es una consecuencia completamente lógica de la expansión del crédito. En la medida en que los bancos producen medios fiduciarios al otorgar préstamos, naturalmente se espera que el poder adquisitivo general aumente.
 
-![image](assets/Image/14.webp)
+![image](assets/en/19.webp)
 
 A medida que el crédito ingresa a la economía a través de préstamos a empresarios, deberíamos observar un aumento en las ganancias en los sectores de producción alejados del consumo y una disminución en las ganancias relativas en los sectores más cercanos al consumo. Esta mayor rentabilidad luego respalda una reasignación de capital hacia estas nuevas etapas más intensivas en capital (construcción naval, automotriz, construcción, tecnologías avanzadas, etc.) y una disminución de las inversiones en sectores más cercanos al consumo.
 
@@ -427,7 +452,7 @@ Este ajuste se puede ver como un período durante el cual se impone el subconsum
 
 Desafortunadamente, este mecanismo depresivo a menudo se ve interrumpido por el poder político y los bancos centrales que buscan "estimular" la economía a través del gasto deficitario y una política monetaria fácil.
 
-![imagen](assets/Image/21.webp)
+![imagen](assets/en/20.webp)
 
 Tanto los monetaristas como los keynesianos consideran que la causa de la depresión es la demanda agregada insuficiente, por lo que ninguno presta atención a la evolución de los precios relativos, que, como hemos visto, es el núcleo del problema. Por lo tanto, creen que proporcionar un incentivo para la expansión del crédito (bajando las tasas de interés) y utilizar la capacidad de déficit del estado para impulsar la demanda iniciará una recuperación. A corto plazo, estas medidas pueden parecer que producen los efectos deseados: el déficit respalda el gasto, mientras que la reducción de las tasas de interés conduce a precios de activos más altos, lo que, a su vez, anima a los poseedores de activos a aumentar sus gastos. Sin embargo, este impulso eventualmente se desvanece, mientras que el problema estructural persiste, o incluso empeora, ya que la mala asignación de capital continúa gracias a las tasas de interés artificialmente bajas.
 
@@ -445,7 +470,7 @@ Este será el tema del próximo y último capítulo de este curso.
 
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
-> "Cuando no hay precios de mercado para los factores de producción porque no se compran ni se venden, es imposible recurrir al cálculo para planificar la acción futura y determinar el resultado de la acción pasada. Una gestión socialista de la producción simplemente no sabría si lo que planea y ejecuta es el medio más apropiado para alcanzar los fines buscados. Operará en la oscuridad, por así decirlo. Malgastará los escasos factores de producción, tanto materiales como humanos (trabajo). El caos y la pobreza para todos serán inevitables".
+> "Donde no existen precios de mercado para los factores de producción porque no se compran ni se venden, es imposible recurrir al cálculo al planificar acciones futuras y al determinar el resultado de acciones pasadas. Una gestión socialista de la producción simplemente no sabría si lo que planifica y ejecuta es el medio más adecuado para alcanzar los fines buscados. Operará, por así decirlo, a ciegas. Derrochará los escasos factores de producción, tanto materiales como humanos (trabajo). El caos y la pobreza para todos serán el resultado inevitable.".
 >
 > Ludwig von Mises, Caos Planificado
 
@@ -466,13 +491,19 @@ Con su artículo, Mises introdujo una nueva dimensión al debate. Dejando de lad
 
 ### Explicando la Imposibilidad del Cálculo Económico
 
-![image](assets/Image/24.webp)
+![image](assets/en/21.webp)
+
+> Lo que el cálculo económico requiere es un sistema monetario cuyo funcionamiento no esté saboteado por la interferencia gubernamental.
+>
+> Ludwig von Mises
 
 La mayoría de los malentendidos sobre los argumentos de Mises surgen de una falta de comprensión de los roles desempeñados por las clases gerenciales y empresariales en una economía capitalista. Mises nunca descartó la capacidad de los gerentes para diseñar planes de producción eficientes dentro de sus propias operaciones. En cambio, enfatizó la importancia de los empresarios y accionistas, quienes, como propietarios de los medios de producción, asignan capital a diferentes industrias, formando así precios que sirven como insumos en los cálculos económicos de los gerentes.
 
 Sin mercados de capital y dinero, se vuelve imposible racionalizar el uso de recursos entre industrias. Esto significa que incluso si hay una organización perfecta dentro de cada empresa o subparte de la economía, la economía en su conjunto no puede ajustarse eficientemente a los cambios en la disponibilidad de recursos, las condiciones de producción y las preferencias de los consumidores. En palabras de Mises:
 
-> "[...] la falacia fundamental implícita en las propuestas [socialistas de mercado] es que consideran el problema económico desde la perspectiva del empleado subalterno cuyo horizonte intelectual no se extiende más allá de las tareas subordinadas. Consideran la estructura de la producción industrial y la asignación de capital a las diversas ramas y agregados de producción como rígidas y no tienen en cuenta la necesidad de alterar esta estructura para ajustarla a los cambios en las condiciones.... No se dan cuenta de que las operaciones de los ejecutivos corporativos consisten simplemente en la ejecución leal de las tareas encomendadas por sus jefes, los accionistas.... Las operaciones de los gerentes, sus compras y ventas, son solo un pequeño segmento de la totalidad de las operaciones de mercado. El mercado de la sociedad capitalista también realiza esas operaciones que asignan los bienes de capital a las diversas ramas de la industria. Los empresarios y los capitalistas establecen corporaciones y otras empresas, las amplían o reducen su tamaño, las disuelven o las fusionan con otras empresas; compran y venden las acciones y bonos de corporaciones ya existentes y nuevas; otorgan, retiran y recuperan créditos; en resumen, realizan todos esos actos, cuya totalidad se llama mercado de capital y dinero. Son estas transacciones financieras de promotores y especuladores las que dirigen la producción hacia aquellos canales en los que satisface las necesidades más urgentes de los consumidores de la mejor manera posible".
+> "La falacia cardinal implícita en las propuestas del socialismo de mercado es que consideran el problema económico desde la perspectiva del empleado subalterno, cuyo horizonte intelectual no se extiende más allá de las tareas subordinadas. Consideran la estructura de la producción industrial y la asignación de capital a las diversas ramas y agregados de producción como rígidas y no tienen en cuenta la necesidad de alterar esta estructura para ajustarla a los cambios en las condiciones. No se dan cuenta de que las operaciones de los directivos consisten meramente en la ejecución leal de las tareas encomendadas por sus superiores, los accionistas. Las operaciones de los gerentes, sus compras y ventas, son solo un pequeño segmento de la totalidad de las operaciones del mercado. El mercado de la sociedad capitalista también realiza aquellas operaciones que asignan los bienes de capital a las diversas ramas de la industria. Los empresarios y capitalistas establecen corporaciones y otras empresas, amplían o reducen su tamaño, las disuelven o las fusionan con otras empresas; compran y venden las acciones y bonos de corporaciones ya existentes y nuevas; otorgan, retiran y recuperan créditos; en resumen, realizan todos aquellos actos cuya totalidad se denomina mercado de capitales y dinero. Son estas transacciones financieras de promotores y especuladores las que dirigen la producción hacia aquellos canales en los que satisface de la mejor manera posible las necesidades más urgentes de los consumidores."
+>
+>  Ludwig von Mises, La acción humana
 
 En esencia, Mises argumenta que los derechos de propiedad, que colocan a los propietarios de capital en un contexto de ganancias y pérdidas, los motivan a asignar sus recursos a las industrias que actualmente más necesitan recursos para satisfacer las demandas de los consumidores. Cuando tienen éxito, obtienen ganancias, pero cuando fracasan, incurren en pérdidas financieras. Su "participación en el juego" los anima a especular sobre la mejor asignación de capital para el estado actual de la economía. Esto crea una dinámica impulsada por el mercado donde los resultados colectivos de sus acciones producen información vital sobre el uso más eficiente de los recursos.
 
@@ -482,7 +513,11 @@ Este proceso es crucial porque valida o invalida la eficiencia de diversas activ
 
 Desde esta perspectiva, una economía planificada centralmente inevitablemente experimentará una mala asignación de capital. A corto y mediano plazo, estas malas asignaciones pueden pasar desapercibidas porque no hay precios de mercado ni quiebras que las revelen. Sin embargo, debido a la ausencia de retroalimentación (precios) y mecanismos de realocación (quiebras), los errores se acumularán hasta que el derroche se haga evidente a través de una disminución significativa en las condiciones de vida.
 
-![image](assets/Image/22.webp)
+![image](assets/en/22.webp)
+
+> "La curiosa tarea de la economía es mostrar a los hombres cuán poco saben realmente acerca de aquello que creen poder diseñar."
+>
+> Friedrich A. Hayek, The Fatal Conceit: The Errors of Socialism
 
 ### La Perspectiva Austriaca y los Fracasos de Otras Escuelas de Economía
 
@@ -492,17 +527,23 @@ A pesar de esta impresionante predicción y numerosas demostraciones empíricas 
 
 ### La Teoría del Ciclo Económico Austriaco como un Caso Específico de la Imposibilidad del Cálculo Económico bajo el Socialismo
 
-![image](assets/Image/23.webp)
+![image](assets/en/23.webp)
+> "En la comunidad socialista, todo cambio económico se convierte en una empresa cuyo éxito no puede ser ni anticipadamente evaluado ni determinado retrospectivamente. No hay más que tanteo en la oscuridad. El socialismo es la abolición de la economía racional."
+>
+> Ludwig von Mises, La acción humana
+
 
 En un capítulo anterior, elucidamos la dinámica de la sobreinversión y la mala asignación de capital resultante de la manipulación de las tasas de interés por parte de los bancos centrales. Esencialmente, lo que explicamos se puede ver como un caso específico de la imposibilidad del cálculo económico bajo el socialismo, aplicado al ámbito de los mercados monetarios. Cuando los precios se fijan fuera de sus valores de mercado, los empresarios y los asignadores de capital se ven incentivados a realizar inversiones que no pueden mantenerse a largo plazo debido a la falta de ahorro. Al interferir con el sistema de precios, los planificadores centrales (en este caso, los banqueros centrales) crean una descoordinación entre los agentes económicos. En este caso, la descoordinación intertemporal implica una sobreinversión en bienes de inversión de orden superior y una subinversión en bienes de inversión de orden inferior, lo que representa una manifestación específica de la mala asignación de capital entre las industrias.
 
 Las consecuencias de esta mala asignación incluyen crisis financieras y económicas, reducción de la actividad económica y deflación de la deuda. Estos efectos macroeconómicos se derivan de un desequilibrio entre el ahorro y la inversión resultante de la expansión del crédito. En la URSS y otros regímenes comunistas, la fijación de precios llevó a una descoordinación similar, resultando en escasez de algunos bienes y sobreproducción de otros. En ambos casos, los precios no reflejan las verdaderas preferencias de los consumidores, ya sea en términos de preferencias temporales o de consumo, lo que lleva a los empresarios o a los planificadores centrales responsables de la asignación de recursos a invertir capital en las "industrias equivocadas".
 
-Hoy en día, el debate sobre el cálculo económico resurge principalmente en discusiones sobre energía, donde las malas inversiones impulsadas por una agenda verde son cada vez más evidentes. También surge en discusiones sobre los mercados monetarios, con los economistas austriacos señalando que la crisis de 2008, que los economistas convencionales no lograron predecir, fue un clásico ciclo de auge y caída caracterizado por una sobreinversión en el mercado inmobiliario debido a períodos prolongados de tasas de interés bajas. Además, los neo-marxistas y otras facciones socialistas propagan la idea de que la aparición de la inteligencia artificial podría resolver el problema del cálculo económico. Sin embargo, esta perspectiva se basa en una comprensión errónea del problema; el problema del cálculo económico no es una cuestión de capacidad de cómputo, sino más bien una cuestión de generar y distribuir información relacionada con la producción y la asignación de recursos. Esta información solo puede ser generada localmente por agentes con conocimientos especializados y un interés personal en el resultado. La inteligencia artificial no puede reemplazar este proceso bottom-up y, por lo tanto, no puede ayudar a los planificadores centrales a abordar el problema de asignación de recursos. Desafortunadamente, debido a un siglo de malentendidos, anticipamos una proliferación de afirmaciones de que la inteligencia artificial abrirá una nueva era de prosperidad económica liderada por planificadores centrales iluminados que, con la ayuda de la inteligencia artificial, pueden corregir los fracasos de los mercados libres.
+Hoy en día, el debate sobre el cálculo económico resurge principalmente en discusiones sobre energía, donde las malas inversiones impulsadas por una agenda verde son cada vez más evidentes. También surge en discusiones sobre los mercados monetarios, con los economistas austriacos señalando que la crisis de 2008, que los economistas convencionales no lograron predecir, fue un clásico ciclo de auge y caída caracterizado por una sobreinversión en el mercado inmobiliario debido a períodos prolongados de tasas de interés bajas. Además, los neo-marxistas y otras facciones socialistas propagan la idea de que la aparición de la inteligencia artificial podría resolver el problema del cálculo económico. Sin embargo, esta perspectiva se basa en una comprensión errónea del problema; el problema del cálculo económico no es una cuestión de capacidad de cómputo, sino más bien una cuestión de generar y distribuir información relacionada con la producción y la asignación de recursos. Esta información solo puede ser generada localmente por agentes con conocimientos especializados y un interés personal en el resultado. La inteligencia artificial no puede reemplazar este proceso que surge desde las decisiones individuales y, por lo tanto, no puede ayudar a los planificadores centrales a abordar el problema de asignación de recursos. Desafortunadamente, debido a un siglo de malentendidos, anticipamos una proliferación de afirmaciones de que la inteligencia artificial abrirá una nueva era de prosperidad económica liderada por planificadores centrales iluminados que, con la ayuda de la inteligencia artificial, pueden corregir los fracasos de los mercados libres.
 
 Para una aplicación concreta del problema del cálculo económico a una situación contemporánea, puedes consultar este artículo que aborda el problema de la asignación de recursos en la China moderna.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet,
+> 
+> https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Conclusión
 
@@ -530,11 +571,11 @@ Es importante tener en cuenta que la selección selectiva, que implica elegir se
 
 La metodología es un aspecto esencial en economía y en ciencias sociales en general. Influye en cómo se formulan las preguntas, se formulan las hipótesis y se interpreta los datos. Comprender las diferencias metodológicas entre las escuelas de pensamiento económico puede ayudarnos a apreciar perspectivas diversas y desarrollar nuestras propias opiniones sobre los temas discutidos en episodios anteriores.
 
-# Conclusión
+# Sección final
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-## Danos tu opinión sobre este curso
+## Reseñas & Valoraciones
 
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -544,75 +585,8 @@ La metodología es un aspecto esencial en economía y en ciencias sociales en ge
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Estudios adicionales
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-¡Felicitaciones por completar este curso de ECON 201! Espero sinceramente que lo hayas disfrutado y que te haya abierto puertas. Tu descubrimiento de Bitcoin recién comienza, y te invito a explorar todos los demás cursos disponibles en la universidad.
-
-### Lecturas adicionales
-
-Para profundizar tu comprensión de los fenómenos económicos y sociales, especialmente en lo que respecta a la economía austriaca, aquí tienes algunas recomendaciones de libros:
-
-- "La Escuela Austriaca" de Ressus Huerta de Soto: Este libro asequible ofrece una introducción completa a la evolución del pensamiento económico austriaco, cubriendo conceptos y teorías clave.
-- "Acción Humana" de Ludwig von Mises: Considerada la obra magna de la escuela austriaca, este trabajo explora en profundidad los fundamentos teóricos de la acción humana y la economía.
-- "El Uso del Conocimiento en la Sociedad" de Friedrich Hayek: Este breve texto examina cómo se utiliza el conocimiento disperso en la sociedad para guiar las decisiones económicas, destacando la importancia de los precios y la competencia.
-- Discurso de aceptación del Premio Nobel de Joseph Schumpeter en 1974: Este discurso ofrece una visión general de la visión de Schumpeter sobre el emprendimiento, la innovación y el capitalismo.
-- "Capitalismo, Socialismo y Democracia" o "La Teoría del Desarrollo Económico" de Joseph Schumpeter: Estos libros icónicos de Schumpeter exploran la dinámica del capitalismo, la innovación y los ciclos económicos.
-
-Además de estas lecturas, también puedes encontrar información sobre la economía austriaca explorando recursos en línea. El Instituto Mises, con sede en el sureste de Estados Unidos, ofrece artículos y videos de economistas reconocidos. La Academia Savedin Amoos ofrece seminarios interactivos con distinguidos invitados, aunque esta opción es de pago. En Francia, personas como Yorick de Montbin, Fergan Aziri y Richard Hamelin a menudo comparten análisis y discusiones sobre economía austriaca en diferentes canales de YouTube. Por último, el Instituto Bitcoin también puede ser una fuente de información sobre los aspectos económicos relacionados con Bitcoin.
-
-Al leer estas obras y explorar estos recursos en línea, puedes desarrollar una comprensión más profunda de los principios y las ideas clave de la escuela austriaca de economía.
-
-# Conclusión
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Evalúe este curso
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Examen final
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Conclusión
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
-¡Felicitaciones por completar este curso!
-
-Nos complace que haya alcanzado este importante hito en su viaje de aprendizaje.
-
-Gracias a su dedicación y compromiso, ha adquirido valiosos conocimientos y habilidades que le servirán en su desarrollo profesional.
-
-Para continuar explorando en profundidad el universo Bitcoin, le invitamos a descubrir todos los demás cursos disponibles en Plan ₿ Network:
-
-#### Descubra la vida de F. Bastiat con
-
-https://planb.network/courses/eco102
-
-#### Comprenda el surgimiento de las hiperinflaciones con
-
-https://planb.network/courses/eco204
-
-#### Descubra Bitcoin y sus fundamentos con
-
-https://planb.network/courses/btc101
-
-#### Actualice su seguridad en línea con
-
-https://planb.network/courses/scu101
-
-#### Descubra la Lightning Network con
-
-https://planb.network/courses/lnp201
-
-#### Aprenda a crear su comunidad Bitcoin con
-
-https://planb.network/courses/btc302
-
-#### Comprenda cómo funciona la cartera Bitcoin con
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

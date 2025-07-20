@@ -24,41 +24,31 @@ Jos tarvitset apua asennuksessasi, opiskelijoille on luotu Telegram-ryhmä, ja k
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Tervetuloa!
+## Kurssin yleiskatsaus
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tervetuloa MINING 201: johdatus louhintaan. Ajelex, Jim & Rogzy ovat innoissaan saadessaan seurata sinua ensimmäisissä konkreettisissa askeleissasi tässä uudessa teollisuudenalassa. Toivomme, että nautit kurssista ja liityt kotilouhinnan seikkailuun!
+Tervetuloa kurssille MIN201: Johdatus louhintaan. Ajelex, Jim & Rogzy ovat innoissaan opastaessaan sinua ensimmäisissä askelissasi tässä alalla. Toivomme, että nautit kurssista ja lähdet mukaan home mining -seikkailuun!
 
-### Kurssin Yleiskatsaus
+Tämä koulutus vie sinut Bitcoin-louhinnan maailmaan tarjoten sekä teoreettista että käytännön tietoa. Olitpa sitten aloittelija tai jo asiasta tietoinen, tämä kurssi auttaa sinua ymmärtämään louhintaan liittyvät taloudelliset ja tekniset haasteet samalla, kun toteutat käytännön projektin ASIC-laitteen uudelleenkäytöstä kotilämmitykseen.
 
-Kurssin ensimmäisessä osiossa keskitymme louhinnan teoriaan Ajelexin kanssa. Käymme läpi syvällisiä keskusteluja eri aiheista, jotka liittyvät louhintaan, mikä auttaa meitä ymmärtämään paremmin tätä teollisuudenalaa sekä siihen liittyviä taloudellisia ja geopoliittisia kysymyksiä.
+**Osa 2: Kaikki louhinnasta**  
+Tässä osassa tarjoamme sinulle syvällisen ymmärryksen Bitcoin-louhinnasta. Käsittelemme louhinnan teknistä toimintaa, sen roolia Bitcoin-protokollassa sekä sen taloudellisia ja geopoliittisia vaikutuksia. Lisäksi tutustut monimutkaiseen suhteeseen bitcoinin hinnan ja hashraten välillä sekä suvereniteettiin ja sääntelyyn liittyviin kysymyksiin tässä alalla.
 
-Toisessa osiossa ryhdymme kiehtovaan käytännön tapaukseen, opimme muuntamaan käytetyn S9-louhijan kotilämmitysjärjestelmäksi. Kirjallisten ohjeiden ja videoiden kautta kaikki tarvittavat askeleet selitetään huolellisesti, varmistaen menestyksesi tässä innovatiivisessa projektissa.
+**Osa 3: Kotilouhinta ja lämmön uudelleenkäyttö**  
+Seuraavaksi siirrymme käytännön sovellukseen Attakai-konseptin avulla, jonka tavoitteena on demokratisoida kotilouhinta muuttamalla käytetyt S9-louhijat kotilämmityslaitteiksi. Opit, kuinka ostaa ja muokata käytettyä ASIC-laitetta ja valmistella tarvittavat laitteet laitteistomuutoksia varten.
 
-Tämä oppimismatka näyttää sinulle, että louhintateollisuus on monimutkaisempi kuin miltä se näyttää, tarjoten tasapainoisen näkökulman siihen liittyvään ekologiseen keskusteluun. Jatkuva apu on saatavilla opiskelijoille omistetun Telegram-ryhmän kautta, ja kaikki tarvittavat komponentit ovat helposti saatavilla e-kauppapaikaltamme.
+**Osa 4: Attakai - Antminer S9:n ohjelmiston muokkaus**  
+Tässä osassa opit, kuinka konfiguroida Antminer S9 kotikäyttöön. Opastamme sinua Wi-Fi/Ethernet-sillan asettamisessa, laitteen nollaamisessa, BraiinsOS+:n asentamisessa ja sen optimaaliseen käyttöön asettamisessa.
 
-### Opetussuunnitelma:
+**Osa 5: Attakai - Tuulettimien muokkaus**  
+Optimoidaksesi Antminer S9:n käytön lisälämmityslaitteena, tämä osa opettaa sinulle, kuinka korvata virtalähteen tuulettimet ja päätuulettimet. Nämä muutokset ovat välttämättömiä melun vähentämiseksi ja laitteen lämmöntuottotehokkuuden parantamiseksi.
 
-Teoreettinen osio:
+**Osa 6: Attakai - Konfigurointi**  
+Lopuksi opit liittymään louhintapooliin ja optimoimaan Antminer S9:n suorituskykyä. Opit, kuinka saavuttaa optimaalinen energiatehokkuus ja louhia tehokkaasti ensimmäiset satoshisi.
 
-- Louhinnan selitys.
-- Louhintateollisuus.
-- Louhintateollisuuden vivahteet.
-- Louhinta Bitcoin-protokollassa.
-- Bitcoinin hinta ja hashrate, korrelaatio? Suvereniteetti ja sääntely
-- Haastattelu louhintateollisuuden ammattilaisen kanssa
+Oletko valmis tutustumaan Bitcoin-louhinnan maailmaan ja ottamaan vastaan käytännön haasteen Attakai? Aloitetaan!
 
-Käytännön osio: Attakai
-
-- Johdatus Attakaihin.
-- Ostajan opas.
-- Antminer S9:n ohjelmiston muokkaus.
-- Tuulettimien vaihto melun vähentämiseksi.
-- Poolin konfigurointi.
-- Antminer S9:n konfigurointi Braiins OS+:lla.
-
-Valmis sukeltamaan tähän kiehtovaan seikkailuun? Sukelletaan yhdessä kotilouhinnan mielenkiintoiseen maailmaan!
 
 # Kaikki mitä sinun tarvitsee tietää louhinnasta
 
@@ -200,7 +190,6 @@ Spekulaatiot lohkon tilan tulevasta käytöstä ovat yleisiä, mutta yleisesti h
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Kuka pitää vallan? Bitcoin, energia ja valmistajat](https://www.youtube.com/watch?v=4wywK6BfDw8)
 Louhijoiden rooli Bitcoin-verkossa on ollut kiivaiden keskustelujen kohteena lohkokoon sodissa. Vaikka louhijat ovat olennaisen tärkeitä verkon turvallisuuden ja toiminnallisuuden kannalta, he eivät välttämättä pidä lopullista valtaa Bitcoin-ekosysteemissä. Louhijoiden, solmujen ja loppukäyttäjien välinen tasapaino varmistaa verkon eheyden ja jakelun.
 
 ### Lohkokoon sodat
@@ -241,7 +230,6 @@ Yhteenvetona voidaan todeta, että louhijat vahvistavat Bitcoin-verkon sensuurin
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Kuinka saada puhdas ja koskematon bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, hinta ja kannattavuus
 
@@ -301,13 +289,7 @@ Kampanjoiden, kuten Greenpeacen ja joidenkin tutkimusten usein harhaanjohtavien 
 
 Yhteenvetona, huolimatta sääntelyriskistä ja louhinnan kiellon mahdollisuudesta Euroopassa, tehokkain ase on koulutus ja informaatio. Selkeä ja tarkka ymmärrys louhinnasta, sen toiminnasta ja vaikutuksesta voi auttaa demystifioimaan teollisuutta ja taistelemaan väärää tietoa vastaan, tarjoten siten paremman vastustuksen mahdollisesti vahingollisia sääntelyjä vastaan. Aloite kouluttaa ja informoida ihmisiä louhinnasta, kuten tämä keskustelu tekee, on askel oikeaan suuntaan varmistaakseen louhinnan kestävyyden ja kasvun Euroopassa ja koko maailmassa. Jatkuvat ponnistelut kouluttaa ja informoida ovat olennaisia varmistamaan turvallisen ja menestyksekkään tulevaisuuden Bitcoin-louhintateollisuudelle.
 
-## Haastattelu louhintateollisuuden ammattilaisen kanssa
 
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Kulissien takana teollisessa louhinnassa - Sebastien Gouspillou
-
-![Teollisen kaivostoiminnan kulissien takana - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Kotikaivostoiminta ja lämmön uudelleenkäyttö
 
@@ -763,11 +745,11 @@ Tämä asettaa ylärajan koneen hash-nopeudelle. Autotuning on prosessi, jossa a
 
 Lopputuloksena on korkeampi hash-nopeus wattia kohden, mikä tarkoittaa suurempia voittomarginaaleja louhijoille. Syy siihen, miksi koneita ei jaeta tämän tyyppisen ohjelmiston kanssa, on se, että koneiden vaihtelu on epätoivottavaa, koska asiakkaat haluavat tietää tarkalleen, mitä he saavat, joten valmistajille on huono idea myydä tuotetta, jolla ei ole johdonmukaista ja ennustettavaa suorituskykyä koneesta toiseen. Lisäksi sirutason autotuning vaatii huomattavia kehitysresursseja, sillä sen toteuttaminen on monimutkaista. Valmistajat käyttävät jo paljon resursseja kehittäessään omia firmwarejaan. On olemassa ohjelmistoratkaisuja, jotka mahdollistavat autotuningin, kuten Braiins OS+. Lisäksi ASIC-suorituskyvyn parantaminen jopa 20%:lla.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Arvioi tämä kurssi
+## Arviot & Arvosanat
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -780,30 +762,4 @@ Lopputuloksena on korkeampi hash-nopeus wattia kohden, mikä tarkoittaa suurempi
 ## Yhteenveto
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
-
-Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi Bitcoin-maailman syvällistä tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Tutustu Bitcoiniin ja sen perusteisiin kurssilla
-
-https://planb.network/courses/btc101
-
-#### Tutustu Lightning Networkiin kurssilla
-
-https://planb.network/courses/lnp201
-
-#### Hallitse Bitcoinin yksityisyyden periaatteet
-
-https://planb.network/courses/btc204
-
-#### Tutustu Bitcoinin alkuperän historiaan kurssilla
-
-https://planb.network/courses/his201
-
-#### Ymmärrä, miten Bitcoin-lompakko toimii, kurssilla
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

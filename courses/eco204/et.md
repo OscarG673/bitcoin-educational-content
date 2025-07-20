@@ -20,41 +20,24 @@ Siin rõhutame trende ja ühiseid mustreid hüperinflatsiooni episoodides läbi 
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Sissejuhatus
+## Kursuse ülevaade
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-See programm eesmärgib pakkuda sügavat mõistmist hüperinflatsioonide tekkest Fiat-valuuta domineerivas maailmas ja uurida nende olulisi tagajärgi. Osalejad uurivad hüperinflatsiooni tsükleid detailsemalt, analüüsides põhjuseid, käivitajaid ning ajaloolisi ja kaasaegseid näiteid. Samuti vaadeldakse hüperinflatsioonide käegakatsutavat mõju majandusele ja igapäevaelule, uurides tagajärgi valuuta väärtusele, ostujõule ning individuaalsetele ja kollektiivsetele säästudele.
+Tere tulemast kursusele ECO204!
 
-Siin rõhutame trende ja ühiseid mustreid hüperinflatsiooni episoodides läbi ajaloo, pakkudes samal ajal tõhusaid ja konkreetseid strateegiaid enda kaitsmiseks hüperinflatsiooni perioodidel. Osalejatel on võimalus uurida erinevaid investeerimisvõimalusi ja finantskaitse mehhanisme, omandades praktilisi tööriistu ja olulist teadmist, et rahulikult toime tulla ebastabiilses majanduskliimas.
+Selle kursuse eesmärk on aidata teil mõista hüperinflatsiooni sügavamaid põhjuseid, mehhanisme ja tagajärgi fiat-rahasüsteemi kontekstis. Kasutades konkreetseid näiteid ja ajaloolisi analüüse, õpite ära tundma korduvaid mustreid, mis eelnevad hüperinflatsiooni perioodidele, ning tuvastama meetmeid, mis aitavad end selle eest kaitsta.
 
-### Õppekava
+**Osa 2: Mis on inflatsioon?**  
+Enne põhiteemasse süvenemist vaatame üle põhitõed: mis on inflatsioon? See osa tutvustab inflatsiooni rahalisi algpõhjuseid, erinevaid inflatsioonitüüpe ja seda, kuidas need sobituvad laiemasse majanduslikku dünaamikasse. See on oluline samm arusaamaks, kuidas tavaline inflatsioon võib muutuda hüperinflatsiooniks.
 
-Jaotis 1 - Sissejuhatus
+**Osa 3: Mis on hüperinflatsioon?**  
+Selles osas uurite hüperinflatsiooni täpseid määratlusi ja mitmeid tähelepanuväärseid ajaloolisi episoode, sealhulgas Weimari Saksamaad ja Zimbabwet. Me analüüsime nende ühiseid jooni, erinevusi ja kaasaegseid paralleele. Samuti avastate vähem tuntud juhtumeid, näiteks korduvad rahareformid Ladina-Ameerikas, ja lahendusi, mida mõned riigid on kasutanud kriisist väljumiseks.
 
-- 1.1 - Kursuse sissejuhatus Rogzy & David poolt
+**Osa 4: Kuidas me siia jõudsime?**  
+See osa keskendub struktuuriliste mehhanismide mõistmisele, mis muudavad hüperinflatsiooni võimalikuks, eelkõige läbi "teise raha kihi" arendamise ja keskpankade rolli. Pakutakse täiendavaid ressursse ja soovitusi edasiseks lugemiseks.
 
-Jaotis 2 - Mis on inflatsioon?
-
-- 2.1 - Monetaarne nähtus
-- 2.2 - Inflatsiooni tüübid
-- 2.3 - Deflatsioon
-
-Jaotis 3 - Mis on hüperinflatsioon?
-
-- 3.1 - Definitsioonid
-- 3.2 - Weimari vs Zimbabwe sarnasused
-- 3.3 - Weimari vs Zimbabwe erinevused ja kaasaegsed paralleelid
-- 3.4 - Redenominatsioonid Ladina-Ameerikas
-- 3.5 - Kuidas hüperinflatsioonist välja tulla
-- 3.6 - Hüperinflatsiooni pangatähtede kollektsiooni esitlus
-
-Jaotis 4 - Kuidas me siia jõudsime?
-
-- 4.1 - Teise tasandi raha ja keskpankade teke
-- 4.2 - Raamatud ja ressursid
-
-Edu!
+Kas rahandusajalugu kordub praegu meie silme all? Otsustage ise järgmistes peatükkides!
 
 # Mis on inflatsioon?
 
@@ -506,7 +489,7 @@ Kui valuuta kiiresti oma väärtust kaotab, võivad isegi lihtsaimad tehingud mu
 
 > Zimbabwe: "Poejuhatajad said samuti palgata ajutise töötaja, kes asendas terve päeva raha lugenud töötajat. Loomulikult oli raha lugemine poes halduse ja panga deposiidi jaoks üks asi, kuid kogu protsess tuli korrata pangas deposiidi ajal."
 
-![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Raha lugemise tehnika Usbekistanist
 
@@ -925,11 +908,11 @@ Hüperinflatsioon on põnev teema, mida on uuritud läbi erinevate ajalooliste s
 
 - "Valuutakomiteed Arengumaadele: Käsiraamat" autorid Steve Hanke ja Kurt Schuler. Kuigi fookus on valuutakomiteedel, pakub see raamat vaatenurka, kuidas vältida hüperinflatsiooni olukordi.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Hinda seda kursust
+## Hinnangud & Reitingud
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -942,34 +925,4 @@ Hüperinflatsioon on põnev teema, mida on uuritud läbi erinevate ajalooliste s
 ## Kokkuvõte
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-Õnnitleme kursuse lõpetamise puhul!
-
-Meil on hea meel, et olete jõudnud selle olulise tähiseni oma õppeteel.
-
-Tänu teie pühendumisele ja pingutustele olete omandanud väärtuslikke teadmisi ja oskusi, mis aitavad teid teie professionaalses arengus.
-
-Et jätkata Bitcoini universumi põhjalikku uurimist, kutsume teid avastama kõiki teisi Plan ₿ Networkis saadaolevaid kursuseid:
-
-#### Avastage F. Bastiat elu koos kursusega
-
-https://planb.network/courses/eco102
-
-#### Avastage Austria koolkonna majanduslik mõtlemine kursusega
-
-https://planb.network/courses/eco201
-
-#### Avastage Bitcoin ja selle põhitõed kursusega
-
-https://planb.network/courses/btc101
-
-#### Uuendage oma veebiturvalisust kursusega
-
-https://planb.network/courses/scu101
-
-#### Hankige ja turvake oma esimesed bitcoinid kursusega
-
-https://planb.network/courses/btc102
-
-#### Avastage Bitcoini päritolu ajalugu kursusega
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

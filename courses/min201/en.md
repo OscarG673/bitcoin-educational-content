@@ -15,7 +15,7 @@ In this training, we will delve into the mining industry to demystify this compl
 The first section will be theoretical, where Ajelex and I will have an in-depth discussion on various topics related to mining. This will help us better understand this industry and the economic and geopolitical issues associated with it.
 In the second section, we will tackle a practical case. Indeed, we will learn how to transform a used S9 miner into a home heating system! Through written guides and videos, we will show and explain all the steps to achieve this at your home :)
 
-Through this video, we hope to show you that the mining industry is more complex than it seems, and studying it helps to nuance the ecological debate that is linked to it!
+Through this course, we hope to show you that the mining industry is more complex than it seems, and studying it helps to nuance the ecological debate that is linked to it!
 If you need help with your setup, a Telegram group has been created for students, and all the necessary components can be found on our e-commerce platform!
 
 +++
@@ -24,41 +24,31 @@ If you need help with your setup, a Telegram group has been created for students
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Welcome!
+## Course Overview
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Welcome to MINING 201: an introduction to mining. Ajelex, Jim & Rogzy are excited to accompany you in your first concrete steps in this new industry. We hope you enjoy the course and join the adventure of home mining!
+Welcome to the MIN201 course: An Introduction to Mining. Ajelex, Jim & Rogzy are excited to guide you through your first steps in this industry. We hope you enjoy the course and embark on the home mining adventure!
 
-### Course Overview
+This training takes you to the heart of the Bitcoin mining industry, providing both theoretical and practical knowledge. Whether you are a beginner or already familiar with the topic, this course will help you understand the economic and technical aspects of mining, while completing a practical project of repurposing an ASIC for home heating.
 
-In this course, the first section will focus on the theory of mining with Ajelex. We will have in-depth discussions on various topics related to mining, which will help us better understand this industry and the economic and geopolitical issues associated with it.
+**Section 2: Everything about Mining**  
+In this section, we will provide a comprehensive understanding of Bitcoin mining. We will cover the technical functioning of mining, its role in the Bitcoin protocol, and its economic and geopolitical implications. You will also explore the complex relationship between bitcoin price and hashrate, as well as issues related to sovereignty and regulation in the industry.
 
-In the second section, we will embark on a fascinating practical case, learning how to transform a used S9 miner into a home heating system. Through written guides and videos, all the necessary steps will be meticulously explained, ensuring your success in this innovative project.
+**Section 3: Home Mining and Heat Reuse**  
+Next, we will dive into practical application with the concept of Attakai, which aims to democratize home mining by transforming used S9 miners into home heating devices. You will learn how to purchase and modify a used ASIC, while preparing the necessary equipment for hardware modifications.
 
-This learning journey will show you that the mining industry is more complex than it appears, offering a balanced perspective on the ecological debate associated with it. Ongoing assistance will be available through a dedicated Telegram group for students, and all the necessary components will be easily accessible on our e-commerce platform.
+**Section 4: Attakai - Modifying an Antminer S9's Software**  
+Here, you will learn how to configure your Antminer S9 for home use. We will guide you through setting up a Wi-Fi/Ethernet bridge, resetting your device, installing BraiinsOS+, and optimizing it for mining.
 
-### Curriculum:
+**Section 5: Attakai - Fan Modifications**  
+To optimize your Antminer S9 for use as an auxiliary heater, this section will teach you how to replace the power supply fans and the main fans. These modifications are essential for reducing noise and improving the thermal efficiency of the device.
 
-Theoretical Section:
+**Section 6: Attakai - Configuration**  
+Finally, you will learn how to join a mining pool and optimize the performance of your Antminer S9. You will discover how to achieve optimal energy efficiency and effectively mine your first satoshis.
 
-- Explanation of mining.
-- The mining industry.
-- Nuances of the mining industry.
-- Mining in the Bitcoin protocol.
-- Bitcoin Price and Hashrate, a Correlation? Sovereignty and Regulation
-- Interview with a Mining Industry Professional
+Ready to discover the world of Bitcoin mining and take on the practical challenge of Attakai? Let's get started!
 
-Practical Section: Attakai
-
-- Introduction to Attakai.
-- Buying Guide.
-- Modifying the Software of an Antminer S9.
-- Replacing Fans to Reduce Noise.
-- Pool Configuration.
-- Configuring Antminer S9 with Braiins OS+.
-
-Ready to embark on this captivating adventure? Let's dive together into the fascinating world of home mining!
 
 # Everything You Need to Know About Mining
 
@@ -90,7 +80,7 @@ Nowadays, miners exclusively use ASICs dedicated to this operation, optimized to
 
 To illustrate the intensity of this process, consider a typical miner capable of achieving 14 TeraHash per second, or 14 trillion attempts every second to find the correct hash. At the scale of the Bitcoin network, we now reach approximately 300 HexaHash per second, highlighting the collective power mobilized in Bitcoin mining.
 
-### Difficulty adjustment:
+### Difficulty adjustment
 
 Difficulty adjustment is a crucial mechanism in the operation of the Bitcoin network, ensuring that blocks are mined on average every 10 minutes. This duration is an average because the mining process is actually a game of probabilities, similar to rolling dice in the hope of getting a number lower than the number defined by the difficulty. Every 2016 blocks, the network adjusts the mining difficulty based on the average time required to mine the previous blocks. If the average time is greater than 10 minutes, the difficulty is reduced, and conversely, if the average time is lower, the difficulty is increased. This adjustment mechanism ensures that the mining time for new blocks remains constant over time, regardless of the number of miners or the overall computing power of the network. This is why the Bitcoin Blockchain is also called the Timechain.
 
@@ -780,11 +770,11 @@ This puts an upper limit on the hash rate a machine can have. Autotuning is a pr
 
 The end result is a higher hash rate per watt of electricity, which means larger profit margins for miners. The reason why machines are not distributed with this type of software is that machine variance is undesirable, as customers want to know exactly what they are getting, so it is a bad idea for manufacturers to sell a product that does not have consistent and predictable performance from one machine to another. Additionally, chip-level autotuning requires considerable development resources, as it is complex to implement. Manufacturers already spend a lot of resources developing their own firmwares. There are software solutions that allow for autotuning, such as Braiins OS+. In addition to improving ASIC performance by up to 20%.
 
-# Conclusion
+# Final Section
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Evaluate this course
+## Reviews & Ratings
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -797,30 +787,4 @@ The end result is a higher hash rate per watt of electricity, which means larger
 ## Conclusion
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Congratulations on completing this course!
-
-We are delighted that you have reached this important milestone in your learning journey.
-
-Through your dedication and commitment, you have gained valuable knowledge and skills that will serve you in your professional development.
-
-To continue exploring the Bitcoin universe in depth, we invite you to discover all other courses available on Plan ₿ Network:
-
-#### Discover Bitcoin and its fundamentals with
-
-https://planb.network/courses/btc101
-
-#### Discover the Lightning Network with
-
-https://planb.network/courses/lnp201
-
-#### Master the principles of privacy on Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Discover the history of Bitcoin's origins with
-
-https://planb.network/courses/his201
-
-#### Understand how the Bitcoin wallet works with
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

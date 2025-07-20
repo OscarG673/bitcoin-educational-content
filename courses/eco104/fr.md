@@ -39,11 +39,12 @@ Ce cours a été sponsorisé par TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Introduction
+## Aperçu du cours
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Bienvenue dans le cours ECO104 !
 
-### Nous vivons dans un monde où :
+**Nous vivons dans un monde où :**
 
 ● Seulement [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) des personnes résident dans des sociétés considérées comme "libres démocratiquement". Pourtant, même au sein de cette fraction privilégiée, les violations des droits humains sont de plus en plus courantes - des comptes bancaires gelés à la censure. Les 80% restants se débattent avec l'avancée du règne autoritaire. Il y a juste deux décennies, près de la moitié de la population mondiale jouissait des libertés les plus fondamentales.
 
@@ -62,7 +63,7 @@ Cela dit, ce cours n'est pas uniquement destiné à ceux qui font face à une in
 
 Dans cet esprit, notre mission est de vous amener à l'avant-garde du changement dans notre paysage financier actuel, de remettre en question les normes existantes et d'offrir des solutions alternatives. En plongeant dans l'histoire de l'argent, en démystifiant Bitcoin et en explorant Tether et le monde des stablecoins, nous visons à inspirer les individus à réimaginer leur avenir financier.
 
-### À quoi s'attendre :
+**À quoi s'attendre :**
 
 **Module 1 : Le Prix du Progrès - Un Regard Approfondi sur Notre Système Financier**
 Nous commençons notre exploration en jetant un coup d'œil derrière les rideaux de notre système financier actuel, où la censure financière, l'inégalité de richesse et l'inflation affligent notre quotidien. À travers une brève histoire de l'argent, nous examinerons comment nous nous sommes retrouvés là où nous sommes, en mettant en lumière certains des principaux points douloureux que nous vivons tous.
@@ -476,7 +477,7 @@ Avant la création de Bitcoin, une poignée de visionnaires a jeté les bases de
 
 #### Les Cypherpunks
 
-Les Cypherpunks sont un groupe de rebelles passionnés de technologie qui se sont réunis dans les années 70 pour lutter pour la liberté individuelle et les libertés civiles en utilisant un outil puissant : la cryptographie. Ils croyaient que la capacité à chiffrer les informations donnerait aux gens le pouvoir de reprendre le contrôle des autorités centralisées. Imaginez pouvoir garder votre communication en ligne privée et sécurisée loin des regards indiscrets - c'est pour cela qu'ils se battaient !
+Les Cypherpunks sont un groupe de rebelles passionnés de technologie qui se sont réunis dans les années 80 pour lutter pour la liberté individuelle et les libertés civiles en utilisant un outil puissant : la cryptographie. Ils croyaient que la capacité à chiffrer les informations donnerait aux gens le pouvoir de reprendre le contrôle des autorités centralisées. Imaginez pouvoir garder votre communication en ligne privée et sécurisée loin des regards indiscrets - c'est pour cela qu'ils se battaient !
 
 L'un des résultats les plus notables des Cypherpunks a été la liste de diffusion des Cypherpunks, établie en 1992. À travers la liste, les individus pouvaient partager des idées et discuter des technologies cryptographiques, des concepts de monnaie digitale et des initiatives axées sur la vie privée. Cela a conduit à la formation d'une communauté d'individus partageant les mêmes idées, y compris des développeurs, des activistes et des chercheurs.
 
@@ -1623,11 +1624,11 @@ En concluant ce cours, nous espérons que vous appliquerez les connaissances acq
 Puisse cette nouvelle compréhension vous permettre de naviguer dans le monde évolutif de la finance avec confiance et objectif. Bonne chance sur votre chemin de croissance et de découverte !
 L'avenir est radieux !
 
-# Conclusion
+# Section finale
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Évaluez le cours
+## Avis & Notes
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1635,35 +1636,4 @@ L'avenir est radieux !
 ## Conclusion
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Félicitations pour avoir terminé ce cours !
-
-Nous sommes ravis que vous ayez atteint avec succès cette étape dans votre parcours d'apprentissage.
-
-Grâce à votre dévouement et votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
-
-Pour continuer à approfondir vos connaissances dans l'univers du Bitcoin, nous vous invitons à explorer tous les autres cours disponibles sur Plan ₿ Network :
-
-#### Découvrez Bitcoin et ses fondamentaux avec
-
-https://planb.network/courses/btc101
-
-#### Mettez à jour votre sécurité en ligne avec
-
-https://planb.network/courses/scu101
-
-#### Découvrez le réseau Lightning avec
-
-https://planb.network/courses/lnp201
-
-#### Apprenez la pensée économique de l'École autrichienne avec
-
-https://planb.network/courses/eco201
-
-#### Découvrez l'histoire des origines de Bitcoin avec
-
-https://planb.network/courses/his201
-
-#### Comprenez l'émergence des hyperinflations avec
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

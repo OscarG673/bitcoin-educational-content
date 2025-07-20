@@ -24,41 +24,31 @@ Jika Anda memerlukan bantuan dengan pengaturan Anda, sebuah grup Telegram telah 
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Selamat Datang!
+## Gambaran Umum Kursus
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Selamat datang di MINING 201: pengantar tentang penambangan. Ajelex, Jim & Rogzy senang menemani Anda dalam langkah konkret pertama Anda di industri baru ini. Kami berharap Anda menikmati kursus ini dan bergabung dalam petualangan penambangan rumahan!
+Selamat datang di kursus MIN201: Pengantar Penambangan. Ajelex, Jim & Rogzy sangat senang untuk membimbing Anda dalam langkah pertama Anda di industri ini. Kami berharap Anda menikmati kursus ini dan memulai petualangan home mining!
 
-### Ikhtisar Kursus
+Pelatihan ini membawa Anda ke inti industri penambangan Bitcoin dengan menawarkan pemahaman tentang aspek teoretis dan praktis. Apakah Anda pemula atau sudah terbiasa dengan topik ini, kursus ini akan membantu Anda memahami tantangan ekonomi dan teknis yang terkait dengan penambangan, sambil menyelesaikan proyek praktis menggunakan ASIC untuk pemanasan rumah.
 
-Dalam kursus ini, bagian pertama akan berfokus pada teori penambangan bersama Ajelex. Kami akan memiliki diskusi mendalam tentang berbagai topik terkait penambangan, yang akan membantu kita lebih memahami industri ini dan isu-isu ekonomi serta geopolitik yang terkait dengannya.
+**Bagian 2: Semua Tentang Penambangan**  
+Di bagian ini, kami akan memberikan pemahaman mendalam tentang penambangan Bitcoin. Kami akan membahas cara kerja teknis penambangan, perannya dalam protokol Bitcoin, serta implikasi ekonominya dan geopolitiknya. Anda juga akan mempelajari hubungan kompleks antara harga bitcoin dan hashrate, serta tantangan terkait kedaulatan dan regulasi dalam industri ini.
 
-Di bagian kedua, kita akan memulai kasus praktis yang menarik, belajar cara mengubah penambang S9 bekas menjadi sistem pemanas rumah. Melalui panduan tertulis dan video, semua langkah yang diperlukan akan dijelaskan secara rinci, memastikan keberhasilan Anda dalam proyek inovatif ini.
+**Bagian 3: Home Mining dan Penggunaan Panas Kembali**  
+Selanjutnya, kami akan mempelajari aplikasi praktis dengan konsep Attakai, yang bertujuan untuk mendemokratisasikan home mining dengan mengubah penambang S9 bekas menjadi perangkat pemanas rumah. Anda akan belajar cara membeli dan memodifikasi ASIC bekas, serta menyiapkan peralatan yang diperlukan untuk modifikasi perangkat keras.
 
-Perjalanan belajar ini akan menunjukkan kepada Anda bahwa industri penambangan lebih kompleks dari yang tampak, menawarkan perspektif seimbang tentang debat ekologis yang terkait dengannya. Bantuan berkelanjutan akan tersedia melalui grup Telegram khusus untuk siswa, dan semua komponen yang diperlukan akan mudah diakses di platform e-commerce kami.
+**Bagian 4: Attakai - Modifikasi Perangkat Lunak Antminer S9**  
+Di sini, Anda akan belajar cara mengonfigurasi Antminer S9 Anda untuk penggunaan di rumah. Kami akan memandu Anda melalui pengaturan jembatan Wi-Fi/Ethernet, mereset perangkat, menginstal BraiinsOS+, dan mengoptimalkannya untuk penambangan.
 
-### Kurikulum:
+**Bagian 5: Attakai - Modifikasi Kipas**  
+Untuk mengoptimalkan Antminer S9 Anda sebagai alat pemanas tambahan, bagian ini akan mengajarkan Anda cara mengganti kipas power supply dan kipas utama. Modifikasi ini sangat penting untuk mengurangi kebisingan dan meningkatkan efisiensi termal perangkat.
 
-Bagian Teoritis:
+**Bagian 6: Attakai - Pengaturan**  
+Terakhir, Anda akan belajar cara bergabung dengan pool penambangan dan mengoptimalkan kinerja Antminer S9 Anda. Anda akan menemukan cara mencapai efisiensi energi optimal dan menambang satoshi pertama Anda secara efektif.
 
-- Penjelasan tentang penambangan.
-- Industri penambangan.
-- Nuansa industri penambangan.
-- Penambangan dalam protokol Bitcoin.
-- Harga Bitcoin dan Hashrate, sebuah Korelasi? Kedaulatan dan Regulasi
-- Wawancara dengan Profesional Industri Penambangan
+Siap untuk menjelajahi dunia penambangan Bitcoin dan menghadapi tantangan praktis dari Attakai? Mari kita mulai!
 
-Bagian Praktis: Attakai
-
-- Pengantar tentang Attakai.
-- Panduan Pembelian.
-- Memodifikasi Perangkat Lunak Antminer S9.
-- Mengganti Kipas untuk Mengurangi Kebisingan.
-- Konfigurasi Pool.
-- Mengonfigurasi Antminer S9 dengan Braiins OS+.
-
-Siap untuk memulai petualangan menarik ini? Mari kita menyelam bersama ke dalam dunia penambangan rumahan yang menarik!
 
 # Semua yang Anda Perlu Tahu Tentang Penambangan
 
@@ -204,7 +194,6 @@ Spekulasi mengelilingi penggunaan ruang blok di masa depan, tetapi umumnya diter
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Siapa yang Memegang Kekuatan? Bitcoin, Energi, dan Produsen](https://www.youtube.com/watch?v=4wywK6BfDw8)
 Peran penambang dalam jaringan Bitcoin telah menjadi subjek perdebatan intens selama perang ukuran blok. Meskipun esensial untuk keamanan dan fungsionalitas jaringan, penambang tidak selalu memegang kekuatan utama dalam ekosistem Bitcoin. Keseimbangan antara penambang, node, dan pengguna akhir memastikan integritas dan distribusi jaringan.
 
 ### Perang Ukuran Blok
@@ -244,7 +233,6 @@ Untuk merangkum, penambang memperkuat jaringan Bitcoin terhadap sensor dengan me
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Bagaimana mendapatkan bitcoin yang bersih dan tidak tersentuh?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, Harga, dan Profitabilitas
 
@@ -303,13 +291,7 @@ Menghadapi kampanye seperti yang dilakukan oleh Greenpeace dan angka-angka menye
 
 Kesimpulannya, meskipun ada risiko regulasi dan kemungkinan larangan penambangan di Eropa, senjata paling kuat tetaplah pendidikan dan informasi. Pemahaman yang jelas dan tepat tentang penambangan, cara kerjanya, dan dampaknya dapat membantu mendemistifikasi industri dan melawan misinformasi, sehingga menawarkan perlawanan yang lebih baik terhadap regulasi yang berpotensi merugikan. Inisiatif untuk melatih dan menginformasikan orang tentang penambangan, seperti diskusi ini, adalah langkah dalam arah yang benar untuk memastikan keberlanjutan dan pertumbuhan penambangan di Eropa, dan di seluruh dunia. Upaya berkelanjutan untuk mendidik dan menginformasikan sangat penting untuk memastikan masa depan yang aman dan makmur bagi industri penambangan Bitcoin.
 
-## Wawancara dengan Profesional Industri Penambangan
 
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Di Balik Layar Penambangan Industri - Sebastien Gouspillou
-
-![Di Balik Layar Pertambangan Industri - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Penambangan di Rumah dan Pemanfaatan Ulang Panas
 
@@ -770,11 +752,11 @@ Ini menetapkan batas atas pada tingkat hash yang dapat dimiliki oleh sebuah mesi
 
 Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang berarti margin keuntungan yang lebih besar untuk penambang. Alasan mengapa mesin tidak didistribusikan dengan jenis perangkat lunak ini adalah karena variansi mesin tidak diinginkan, karena pelanggan ingin tahu persis apa yang mereka dapatkan, sehingga merupakan ide buruk bagi produsen untuk menjual produk yang tidak memiliki kinerja yang konsisten dan dapat diprediksi dari satu mesin ke mesin lainnya. Selain itu, autotuning tingkat chip memerlukan sumber daya pengembangan yang cukup besar, karena kompleks untuk diimplementasikan. Produsen sudah menghabiskan banyak sumber daya mengembangkan firmware mereka sendiri. Ada solusi perangkat lunak yang memungkinkan autotuning, seperti Braiins OS+. Selain meningkatkan kinerja ASIC hingga 20%.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -787,30 +769,4 @@ Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang bera
 ## Kesimpulan
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Selamat atas penyelesaian kursus ini!
-
-Kami senang Anda telah mencapai tonggak penting ini dalam perjalanan pembelajaran Anda.
-
-Melalui dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional.
-
-Untuk terus mengeksplorasi alam semesta Bitcoin secara mendalam, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
-
-#### Temukan Bitcoin dan fundamental-nya dengan
-
-https://planb.network/courses/btc101
-
-#### Temukan Lightning Network dengan
-
-https://planb.network/courses/lnp201
-
-#### Kuasai prinsip-prinsip privasi di Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Temukan sejarah asal-usul Bitcoin dengan
-
-https://planb.network/courses/his201
-
-#### Pahami cara kerja dompet Bitcoin dengan
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

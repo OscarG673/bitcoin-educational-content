@@ -26,11 +26,11 @@ Théo; Beitrag
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Kursvorstellung
+## Kursübersicht
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Ziel: Aktualisierung!
+**Ziel: Aktualisierung!**
 
 Willkommen zu diesem Bildungsprogramm für IT-Sicherheit und Datenschutz. Dieses Training ist so konzipiert, dass es für alle zugänglich ist und keine Vorkenntnisse in der Informatik erforderlich sind. Unser Hauptziel ist es, Ihnen das Wissen und die Fähigkeiten zu vermitteln, um sicherer und privater in der digitalen Welt zu navigieren.
 
@@ -40,14 +40,14 @@ Dieses Training ist eine gemeinsame Anstrengung von drei unserer Professoren:
 
 - Renaud Lifchitz, Experte für Cybersicherheit
 - Théo Pantamis, Doktor der angewandten Mathematik
-- Rogzy, CEO von DécouvreBitcoin
+- Rogzy, Mitbegründer des Plan ₿ Network
 
 Ihre digitale Hygiene ist in einer immer digitaleren Welt von entscheidender Bedeutung. Trotz einer ständig steigenden Anzahl von Hackerangriffen und Massenüberwachung ist es noch nicht zu spät, den ersten Schritt zu tun und sich zu schützen.
 Dans dieser Schulung streben wir nicht danach, Sie zu Experten zu machen, anonym oder unangreifbar, das ist unmöglich. Stattdessen bieten wir Ihnen einige einfache und zugängliche Lösungen an, um Ihre Online-Gewohnheiten zu ändern und die Kontrolle über Ihre digitale Souveränität zurückzugewinnen.
 
 Wenn Sie fortgeschrittene Fähigkeiten zu diesem Thema suchen, stehen Ihnen unsere Ressourcen, Tutorials oder andere Schulungen zur Cybersicherheit zur Verfügung. In der Zwischenzeit erhalten Sie einen kleinen Einblick in unser Programm für die kommenden Stunden zusammen.
 
-### Abschnitt 1: Alles über das Surfen im Internet wissen
+**Abschnitt 1: Alles über das Surfen im Internet wissen**
 
 - Kapitel 1 - Online-Surfen
 - Kapitel 2 - Sicheres Surfen im Internet
@@ -55,7 +55,7 @@ Wenn Sie fortgeschrittene Fähigkeiten zu diesem Thema suchen, stehen Ihnen unse
 Zum Einstieg werden wir über die Bedeutung der Wahl eines Web-Browsers und deren Auswirkungen auf die Sicherheit sprechen. Anschließend werden wir uns mit den Besonderheiten von Browsern befassen, insbesondere in Bezug auf die Verwaltung von Cookies. Wir werden auch sehen, wie man durch Tools wie TOR sicherer und anonymer surfen kann. Danach werden wir uns auf die Verwendung von VPNs konzentrieren, um den Schutz Ihrer Daten zu stärken. Schließlich werden wir Empfehlungen zur sicheren Nutzung von WLAN-Verbindungen geben.
 ![](assets/de/1.webp)
 
-### Abschnitt 2: Gute Praktiken bei der Nutzung des Computers
+**Abschnitt 2: Gute Praktiken bei der Nutzung des Computers**
 
 - Kapitel 3 - Computer-Nutzung
 - Kapitel 4 - Hacken & Backup-Management
@@ -63,7 +63,7 @@ Zum Einstieg werden wir über die Bedeutung der Wahl eines Web-Browsers und dere
 In diesem Abschnitt behandeln wir drei Schlüsselbereiche der Computersicherheit. Zunächst werden wir die verschiedenen Betriebssysteme - Mac, PC und Linux - erkunden und ihre Besonderheiten und Stärken hervorheben. Dann werden wir uns mit Methoden beschäftigen, um sich effektiv vor Hacking-Versuchen zu schützen und die Sicherheit Ihrer Geräte zu stärken. Schließlich werden wir die Bedeutung des regelmäßigen Schutzes und der Sicherung Ihrer Daten zur Vermeidung von Verlusten oder Ransomware hervorheben.
 ![](assets/de/2.webp)
 
-### Abschnitt 3: Implementierung von Lösungen
+**Abschnitt 3: Implementierung von Lösungen**
 
 - Kapitel 6 - E-Mail-Management
 - Kapitel 7 - Passwort-Manager
@@ -74,6 +74,7 @@ In diesem praktischen dritten Abschnitt werden wir zur praktischen Umsetzung Ihr
 Zuerst werden wir besprechen, wie Sie Ihre E-Mail schützen können, die für Ihre Kommunikation unerlässlich ist und oft von Hackern ins Visier genommen wird. Dann werden wir Ihnen vorstellen, was ein Passwort-Manager ist: eine praktische Lösung, um Ihre Passwörter nicht mehr zu vergessen oder durcheinander zu bringen, während sie sicher bleiben. Schließlich werden wir eine zusätzliche Sicherheitsmaßnahme, die Zwei-Faktor-Authentifizierung, ansprechen, die eine zusätzliche Schutzschicht für Ihre Konten bietet. Alles wird klar und verständlich erklärt.
 ![](assets/de/3.webp)
 
+Bereit, Ihre digitale Sicherheit zu stärken und die Kontrolle über Ihre Daten zurückzugewinnen? Los geht's!
 # Alles über das Surfen im Internet
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -116,7 +117,7 @@ Eine fortgeschrittenere Alternative ist das TOR-Netzwerk (The Onion Router), das
 TOR ist legal und wird von Journalisten, Freiheitsaktivisten und anderen Personen verwendet, die der Zensur in autoritären Ländern entgehen möchten. Es ist jedoch wichtig zu verstehen, dass TOR die besuchten Websites oder den Computer selbst nicht absichert. Darüber hinaus kann die Verwendung von TOR die Internetverbindung verlangsamen, da die Daten über die Computer von drei anderen Personen geleitet werden, bevor sie ihr Ziel erreichen. Es ist auch wichtig zu beachten, dass TOR keine hundertprozentige Lösung zur Gewährleistung der Anonymität darstellt und nicht für illegale Aktivitäten verwendet werden sollte.
 ![](assets/notext/7.webp)
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN und Internetverbindung
 
@@ -137,9 +138,9 @@ Die Verwendung eines öffentlichen VPNs garantiert jedoch keine vollständige An
 ![](assets/notext/9.webp)
 Schließlich kann ein VPN auch verwendet werden, um Online-Werbung zu blockieren und so ein angenehmeres und sichereres Browsing-Erlebnis zu bieten. Es ist jedoch wichtig, eigene Recherchen anzustellen, um das VPN zu finden, das am besten zu den spezifischen Bedürfnissen passt. Die Verwendung eines VPNs wird empfohlen, um die Sicherheit zu stärken, auch beim Surfen im Internet zu Hause. Dies trägt dazu bei, ein höheres Sicherheitsniveau für den Online-Datenaustausch zu gewährleisten. Vergewissern Sie sich abschließend, dass Sie die URLs und das kleine Schlosssymbol in der Adressleiste überprüfen, um zu bestätigen, dass Sie sich auf der von Ihnen beabsichtigten Website befinden.
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & öffentliche WLAN-Netzwerke'
 
@@ -238,9 +239,9 @@ NEIN, es wird im Allgemeinen nicht empfohlen, Hacker bei Ransomware oder anderen
 
 Wenn Sie einen Virus auf Ihrem Computer entdecken, trennen Sie ihn vom Internet, führen Sie eine vollständige Antiviren-Analyse durch und entfernen Sie infizierte Dateien. Aktualisieren Sie dann Ihre Software und Ihr Betriebssystem und ändern Sie Ihre Passwörter, um weitere Eindringlinge zu vermeiden.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementierung von Lösungen.
 
@@ -276,7 +277,7 @@ Im Allgemeinen ist es eine gute Praxis und sogar notwendig, eine neue, sicherere
 
 Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für unsere Bitcoin-Aktivitäten (Erstellung von Börsenkonten) zu erstellen, um die Aktivitäten in unserem Leben wirklich zu trennen.
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Passwort-Manager
 
@@ -318,9 +319,9 @@ Um ein starkes Passwort zu erstellen, wird empfohlen, eine große Anzahl zufäll
 
 Zufällig generierte Passwörter bieten ein höheres Maß an Sicherheit, können jedoch schwieriger zu merken sein. Passwort-Manager können sicherere zufällig generierte Passwörter erstellen. Durch die Verwendung eines Passwort-Managers müssen Sie sich nicht alle Ihre Passwörter merken. Es ist wichtig, Ihre alten Passwörter nach und nach durch die vom Manager generierten Passwörter zu ersetzen, da sie stärker und länger sind. Stellen Sie sicher, dass das Masterpasswort Ihres Passwort-Managers ebenfalls stark und sicher ist.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Die 2-Faktor-Authentifizierung
 
@@ -363,9 +364,9 @@ Machen Sie weiterhin Fortschritte und setzen Sie nach und nach die richtigen Pra
 
 Goldene Regel: IT-Sicherheit ist ein sich ständig veränderndes Ziel, das sich an Ihren Lernfortschritt anpasst!
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktischer Abschnitt
 
@@ -377,7 +378,7 @@ https://planb.network/tutorials/others/security-key
 
 Das Schützen Ihres E-Mail-Kontos ist ein wichtiger Schritt zur Sicherung Ihrer Online-Aktivitäten und zum Schutz Ihrer persönlichen Daten. Dieses Tutorial führt Sie Schritt für Schritt durch die Erstellung und Konfiguration eines ProtonMail-Kontos, eines Anbieters, der für sein hohes Sicherheitsniveau bekannt ist und eine Ende-zu-Ende-Verschlüsselung Ihrer Kommunikation bietet. Ob Sie nun Anfänger oder erfahrener Nutzer sind, die hier vorgeschlagenen bewährten Methoden helfen Ihnen, die Sicherheit Ihres E-Mail-Kontos zu stärken und gleichzeitig die erweiterten Funktionen von ProtonMail zu nutzen:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Absicherung mit 2FA
 
@@ -385,11 +386,11 @@ https://planb.network/tutorials/others/proton-mail
 
 Die Zwei-Faktor-Authentifizierung (2FA) ist unerlässlich geworden, um Ihre Online-Konten zu sichern. In diesem Tutorial lernen Sie, wie Sie die 2FA-App Authy einrichten und verwenden, die dynamische 6-stellige Codes generiert, um Ihre Konten zu schützen. Authy ist sehr einfach zu bedienen und synchronisiert sich auf mehreren Geräten. Erfahren Sie, wie Sie Authy installieren und konfigurieren und stärken Sie so die Sicherheit Ihrer Online-Konten jetzt:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Eine weitere Option ist die Verwendung eines physischen Sicherheitsschlüssels. Dieses zusätzliche Tutorial zeigt Ihnen, wie Sie einen Sicherheitsschlüssel als zweiten Authentifizierungsfaktor einrichten und verwenden:
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Erstellung eines Passwort-Managers
 
@@ -399,11 +400,11 @@ Das Passwortmanagement ist in der digitalen Ära eine Herausforderung. Wir alle 
 
 In diesem Tutorial erfahren Sie, wie Sie Bitwarden, einen Open-Source-Passwortmanager, einrichten und wie Sie Ihre Anmeldedaten auf allen Ihren Geräten synchronisieren, um die tägliche Nutzung zu vereinfachen:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Für fortgeschrittene Benutzer biete ich auch ein Tutorial zu einer weiteren kostenlosen und Open-Source-Software an, die Sie lokal zur Verwaltung Ihrer Passwörter verwenden können:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Absicherung Ihrer Konten
 
@@ -411,21 +412,9 @@ https://planb.network/tutorials/others/keepass
 
 In diesen beiden Tutorials führe ich Sie auch bei der Sicherung Ihrer Online-Konten und erkläre Ihnen, wie Sie schrittweise sicherere Praktiken für die tägliche Verwaltung Ihrer Passwörter übernehmen können.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
-
-## Einrichtung eines Back-ups
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Das Schützen Ihrer persönlichen Dateien ist ebenfalls ein wesentlicher Punkt. Dieses Tutorial zeigt Ihnen, wie Sie eine effektive Backup-Strategie mit Proton Drive einrichten. Erfahren Sie, wie Sie diese sichere Cloud-Lösung nutzen, um die 3-2-1-Methode anzuwenden: drei Kopien Ihrer Daten auf zwei verschiedenen Medien, von denen eine Kopie außerhalb des Standorts ist. So gewährleisten Sie die Zugänglichkeit und Sicherheit Ihrer sensiblen Dateien:
-
-https://planb.network/tutorials/others/proton-drive
-
-Und um Ihre auf Wechseldatenträgern wie einem USB-Stick oder einer externen Festplatte gespeicherten Dateien zu sichern, zeige ich Ihnen auch, wie Sie diese Medien einfach mit VeraCrypt verschlüsseln und entschlüsseln können:
-
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Browserwechsel & VPN
 
@@ -435,13 +424,25 @@ Der Schutz Ihrer Online-Privatsphäre ist ebenfalls ein wichtiger Punkt zur Gew�
 
 Ich schlage vor, zwei zuverlässige VPN-Lösungen zu entdecken, die mit Bitcoin zahlbar sind, nämlich IVPN und Mullvad. Diese Tutorials führen Sie durch die Installation, Konfiguration und Nutzung von Mullvad oder IVPN auf all Ihren Geräten:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Erfahren Sie außerdem, wie Sie den Tor Browser verwenden, einen speziell entwickelten Browser zum Schutz Ihrer Online-Privatsphäre:
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Einrichtung eines Back-ups
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Das Schützen Ihrer persönlichen Dateien ist ebenfalls ein wesentlicher Punkt. Dieses Tutorial zeigt Ihnen, wie Sie eine effektive Backup-Strategie mit Proton Drive einrichten. Erfahren Sie, wie Sie diese sichere Cloud-Lösung nutzen, um die 3-2-1-Methode anzuwenden: drei Kopien Ihrer Daten auf zwei verschiedenen Medien, von denen eine Kopie außerhalb des Standorts ist. So gewährleisten Sie die Zugänglichkeit und Sicherheit Ihrer sensiblen Dateien:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Und um Ihre auf Wechseldatenträgern wie einem USB-Stick oder einer externen Festplatte gespeicherten Dateien zu sichern, zeige ich Ihnen auch, wie Sie diese Medien einfach mit VeraCrypt verschlüsseln und entschlüsseln können:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Gehen Sie weiter
 
@@ -488,7 +489,7 @@ Indem Sie diese Fähigkeiten und Tools beherrschen, sind Sie gut gerüstet, um e
 
 ### Effizientes Passwortmanagement und Stärkung der Authentifizierung: ein akademischer Ansatz
 
-Im Schulungsmodul "Sicherheit 101" von Découvre Bitcoin an der Akademie haben wir die Bedeutung von Passwortmanagern behandelt. Drei Dimensionen sind dabei wesentlich zu beachten: die Erstellung, Aktualisierung und Implementierung von Passwörtern auf Websites.
+Es gibt drei wichtige Dimensionen, die man berücksichtigen sollte, wenn man über Passwortmanager spricht: die Erstellung, Aktualisierung und Implementierung von Passwörtern auf Websites.
 
 Es wird im Allgemeinen davon abgeraten, Browsererweiterungen zur automatischen Passworteingabe zu verwenden. Diese Tools können den Benutzer anfälliger für Phishing-Angriffe machen. Renaud, ein anerkannter Experte für Cybersicherheit, bevorzugt eine manuelle Verwaltung mit KeePass, was eine manuelle Kopier- und Einfügeaktion des Passworts bedeutet. Erweiterungen neigen dazu, die Angriffsfläche zu vergrößern, können die Leistung des Browsers verlangsamen und stellen daher ein nicht zu vernachlässigendes Risiko dar. Daher wird empfohlen, den Einsatz von Erweiterungen im Browser auf ein Minimum zu beschränken.
 
@@ -515,13 +516,13 @@ Alternativen zu aufdringlicher Werbung sind unter anderem [Google DNS](https://d
 
 Weitere Schlüsselüberlegungen
 
-Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie haben wir auch über die Lightning-Authentifizierung diskutiert. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
+Es ist auch erwähnenswert, dass es ein System namens "Lightning authentication" gibt. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
 
 # Abschluss
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Bewerten Sie diesen Kurs
+## Bewertungen & Noten
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -534,35 +535,4 @@ Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie 
 ## Abschluss
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Herzlichen Glückwunsch zum Abschluss dieses Kurses!
-
-Wir freuen uns, dass Sie diesen Meilenstein in Ihrer Lernreise erfolgreich erreicht haben.
-
-Dank Ihrer Hingabe und Ihres Engagements haben Sie wertvolle Kenntnisse und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung dienen werden.
-
-Um Ihr Wissen im Bitcoin-Universum weiter zu vertiefen, laden wir Sie ein, weitere Kurse auf Plan ₿ Network zu erkunden, wie zum Beispiel:
-
-#### Entdecken Sie Bitcoin und seine Grundlagen mit
-
-https://planb.network/courses/btc101
-
-#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
-
-https://planb.network/courses/btc102
-
-#### Entdecken Sie das Lightning-Netzwerk mit
-
-https://planb.network/courses/lnp201
-
-#### Entdecken Sie das ökonomische Denken der Österreichischen Schule mit
-
-https://planb.network/courses/eco201
-
-#### Entdecken Sie die Geschichte der Ursprünge von Bitcoin mit
-
-https://planb.network/courses/his201
-
-#### Verstehen Sie, wie eine Bitcoin-Wallet funktioniert mit
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

@@ -12,7 +12,7 @@ _This tutorial is provided for educational and informational purposes only. We d
 
 ---
 
-"*a bitcoin wallet for the streets*"
+> *a bitcoin wallet for the streets*
 
 In this tutorial, you will learn what a coinjoin is and how to perform one using the Samourai Wallet software and the Whirlpool implementation.
 
@@ -40,7 +40,7 @@ To guarantee that each participant is aware of the transactions, they must be pu
 
 The transparent and distributed nature of Bitcoin's blockchain means that any network user can follow and analyze the transactions of all other participants. As a result, anonymity at the transaction level is impossible. However, anonymity is preserved at the level of individual identification. Unlike the traditional banking system where each account is linked to a personal identity, on Bitcoin, funds are associated with pairs of cryptographic keys, thus offering users a form of pseudonymity behind cryptographic identifiers.
 
-Thus, confidentiality on Bitcoin is compromised when external observers manage to associate specific UTXOs with identified users. Once this association is established, it becomes possible to trace their transactions and analyze the history of their bitcoins. Coinjoin is precisely a technique developed to break the traceability of UTXOs, thereby offering a certain layer of confidentiality to Bitcoin users at the transaction level.
+Thus, privacy on Bitcoin is compromised when external observers manage to associate specific UTXOs with identified users. Once this association is established, it becomes possible to trace their transactions and analyze the history of their bitcoins. Coinjoin is precisely a technique developed to break the traceability of UTXOs, thereby offering a certain layer of privacy to Bitcoin users at the transaction level.
 
 ## How does Whirlpool work?
 Whirlpool stands out from other coinjoin methods by using "_ZeroLink_" transactions, which ensure that there is strictly no technical link possible between all the inputs and all the outputs. This perfect mixing is achieved through a structure where each participant contributes an identical amount in input (except for mining fees), thus generating outputs of perfectly equal amounts.
@@ -68,7 +68,7 @@ Whirlpool was designed taking into account two important requirements:
 These imperatives guided the developers of Samourai Wallet in the design of Whirlpool, leading them to limit the number of participants per cycle. Too few participants would have compromised the efficiency of the coinjoin, drastically reducing the anonsets generated each cycle, while too many participants would have posed management issues on mobile applications and would have hindered the flow of cycles.
 **Ultimately, there is no need to have a high number of participants per coinjoin on Whirlpool since the anonsets are achieved through the accumulation of several coinjoin cycles.**
 
-[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### The pools and coinjoin fees
 For these multiple cycles to effectively increase the anonsets of the mixed coins, a certain framework must be established to restrict the amounts of UTXO used. Whirlpool thus defines different pools.
@@ -107,7 +107,7 @@ Before proceeding to coinjoins, the user thus has a choice between 2 strategies:
 - Opt for a smaller pool to minimize service fees, knowing that they will receive several small UTXOs in return;
 - Or prefer a larger pool, agreeing to pay higher fees to end up with a reduced number of UTXOs of greater value.
 
-It is generally advised against merging several mixed UTXOs after the coinjoin cycles, as this could compromise the acquired confidentiality, especially due to the Common-Input-Ownership Heuristic (CIOH). Therefore, it may be wise to choose a larger pool, even if it means paying more, to avoid having too many small-value UTXOs as output. The user must weigh these compromises to choose the pool they prefer.
+It is generally advised against merging several mixed UTXOs after the coinjoin cycles, as this could compromise the acquired privacy, especially due to the Common-Input-Ownership Heuristic (CIOH). Therefore, it may be wise to choose a larger pool, even if it means paying more, to avoid having too many small-value UTXOs as output. The user must weigh these compromises to choose the pool they prefer.
 
 Besides the service fees, the mining fees inherent to any Bitcoin transaction must also be considered. As a Whirlpool user, you will be required to pay the mining fees for the preparation transaction (`Tx0`) as well as those for the first coinjoin. All subsequent remixes will be free, thanks to Whirlpool's model which relies on the payment of new entrants.
 
@@ -152,7 +152,7 @@ For example, here is a real Whirlpool Tx0 (not from me): [edef60744f539483d868ca
 The surplus that could not be integrated into the pool, here equivalent to `40,000 sats`, is redirected to the **bad bank** account, also referred to as "doxxic change", to ensure a strict separation from the other UTXO in the wallet.
 
 This UTXO is dangerous for the user's privacy, as not only is it still attached to its past, and thus possibly to the identity of its owner, but additionally, it is noted as belonging to a user who has performed a coinjoin.
-If this UTXO is merged with mixed outputs, they will lose all the confidentiality gained during the coinjoin cycles, notably because of the Common-Input-Ownership-Heuristic (CIOH). If it is merged with other doxxic changes, the user risks losing confidentiality since this will link the different inputs of the coinjoin cycles. Therefore, it must be handled with caution. The way to manage this toxic UTXO will be detailed in the last part of this article, and future tutorials will cover these methods more in-depth on PlanB Network.
+If this UTXO is merged with mixed outputs, they will lose all the privacy gained during the coinjoin cycles, notably because of the Common-Input-Ownership-Heuristic (CIOH). If it is merged with other doxxic changes, the user risks losing privacy since this will link the different inputs of the coinjoin cycles. Therefore, it must be handled with caution. The way to manage this toxic UTXO will be detailed in the last part of this article, and future tutorials will cover these methods more in-depth on PlanB Network.
 
 **Step 3: The Initial Mix**
 After the `Tx0` is completed, the equalized UTXOs are sent to the **premix** account of our wallet, ready to be introduced into their first coinjoin cycle, also called "initial mix". If, as in our example, the `Tx0` generates multiple UTXOs for mixing, each of them will be integrated into a separate initial coinjoin.
@@ -164,10 +164,11 @@ After the initial mix, the UTXOs are transferred to the **postmix** account. Thi
 
 As a reminder, the remixes are then 100% free: no additional service fees or mining fees are required. Keeping the UTXOs in the **postmix** account thus maintains their value intact and simultaneously improves their anonsets. That's why it's important to allow these coins to participate in multiple coinjoin cycles. It costs you strictly nothing, and it increases their levels of anonymity.
 
-When you decide to spend mixed UTXOs, you can do so directly from this **postmix** account. It is advisable to keep the mixed UTXOs in this account to benefit from free remixes and to avoid them leaving the Whirlpool circuit, which could decrease their confidentiality.
+When you decide to spend mixed UTXOs, you can do so directly from this **postmix** account. It is advisable to keep the mixed UTXOs in this account to benefit from free remixes and to avoid them leaving the Whirlpool circuit, which could decrease their privacy.
 
 As we will see in the following tutorial, there is also the `mix to` option which offers the possibility to automatically send your mixed coins to another wallet, such as a cold wallet, after a defined number of coinjoins.
 After covering the theory, let's dive into practice with a tutorial on using Whirlpool through the Samourai Wallet Android app!
+
 ## Tutorial: Coinjoin Whirlpool on Samourai Wallet
 There are numerous options for using Whirlpool. The one I want to introduce here is the Samourai Wallet option (without Dojo), an open-source Bitcoin wallet management application on Android.
 
@@ -310,7 +311,7 @@ Once the `Tx0` is confirmed, your UTXOs will be automatically registered with th
 
 ![samourai](assets/notext/34.webp)
 
-By checking the `Remixing` tab, which corresponds to the **Postmix** account, you will observe the UTXOs resulting from the initial mixes. These coins will remain ready for subsequent remixing, which will not incur any additional fees. I recommend consulting this other article to learn more about the remixing process and the efficiency of a coinjoin cycle: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
+By checking the `Remixing` tab, which corresponds to the **Postmix** account, you will observe the UTXOs resulting from the initial mixes. These coins will remain ready for subsequent remixing, which will not incur any additional fees. I recommend consulting this other article to learn more about the remixing process and the efficiency of a coinjoin cycle: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 ![samourai](assets/notext/35.webp)
 
@@ -349,7 +350,7 @@ Enter the necessary information for your spending transaction, then click on the
 
 In the next step, you have the option to modify the fee rate associated with your transaction. You can also enable the Stonewall option by checking the corresponding box. If the Stonewall option is not selectable, it means that your **Postmix** account does not contain a UTXO of sufficient size to support this particular transaction structure.
 
-[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/stonewall)
+[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 If everything is to your satisfaction, click on the green `SEND ... BTC` button.
 
@@ -381,16 +382,18 @@ Whirlpool will automatically close. Wait for Samourai to finish loading, then op
 Make sure your SCODE has been correctly registered by clicking once more on the three small dots, then selecting `SCODE (promo code) Whirlpool`. If everything is in order, you are ready to start a new Whirlpool cycle with a discount on the service fees. It is important to note that these SCODEs are temporary: they remain valid for a few days before becoming obsolete.
 
 ## How to know the quality of our coinjoin cycles?
-For a coinjoin to be truly effective, it is essential that it demonstrates good uniformity between the amounts of inputs and outputs. This uniformity amplifies the number of possible interpretations in the eyes of an external observer, thereby increasing the uncertainty surrounding the transaction. To quantify this uncertainty generated by a coinjoin, one can resort to calculating the transaction's entropy. For an in-depth exploration of these indicators, I refer you to the tutorial: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). The Whirlpool model is recognized as the one that brings the most homogeneity to coinjoins.
+For a coinjoin to be truly effective, it is essential that it demonstrates good uniformity between the amounts of inputs and outputs. This uniformity amplifies the number of possible interpretations in the eyes of an external observer, thereby increasing the uncertainty surrounding the transaction. To quantify this uncertainty generated by a coinjoin, one can resort to calculating the transaction's entropy.
 
-Next, the performance of several coinjoin cycles is evaluated based on the extent of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy obtained against a retrospective analysis (from the present to the past) and the second, against a prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
+For an in-depth exploration of these indicators (the Whirlpool model is recognized as the one that brings the most homogeneity to coinjoins), I refer you to the tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
+
+Next, the performance of several coinjoin cycles is evaluated based on the extent of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy obtained against a retrospective analysis (from the present to the past) and the second, against a prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## How to manage postmix?
 After performing coinjoin cycles, the best strategy is to keep your UTXOs in the **postmix** account, waiting for their future use. It is even advisable to let them remix indefinitely until you need to spend them.
 
-Some users might consider transferring their mixed bitcoins to a wallet secured by a hardware wallet. This is possible, but it is important to follow the recommendations of Samourai Wallet meticulously so as not to compromise the acquired confidentiality.
+Some users might consider transferring their mixed bitcoins to a wallet secured by a hardware wallet. This is possible, but it is important to follow the recommendations of Samourai Wallet meticulously so as not to compromise the acquired privacy.
 
-The merging of UTXOs constitutes the most frequently made mistake. It is necessary to avoid combining mixed UTXOs with unmixed UTXOs in the same transaction, in order to avoid the CIOH (*Common-Input-Ownership-Heuristic*). This requires careful management of your UTXOs within your wallet, particularly in terms of labeling. Beyond coinjoin, merging UTXOs is generally a bad practice that often leads to a loss of confidentiality when not properly managed.
+The merging of UTXOs constitutes the most frequently made mistake. It is necessary to avoid combining mixed UTXOs with unmixed UTXOs in the same transaction, in order to avoid the CIOH (*Common-Input-Ownership-Heuristic*). This requires careful management of your UTXOs within your wallet, particularly in terms of labeling. Beyond coinjoin, merging UTXOs is generally a bad practice that often leads to a loss of privacy when not properly managed.
 You should also be vigilant about the consolidation of mixed UTXOs with each other. Moderate consolidations are possible if your mixed UTXOs have significant anonsets, but this will inevitably decrease the privacy of your coins. Ensure that consolidations are neither too large nor carried out after an insufficient number of remixes, as this risks establishing deducible links between your UTXOs before and after the coinjoin cycles. In case of doubt about these operations, the best practice is not to consolidate postmix UTXOs, and to transfer them one by one to your hardware wallet, generating a new blank address each time. Once again, remember to properly label each received UTXO.
 
 It is also advised against transferring your postmix UTXOs to a wallet using uncommon scripts. For example, if you enter Whirlpool from a multisig wallet using `P2WSH` scripts, there's little chance you'll be mixed with other users having the same type of wallet originally. If you exit your postmix to this same multisig wallet, the privacy level of your mixed bitcoins will be greatly diminished. Beyond scripts, there are many other wallet fingerprints that can trick you.
@@ -411,7 +414,11 @@ Next, you must be careful in managing doxxic change, the change that could not e
 Detailed tutorials on implementing these different techniques will be offered soon on PlanB Network.
 
 **Additional resources:**
-[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/samourai)
+[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Wallet Documentation - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter thread on coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blog post on coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
+
+
+

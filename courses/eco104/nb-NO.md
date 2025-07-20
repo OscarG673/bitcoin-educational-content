@@ -39,11 +39,12 @@ Dette kurset er sponset av TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Introduksjon
+## Kursoversikt
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Velkommen til ECO104-kurset!
 
-### Vi lever i en verden hvor:
+**Vi lever i en verden hvor:**
 
 ● Kun [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) av menneskene bor i samfunn som anses som "demokratisk frie." Likevel, selv innenfor denne privilegerte fraksjonen, er brudd på menneskerettigheter stadig mer vanlig – fra frosne bankkontoer til sensur. De resterende 80% sliter med inntrengingen av autoritært styre. Bare to tiår siden nøt nesten halvparten av verdens befolkning de mest grunnleggende frihetene.
 
@@ -62,7 +63,7 @@ Det sagt, dette kurset er ikke bare for de som står overfor galopperende inflas
 
 Med dette i tankene, er vår misjon å bringe deg frem til forgrunnen for endring i vårt nåværende finansielle landskap, utfordre de eksisterende normene og tilby alternative løsninger. Ved å dykke inn i pengenes historie, avmystifisere Bitcoin, og utforske Tether og verdenen av stablecoins, sikter vi mot å inspirere individer til å tenke nytt om deres finansielle fremtid.
 
-### Hva du kan forvente:
+**Hva du kan forvente:**
 
 **Modul 1: Fremskrittets Pris - Et Nærmere Blikk på Vårt Finansielle System**
 Vi begynner vår utforskning ved å titte bak kulissene av vårt nåværende finansielle system, hvor finansiell sensur, formuesulikhet og inflasjon plager vårt daglige liv. Gjennom en kort historie om penger, vil vi se på hvordan vi havnet der vi er, og kaste lys over noen av de primære smertepunktene vi alle opplever.
@@ -481,7 +482,7 @@ Før Bitcoins skapelse, la en håndfull visjonærer grunnlaget for Bitcoin da de
 
 #### Cypherpunkene
 
-Cypherpunkene er en gruppe teknologikyndige rebeller som kom sammen på 70-tallet for å kjempe for individuell frihet og borgerrettigheter ved hjelp av ett kraftfullt verktøy: kryptografi. De trodde at evnen til å kryptere informasjon ville gi folk kraften til å ta tilbake kontrollen fra sentraliserte autoriteter. Forestill deg å kunne holde din online kommunikasjon privat og sikker fra nysgjerrige øyne - det var det de kjempet for!
+Cypherpunkene er en gruppe teknologikyndige rebeller som kom sammen på 80-tallet for å kjempe for individuell frihet og borgerrettigheter ved hjelp av ett kraftfullt verktøy: kryptografi. De trodde at evnen til å kryptere informasjon ville gi folk kraften til å ta tilbake kontrollen fra sentraliserte autoriteter. Forestill deg å kunne holde din online kommunikasjon privat og sikker fra nysgjerrige øyne - det var det de kjempet for!
 
 En av de mest bemerkelsesverdige resultatene av Cypherpunkene var Cypherpunks e-postlisten, etablert i 1992. Gjennom listen kunne individer dele ideer og diskutere kryptografiske teknologier, digitale valutakonsepter og personvern-fokuserte initiativer. Dette førte til dannelsen av et fellesskap av likesinnede individer, inkludert utviklere, aktivister og forskere.
 
@@ -1628,11 +1629,11 @@ Må denne nyfunne forståelsen styrke deg til å navigere den utviklende verdene
 
 Fremtiden er lys!
 
-# Konklusjon
+# Siste seksjon
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Evaluer kurset
+## Vurderinger & Karakterer
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1640,35 +1641,4 @@ Fremtiden er lys!
 ## Konklusjon
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Gratulerer med fullført kurs!
-
-Vi er begeistret for at du har nådd denne milepælen i din lærereise.
-
-Gjennom din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg godt i din profesjonelle utvikling.
-
-For å fortsette å fordype deg i Bitcoin-universet, inviterer vi deg til å utforske alle de andre kursene som er tilgjengelige på Plan ₿ Network:
-
-#### Oppdag Bitcoin og dens grunnprinsipper med
-
-https://planb.network/courses/btc101
-
-#### Oppdater din nettsikkerhet med
-
-https://planb.network/courses/scu101
-
-#### Oppdag Lightning Network med
-
-https://planb.network/courses/lnp201
-
-#### Lær om den økonomiske tankegangen til den østerrikske skolen med
-
-https://planb.network/courses/eco201
-
-#### Oppdag historien om Bitcoins opprinnelse med
-
-https://planb.network/courses/his201
-
-#### Forstå fremveksten av hyperinflasjon med
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

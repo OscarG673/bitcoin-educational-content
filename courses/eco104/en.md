@@ -39,11 +39,12 @@ This course has been sponsored by TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Introduction
+## Course overview
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Welcome to the ECO104 course!
 
-### We live in a world where:
+**We live in a world where:**
 
 ● A mere [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) of people reside in societies deemed "democratically free." Yet, even within this privileged fraction, human rights violations are increasingly commonplace— from frozen bank accounts to censorship. The remaining 80% find themselves grappling with the encroachment of authoritarian rule. Just two decades ago, nearly half of the world's population enjoyed the most basic freedoms.
 
@@ -63,7 +64,7 @@ That said, this course isn't solely for those facing rampant inflation or limite
 
 With this in mind, our mission is to bring you up to the forefront of change in our current financial landscape, challenge the existing norms and offer alternative solutions. By delving into the history of money, demystifying Bitcoin, and exploring Tether and the world of stablecoins, we aim to inspire individuals to reimagine their financial future.
 
-### What to expect:
+**What to expect:**
 
 **Module 1: The Price of Progress - A Closer Look at Our Financial System**
 We begin our exploration by peering behind the curtains of our current financial system, where financial censorship, wealth inequality and inflation plague our daily lives. Through a brief history of money, we will look at how we found ourselves where we are, shedding light on some of the primary pain points we're all experiencing.
@@ -501,7 +502,7 @@ Before Bitcoin's creation, a handful of visionaries laid the groundwork for Bitc
 
 #### The Cypherpunks
 
-The Cypherpunks are a group of tech-savvy rebels who came together in the 70s to fight for individual freedom and civil liberties using one powerful tool: cryptography. They believed that the ability to encrypt information would give people the power to take back control from centralised authorities. Imagine being able to keep your online communication private and secure from prying eyes - that's what they were fighting for!
+The Cypherpunks are a group of tech-savvy rebels who came together in the 80s to fight for individual freedom and civil liberties using one powerful tool: cryptography. They believed that the ability to encrypt information would give people the power to take back control from centralised authorities. Imagine being able to keep your online communication private and secure from prying eyes - that's what they were fighting for!
 
 One of the most notable outcomes of the Cypherpunks was the Cypherpunks mailing list, established in 1992. Through the list, individuals could share ideas and discuss cryptographic technologies, digital currency concepts, and privacy-focused initiatives. This led to the formation of a community of like-minded individuals, including developers, activists, and researchers.
 
@@ -1720,11 +1721,11 @@ May this newfound understanding empower you to navigate the evolving world of fi
 
 The Future is Bright!
 
-# Conclusion
+# Final Section
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Evaluate the course
+## Reviews & Ratings
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1732,33 +1733,4 @@ The Future is Bright!
 ## Conclusion
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Congratulations on completing this course!
-
-We're thrilled that you've successfully reached this milestone in your learning journey. Through your dedication and engagement, you've gained valuable knowledge and skills that will serve you well in your professional development.
-
-To continue going deep down into the Bitcoin rabbit hole, we invite you to explore all the other courses available on Plan ₿ Network:
-
-#### Discover Bitcoin and its fundamentals with
-
-https://planb.network/courses/btc101
-
-#### Update your online security with
-
-https://planb.network/courses/scu101
-
-#### Discover the Lightning Network with
-
-https://planb.network/courses/lnp201
-
-#### Learn about the Economic Thought of the Austrian School with
-
-https://planb.network/courses/eco201
-
-#### Discover the history of Bitcoin origins with
-
-https://planb.network/courses/his201
-
-#### Understand the emergence of hyperinflations with
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

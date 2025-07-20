@@ -24,43 +24,31 @@ Nếu bạn cần sự giúp đỡ trong quá trình thực hiện, chúng tôi 
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Chào mừng!
+## Tổng quan về khóa học
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Chào mừng bạn đến với khoá học **MINING 201: Giới thiệu về đào bitcoin.** Ajelex, Jim & Rogzy rất vinh hạnh được đồng hành cùng bạn ở những bước đầu tiên trong hành trình khám phá ngành công nghiệp mới mẻ này. Chúng tôi hy vọng bạn sẽ thích khóa học và tham gia vào cuộc phiêu lưu đào bitcoin tại nhà!
+Chào mừng bạn đến với khóa học MIN201: Giới thiệu về đào tiền. Ajelex, Jim & Rogzy rất vui được hướng dẫn bạn những bước đầu tiên trong ngành này. Chúng tôi hy vọng bạn sẽ thích khóa học này và bắt đầu cuộc phiêu lưu với việc khai thác Bitcoin tại nhà!
 
-### Tổng quan về Khóa học
+Khóa học này sẽ đưa bạn đến trung tâm của ngành công nghiệp khai thác Bitcoin, cung cấp cho bạn cả kiến thức lý thuyết và thực hành. Dù bạn là người mới bắt đầu hay đã quen thuộc với chủ đề này, khóa học này sẽ giúp bạn hiểu được các khía cạnh kinh tế và kỹ thuật liên quan đến việc khai thác, đồng thời thực hiện một dự án thực tế để tái sử dụng ASIC cho việc sưởi ấm tại nhà.
 
-Trong khóa học này, phần đầu tiên sẽ tập trung vào lý thuyết về đào bitcoin cùng Ajelex. Chúng ta sẽ có những cuộc thảo luận sâu rộng về các chủ đề liên quan đến đào bitcoin, qua đó giúp chúng ta hiểu rõ hơn về ngành công nghiệp này cũng như các vấn đề kinh tế và địa chính trị liên quan đến nó.
+**Phần 2: Tìm hiểu tất cả về khai thác**  
+Trong phần này, chúng tôi sẽ cung cấp cho bạn sự hiểu biết sâu sắc về khai thác Bitcoin. Chúng tôi sẽ đề cập đến cách hoạt động kỹ thuật của việc khai thác, vai trò của nó trong giao thức Bitcoin, cũng như các tác động kinh tế và địa chính trị. Bạn cũng sẽ tìm hiểu mối quan hệ phức tạp giữa giá bitcoin và hashrate, cũng như các vấn đề liên quan đến chủ quyền và quy định trong ngành này.
 
-Trong phần thứ hai, chúng ta sẽ bắt tay vào một bài thực hành thú vị, học cách biến đổi một máy đào S9 đã qua sử dụng thành một hệ thống sưởi cho gia đình. Thông qua hướng dẫn viết và video, tất cả các bước cần thiết sẽ được giải thích tỉ mỉ, đảm bảo bạn có thể thực hiện thành công dự án sáng tạo này.
+**Phần 3: Khai thác tại nhà và tái sử dụng nhiệt**  
+Tiếp theo, chúng tôi sẽ đi sâu vào ứng dụng thực tế với khái niệm Attakai, nhằm mục đích phổ biến khai thác tại nhà bằng cách chuyển đổi các máy đào S9 đã qua sử dụng thành thiết bị sưởi ấm gia đình. Bạn sẽ học cách mua và sửa đổi một ASIC đã qua sử dụng, chuẩn bị các thiết bị cần thiết cho việc sửa đổi phần cứng.
 
-Hành trình học tập này sẽ cho bạn thấy rằng ngành công nghiệp đào bitcoin phức tạp hơn vẻ ngoài của nó và việc nghiên cứu về ngành này sẽ làm rõ cuộc tranh luận về môi trường liên quan đến nó!
-Nếu bạn cần sự giúp đỡ trong quá trình thực hiện, chúng tôi đã tạo một nhóm Telegram dành cho học viên, và tất cả các linh kiện cần thiết có thể tìm thấy trên nền tảng thương mại điện tử của chúng tôi.
+**Phần 4: Attakai - Cấu hình phần mềm của Antminer S9**  
+Ở đây, bạn sẽ học cách cấu hình Antminer S9 của mình cho mục đích sử dụng tại nhà. Chúng tôi sẽ hướng dẫn bạn từng bước trong việc thiết lập cầu nối Wi-Fi/Ethernet, đặt lại thiết bị, cài đặt BraiinsOS+ và tối ưu hóa thiết bị cho việc khai thác.
 
-### Chương trình học:
+**Phần 5: Attakai - Sửa đổi quạt làm mát**  
+Để tối ưu hóa Antminer S9 của bạn như một thiết bị sưởi phụ trợ, phần này sẽ hướng dẫn bạn cách thay thế quạt nguồn và quạt chính. Những thay đổi này là cần thiết để giảm tiếng ồn và cải thiện hiệu quả nhiệt của thiết bị.
 
-Phần Lý thuyết:
+**Phần 6: Attakai - Cấu hình**  
+Cuối cùng, bạn sẽ học cách tham gia một pool khai thác và tối ưu hóa hiệu suất của Antminer S9. Bạn sẽ khám phá cách đạt được hiệu suất năng lượng tối ưu và khai thác satoshi đầu tiên của mình một cách hiệu quả.
 
-- Giải thích về hoạt động đào bitcoin.
-- Ngành công nghiệp đào bitcoin.
-- Những nét đặc trưng của ngành công nghiệp đào bitcoin.
-- Đào bitcoin trong giao thức Bitcoin.
-- Giá bitcoin và Hashrate, một sự tương quan?
-- Chủ quyền và Quy định quản lý
-- Phỏng vấn với một chuyên gia của ngành công nghiệp đào bitcoin
+Sẵn sàng khám phá thế giới khai thác Bitcoin và chinh phục thử thách thực hành với Attakai? Hãy bắt đầu nào!
 
-Phần Thực hành: Attakai
-
-- Giới thiệu về Attakai.
-- Hướng dẫn mua hàng.
-- Chỉnh sửa phần mềm của Antminer S9.
-- Thay thế quạt để giảm tiếng ồn.
-- Cấu hình Pool.
-- Cấu hình Antminer S9 với Braiins OS+.
-
-Bạn đã sẵn sàng để tham gia vào cuộc phiêu lưu hấp dẫn này? Hãy cùng nhau khám phá thế giới thú vị của đào bitcoin tại nhà!
 
 # Tất cả những gì bạn cần biết về đào bitcoin
 
@@ -204,7 +192,6 @@ Có nhiều suy đoán về việc sử dụng không gian khối trong tương 
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Ai nắm giữ quyền lực? Bitcoin, Năng lượng, và Nhà sản xuất](https://www.youtube.com/watch?v=4wywK6BfDw8)
 Vai trò của các thợ đào trong mạng lưới Bitcoin đã là đề tài tranh luận sôi nổi trong giai đoạn cuộc chiến kích thước khối - "block size wars". Mặc dù là yếu tố thiết yếu cho sự an toàn và chức năng của mạng lưới, các thợ đào không nhất thiết nắm giữ quyền lực tối thượng trong hệ sinh thái Bitcoin. Sự cân bằng giữa thợ đào, người vận hành node và người dùng cuối đảm bảo tính toàn vẹn và phân tán của mạng lưới.
 
 ### Cuộc chiến kích thước khối
@@ -245,7 +232,6 @@ Tóm lại, các thợ đào củng cố mạng lưới Bitcoin, chống lại s
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Làm thế nào để có được một bitcoin sạch?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, giá bitcoin, và lợi nhuận
 
@@ -305,13 +291,6 @@ Với vấn đề về khả năng cấm đào bitcoin ở Châu Âu, các cuộ
 
 Kết luận, mặc dù có rủi ro quy định và khả năng cấm đào bitcoin ở Châu Âu, vũ khí mạnh mẽ nhất vẫn là giáo dục và thông tin. Sự hiểu biết rõ ràng và chính xác về đào bitcoin, cách thức hoạt động và tác động của nó có thể giúp làm sáng tỏ ngành công nghiệp và chống lại các thông tin sai lệch, từ đó cung cấp khả năng chống chịu tốt hơn trước các quy định gây hại tiềm tàng. Sáng kiến đào tạo và thông tin cho mọi người về khai thác, như cuộc thảo luận này, là một bước đi đúng hướng để đảm bảo sự bền vững và phát triển của hoạt động đào bitcoin ở Châu Âu và trên toàn thế giới. Nỗ lực liên tục để giáo dục và thông tin là cần thiết để đảm bảo một tương lai an toàn và thịnh vượng cho ngành công nghiệp đào bitcoin.
 
-## Phỏng vấn với một chuyên gia ngành công nghiệp khai thác
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Hậu trường của ngành công nghiệp đào bitcoin - Sebastien Gouspillou
-
-![Hậu trường của ngành đào bitcoin - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Khai thác tại nhà và tái sử dụng nhiệt
 
@@ -321,7 +300,6 @@ Kết luận, mặc dù có rủi ro quy định và khả năng cấm đào bit
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-![Trân trọng giới thiệu tới bạn về Attakaï !](https://www.youtube.com/watch?v=gKoh44UCSnE&t=3s)
 
 Attakai, có nghĩa là "nhiệt độ lý tưởng" trong tiếng Nhật, là tên của sáng kiến đào bitcoin bằng cách tái sử dụng nhiệt được khởi xướng bởi @ajelexBTC và @jimzap21 với sự hỗ trợ từ Découvre Bitcoin.
 Hướng dẫn cải tiến ASIC này là cơ hội để tìm hiểu thêm về đào bitcoin, cách thức hoạt động và nền kinh tế liên quan bằng cách chứng minh khả năng sử dụng một máy đào bitcoin như là một máy sưởi trong nhà. Điều này không chỉ mang lại nhiều sự thoải mái mà còn tiết kiệm chi phí, đồng thời mang lại phần thưởng bằng bitcoin không cần KYC từ hoá đơn tiền điện sưởi ấm của mình.
@@ -369,7 +347,6 @@ Khi vừa ra khỏi nhà máy, một máy đào không phù hợp để sử d�
 
 <chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
-![Giới thiệu về Attakaï - Khởi động với Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 
 Trong phần này, chúng ta sẽ thảo luận về các phương pháp tốt nhất để mua một máy đào Bitmain Antminer S9 cũ, thiét bị sẽ được sử dụng để chuyển đổi thành một máy sưởi thông qua hướng dẫn này. Hướng dẫn này cũng áp dụng cho các mẫu ASIC khác vì đây là một hướng dẫn mua hàng cũ chung cho các loại máy đào.
 
@@ -426,7 +403,6 @@ Tóm tắt hướng dẫn này trong một câu: **"Đừng tin, hãy kiểm ch�
 
 <chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
-![Giới thiệu về Attakaï - Khởi động với Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 
 Là chủ sở hữu của một Antminer S9, chắc hẳn bạn đã biết rằng thiết bị này có thể tạo ra tiếng ồn và rất cồng kềnh. Tuy nhiên, bạn có thể biến nó thành một bộ sưởi ấm yên tĩnh và kết nối với một số thao tác đơn giản. Trong phần này, chúng tôi sẽ giới thiệu các thiết bị cần thiết để thực hiện các chỉnh sửa.
 
@@ -777,11 +753,11 @@ Ngày nay, có một tiến bộ mới trong lĩnh vực phần mềm và firmwa
 
 Kết quả cuối cùng là tốc độ hash cao hơn trên mỗi watt điện năng tiêu thụ, điều này có nghĩa là lợi nhuận lớn hơn cho các thợ đào. Lý do tại sao các máy không được phân phối với loại phần mềm này là vì sự biến động của máy là không mong muốn, vì khách hàng muốn biết chính xác họ đang nhận được cái gì, vì vậy việc bán một sản phẩm không có hiệu suất nhất quán và dự đoán được từ máy này sang máy khác là ý tưởng tồi cho các nhà sản xuất. Ngoài ra, autotuning ở cấp độ chip đòi hỏi nguồn lực phát triển đáng kể, vì nó phức tạp để triển khai. Các nhà sản xuất đã chi rất nhiều nguồn lực để phát triển firmware của riêng họ. Có các giải pháp phần mềm cho phép autotuning, như Braiins OS+, có thể cải thiện hiệu suất ASIC lên đến 20%.
 
-# Kết luận
+# Phần cuối
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Đánh giá khóa học này
+## Nhận xét & Đánh giá
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -794,30 +770,4 @@ Kết quả cuối cùng là tốc độ hash cao hơn trên mỗi watt điện 
 ## Kết luận
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Chúc mừng bạn đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
-
-Thông qua sự cống hiến và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
-
-Để tiếp tục khám phá sâu hơn về vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
-
-#### Khám phá Bitcoin và những điều cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Khám phá Lightning Network với
-
-https://planb.network/courses/lnp201
-
-#### Làm chủ các nguyên tắc về quyền riêng tư trên Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Khám phá lịch sử nguồn gốc của Bitcoin với
-
-https://planb.network/courses/his201
-
-#### Hiểu cách hoạt động của ví Bitcoin với
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

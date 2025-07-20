@@ -24,41 +24,31 @@ Kui vajate oma seadistusega abi, on õpilastele loodud Telegrami grupp ja kõik 
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Tere tulemast!
+## Kursuse ülevaade
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tere tulemast MINING 201: kaevandamisele sissejuhatusesse. Ajelex, Jim & Rogzy on põnevil, et saata teid teie esimestel konkreetsetel sammudel selles uues tööstuses. Loodame, et naudite kursust ja liitute kodukaevandamise seiklusega!
+Tere tulemast kursusele MIN201: Sissejuhatus kaevandamisse. Ajelex, Jim & Rogzy on rõõmsad, et saavad teid juhendada teie esimestel sammudel selles valdkonnas. Loodame, et naudite kursust ja asute home mining seiklusele!
 
-### Kursuse Ülevaade
+See koolitus viib teid Bitcoini kaevandamise tööstuse südamesse, pakkudes teoreetilisi ja praktilisi teadmisi. Olenemata sellest, kas olete algaja või juba teema kohta teadlik, aitab see kursus teil mõista kaevandamise majanduslikke ja tehnilisi aspekte ning viia ellu praktiline projekt ASIC-seadme taaskasutamiseks kodukütteks.
 
-Sellel kursusel keskendub esimene osa kaevandamise teooriale koos Ajelexiga. Meil on põhjalikud arutelud erinevatel kaevandamisega seotud teemadel, mis aitavad meil paremini mõista seda tööstust ja sellega seotud majanduslikke ja geopoliitilisi küsimusi.
+**Osa 2: Kõik kaevandamisest**  
+Selles osas pakume teile põhjalikku arusaamist Bitcoini kaevandamisest. Käsitleme kaevandamise tehnilist toimimist, selle rolli Bitcoini protokollis ja majanduslikke ja geopoliitilisi mõjusid. Samuti uurite keerulist suhet Bitcoini hinna ja hashrate vahel ning suveräänsuse ja regulatsiooniga seotud küsimusi selles valdkonnas.
 
-Teises osas asume põnevale praktilisele juhtumile, õppides, kuidas muuta kasutatud S9 kaevur koduseks küttesüsteemiks. Kirjalike juhendite ja videote kaudu selgitatakse kõiki vajalikke samme, tagades teie edu selles uuenduslikus projektis.
+**Osa 3: Home-mining ja soojuse taaskasutamine**  
+Seejärel süveneme praktilisse rakendusse Attakai kontseptsiooni kaudu, mille eesmärk on demokratiseerida home-mining, muutes kasutatud S9 kaevandajad kodukütte seadmeteks. Õpid, kuidas osta ja muuta kasutatud ASIC-seadet, valmistades samal ajal ette vajaliku varustuse riistvara modifikatsioonide jaoks.
 
-See õppereis näitab teile, et kaevandamistööstus on keerulisem, kui paistab, pakkudes tasakaalustatud vaadet sellega seotud ökoloogilisele debatile. Pidev abi on saadaval õpilastele mõeldud Telegrami grupi kaudu ja kõik vajalikud komponendid on kergesti kättesaadavad meie e-kaubanduse platvormil.
+**Osa 4: Attakai - Antminer S9 tarkvara muutmine**  
+Siin õpid, kuidas oma Antminer S9 koduseks kasutamiseks konfigureerida. Juhendame teid läbi Wi-Fi/Ethernet bridge'i seadistamise, seadme lähtestamise, BraiinsOS+ installimise ja selle optimaalseks kaevandamiseks seadistamise.
 
-### Õppekava:
+**Osa 5: Attakai - Ventilaatorite muutmine**  
+Selleks, et optimeerida oma Antminer S9 kasutamist lisakütteseadmena, õpetab see osa teid, kuidas vahetada toiteventilaatorid ja peamised ventilaatorid. Need muudatused on hädavajalikud müra vähendamiseks ja seadme termilise tõhususe parandamiseks.
 
-Teoreetiline osa:
+**Osa 6: Attakai - Seadistamine**  
+Lõpuks õpid, kuidas liituda kaevandamis-pooliga ja optimeerida oma Antminer S9 jõudlust. Avastad, kuidas saavutada optimaalne energiakasutuse tõhusus ja tõhusalt oma esimesi satoshisid kaevandada.
 
-- Kaevandamise selgitus.
-- Kaevandamistööstus.
-- Kaevandamistööstuse nüansid.
-- Kaevandamine Bitcoin protokollis.
-- Bitcoini hind ja hashrate, korrelatsioon? Suveräänsus ja regulatsioon
-- Intervjuu kaevandamistööstuse professionaaliga
+Kas olete valmis avastama Bitcoini kaevandamise maailma ja läbima praktilise Attakai väljakutse? Alustame!
 
-Praktiline osa: Attakai
-
-- Attakai tutvustus.
-- Ostujuhend.
-- Antminer S9 tarkvara muutmine.
-- Ventilaatorite vahetamine müra vähendamiseks.
-- Basseini konfiguratsioon.
-- Antminer S9 konfigureerimine Braiins OS+ abil.
-
-Valmis sukelduma sellesse põnevasse seiklusse? Sukeldugem koos kodukaevandamise huvitavasse maailma!
 
 # Kõik, mida pead teadma kaevandamisest
 
@@ -202,7 +192,6 @@ Spekulatsioonid ümbritsevad ploki ruumi tulevast kasutust, kuid üldiselt aktse
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Kes hoiab võimu? Bitcoin, energia ja tootjad](https://www.youtube.com/watch?v=4wywK6BfDw8)
 Kaevurite roll Bitcoin'i võrgus on olnud intensiivse arutelu objektiks plokkide suuruse sõdade ajal. Kuigi nad on võrgu turvalisuse ja funktsionaalsuse jaoks hädavajalikud, ei oma kaevurid Bitcoin'i ökosüsteemis tingimata lõplikku võimu. Tasakaal kaevurite, sõlmede ja lõppkasutajate vahel tagab võrgu terviklikkuse ja jaotuse.
 
 ### Plokkide Suuruse Sõjad
@@ -243,7 +232,6 @@ Kokkuvõtteks, kaevurid tugevdavad Bitcoini võrgustikku tsensuuri vastu, kasuta
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Kuidas saada puutumata ja puhast bitcoini?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, hind ja kasumlikkus
 
@@ -300,13 +288,6 @@ Kampaaniatega nagu Greenpeace'i oma ja mõnede uuringute sageli eksitavate andme
 
 Järelduseks, hoolimata regulatiivsest riskist ja kaevandamiskeelu võimalusest Euroopas, jääb kõige võimsamaks relvaks haridus ja teave. Selge ja täpne arusaam kaevandamisest, selle toimimisest ja mõjust võib aidata demüstifitseerida tööstust ja võidelda väärinfo vastu, pakkudes seeläbi paremat vastupanu potentsiaalselt kahjulikele regulatsioonidele. Inimeste koolitamise ja teavitamise algatus kaevandamise kohta, nagu see arutelu teeb, on samm õiges suunas, et tagada kaevandamise jätkusuutlikkus ja kasv Euroopas ning üle maailma. Pidevad jõupingutused harida ja teavitada on hädavajalikud, et tagada Bitcoini kaevandamise tööstuse turvaline ja edukas tulevik.
 
-## Intervjuu kaevandustööstuse professionaaliga
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Tööstusliku kaevandamise telgitagused - Sebastien Gouspillou
-
-![Tööstuskaevandamise telgitagused - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Kodukaevandamine ja soojuse taaskasutus
 
@@ -768,11 +749,11 @@ See seab ülemise piiri masina hashimiskiirusele. Autotuning on protsess, kus al
 
 Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele suuremaid kasumimarginaale. Põhjus, miks masinaid ei jaotata sellise tarkvaraga, on see, et masinate varieeruvus on ebasoovitav, kuna kliendid soovivad täpselt teada, mida nad saavad, seega on tootjate jaoks halb mõte müüa toodet, millel ei ole ühelt masinalt teisele järjepidevat ja etteaimatavat jõudlust. Lisaks nõuab kiibi tasemel autotuning märkimisväärseid arendusressursse, kuna selle rakendamine on keeruline. Tootjad kulutavad juba palju ressursse oma püsivara arendamisele. On olemas tarkvaralahendusi, mis võimaldavad autotuningut, nagu näiteks Braiins OS+. Lisaks ASIC-i jõudluse parandamisele kuni 20%.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Hinda seda kursust
+## Hinnangud & Reitingud
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -785,30 +766,4 @@ Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele s
 ## Kokkuvõte
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Õnnitleme kursuse lõpetamise puhul!
-
-Meil on hea meel, et olete jõudnud selle olulise tähiseni oma õpiteel.
-
-Tänu teie pühendumisele ja pühendumusele olete omandanud väärtuslikke teadmisi ja oskusi, mis teenivad teid teie professionaalses arengus.
-
-Bitcoini universumi põhjalikumaks uurimiseks kutsume teid avastama kõiki teisi Plan ₿ Networkis saadaolevaid kursusi:
-
-#### Avastage Bitcoin ja selle põhitõed kursusega
-
-https://planb.network/courses/btc101
-
-#### Avastage Lightning Network kursusega
-
-https://planb.network/courses/lnp201
-
-#### Omandage Bitcoini privaatsuse põhimõtted
-
-https://planb.network/courses/btc204
-
-#### Avastage Bitcoini päritolu ajalugu kursusega
-
-https://planb.network/courses/his201
-
-#### Mõistke, kuidas Bitcoin rahakott töötab, kursusega
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

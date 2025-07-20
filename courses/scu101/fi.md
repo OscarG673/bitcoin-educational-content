@@ -26,11 +26,11 @@ Théo; panos
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Kurssin esittely
+## Kurssin yleiskatsaus
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Tavoite: Päivitä turvallisuustaitosi!
+**Tavoite: Päivitä turvallisuustaitosi!**
 
 Tervetuloa kaikille tähän digitaalisen turvallisuuden koulutusohjelmaan. Tämä koulutus on suunniteltu kaikille saavutettavaksi, joten aiempaa tietotekniikan osaamista ei vaadita. Päätavoitteenamme on tarjota teille tietoa ja taitoja, jotka ovat tarpeen digitaalisessa maailmassa turvallisemmin ja yksityisemmin liikkumiseen.
 
@@ -40,13 +40,13 @@ Tämä koulutus on kolmen professorimme yhteistyö:
 
 - Renaud Lifchitz, kyberturvallisuuden asiantuntija
 - Théo Pantamis, sovelletun matematiikan tohtori
-- Rogzy, DécouvreBitcoinin toimitusjohtaja
+- Rogzy, Plan ₿ Networkin perustaja
 
 Digitaalinen hygienia on ratkaisevan tärkeää yhä digitaalisemmassa maailmassa. Hakkeroinnin ja massavalvonnan jatkuvasta kasvusta huolimatta ei ole liian myöhäistä ottaa ensimmäistä askelta ja suojata itseäsi.
 Tässä koulutuksessa emme yritä tehdä sinusta asiantuntijaa, anonyymiä tai haavoittumatonta, sillä se on mahdotonta. Sen sijaan tarjoamme sinulle joitakin yksinkertaisia ja saavutettavia ratkaisuja kaikille aloittamaan online-tapojen muuttamisen ja digitaalisen suvereniteettisi takaisin saamisen.
 Jos etsit aiheesta edistyneempiä taitoja, resurssimme, tutoriaalimme tai muut kyberturvallisuuskoulutuksemme ovat käytettävissäsi. Sillä välin tässä on lyhyt yleiskatsaus ohjelmastamme seuraavien yhdessä vietettyjen tuntien aikana.
 
-### Osa 1: Kaikki mitä sinun tarvitsee tietää online-selailusta
+**Osa 1: Kaikki mitä sinun tarvitsee tietää online-selailusta**
 
 - Luku 1 - Online-selailu
 - Luku 2 - Internetin turvallinen käyttö
@@ -55,13 +55,13 @@ Aloitamme keskustelemalla web-selaimen valinnan tärkeydestä ja sen merkitykses
 
 ![](assets/en/1.webp)
 
-### Osa 2: Parhaat käytännöt tietokoneen käytössä
+**Osa 2: Parhaat käytännöt tietokoneen käytössä**
 
 - Luku 3 - Tietokoneen käyttö
 - Luku 4 - Hakkerointi & varmuuskopioiden hallinta
   Tässä osiossa käsittelemme kolmea tietoturvan keskeistä aluetta. Ensiksi tutustumme eri käyttöjärjestelmiin: Mac, PC ja Linux, korostaen niiden erityispiirteitä ja vahvuuksia. Sen jälkeen syvennymme menetelmiin, joilla voidaan tehokkaasti suojautua hakkerointiyrityksiltä ja vahvistaa laitteidesi turvallisuutta. Lopuksi korostamme säännöllisen suojauksen ja datan varmuuskopioinnin tärkeyttä, jotta voit välttää tietojen menetyksen tai kiristyshaittaohjelmat.![](assets/en/2.webp)
 
-### Osa 3: Ratkaisujen toteuttaminen
+**Osa 3: Ratkaisujen toteuttaminen**
 
 - Luku 6 - Sähköpostinhallinta
 - Luku 7 - Salasananhallinta
@@ -72,6 +72,7 @@ Tässä käytännönläheisessä kolmannessa osassa siirrymme konkreettisten rat
 Ensin näemme, miten suojata sähköpostilaatikkosi, joka on olennainen viestintävälineesi ja usein hakkerien kohteena. Sen jälkeen esittelemme sinulle salasananhallinnan: käytännöllisen ratkaisun, jolla et enää unohda tai sekoita salasanojasi samalla kun pidät ne turvassa. Lopuksi keskustelemme lisäturvatoimesta, kahden tekijän tunnistautumisesta, joka lisää ylimääräisen suojakerroksen tileillesi. Kaikki selitetään selkeästi ja ymmärrettävästi.
 ![](assets/en/3.webp)
 
+Oletko valmis vahvistamaan digitaalista turvallisuuttasi ja ottamaan hallinnan takaisin tietoihisi? Mennään!
 # Kaikki mitä sinun tarvitsee tietää online-selailusta
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -113,7 +114,7 @@ Edistyneempi vaihtoehto on TOR (The Onion Router) -verkko, joka tarjoaa nimettö
 TOR on laillinen ja sitä käyttävät toimittajat, vapauden aktivistit ja muut, jotka haluavat välttää sensuuria autoritaarisissa maissa. On kuitenkin tärkeää ymmärtää, että TOR ei turvaa vierailtuja sivustoja tai itse tietokonetta. Lisäksi TORin käyttö voi hidastaa internet-yhteyttä, sillä tiedot kulkevat kolmen muun ihmisen tietokoneiden kautta ennen määränpäähänsä saapumista. On myös olennaista huomata, että TOR ei ole virheetön ratkaisu taatakseen 100 %:n nimettömyyden eikä sitä tulisi käyttää laittomiin toimiin.
 ![](assets/notext/7.webp)
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN ja internet-yhteys
 
@@ -132,9 +133,9 @@ VPN:itä on kahta päätyyppiä: yritys-VPN:t ja kuluttaja-VPN:t, kuten NordVPN.
 Kuitenkin kuluttajakäyttöön tarkoitetun VPN:n käyttäminen ei takaa täydellistä anonyymiyttä. Monet VPN-palveluntarjoajat säilyttävät tietoja käyttäjistään, mikä voi mahdollisesti vaarantaa heidän anonyymiytensä. Vaikka VPN:t voivat olla hyödyllisiä online-turvallisuuden parantamisessa, ne eivät ole universaali ratkaisu. Ne ovat tehokkaita tietyissä erityiskäytöissä, kuten maantieteellisesti rajoitettujen palveluiden käyttämisessä tai turvallisuuden parantamisessa matkustaessa, mutta ne eivät takaa täydellistä turvallisuutta. VPN:n valinnassa on olennaista asettaa luotettavuus ja teknisyys suosion edelle. VPN-palveluntarjoajat, jotka keräävät vähiten henkilökohtaisia tietoja, ovat yleensä turvallisimpia. Palvelut kuten iVPN ja Mullvad eivät kerää henkilökohtaisia tietoja ja sallivat jopa maksut Bitcoinilla lisätyn yksityisyyden vuoksi. ![](assets/notext/9.webp)
 Lopuksi VPN:tä voidaan käyttää myös online-mainosten estämiseen, tarjoten nautinnollisemman ja turvallisemman selauskokemuksen. On kuitenkin tärkeää tehdä oma tutkimus löytääkseen VPN:n, joka parhaiten sopii omiin erityistarpeisiin. VPN:n käyttöä suositellaan turvallisuuden parantamiseksi, myös kotona internetiä selatessa. Tämä auttaa varmistamaan korkeamman turvallisuustason online-vaihdetulle datalle. Lopuksi, varmista tarkistaa URL-osoitteet ja pieni lukko osoiterivillä vahvistaaksesi, että olet sivustolla, jolla aiot vierailla.
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & julkiset Wi-Fi-verkot
 
@@ -230,13 +231,13 @@ EI, yleisesti ottaen hakkerien maksamista ei suositella lunasohjelmien tai muide
 
 Jos havaitset viruksen tietokoneellasi, katkaise yhteys internetiin, suorita täysi virustorjuntaskannaus ja poista tartunnan saaneet tiedostot. Sen jälkeen, päivitä ohjelmistosi ja käyttöjärjestelmäsi, ja vaihda salasanasi estääksesi lisäintruusiot.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Ratkaisujen toteuttaminen.
 
-<partId>15ec9022-ba05-5549-87fc-cb8d82665f7b</partId>
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Sähköpostitilien hallinta
 
@@ -265,7 +266,7 @@ On suositeltavaa käyttää verkkosivustoa Have I Been Pwned (https://haveibeenp
 Yleisesti ottaen uuden, turvallisemman sähköpostiosoitteen käyttöönotto ei ole huono käytäntö ja jopa tarpeellista, jos haluaa aloittaa alusta terveellä pohjalla.
 Bonus Bitcoin: Saattaa olla suositeltavaa luoda erityinen sähköpostiosoite Bitcoin-toimintoihimme (vaihtotilien luominen) erottaaksemme todella elämämme toiminta-alueet toisistaan.
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Salasananhallintaohjelma
 
@@ -306,9 +307,9 @@ Vahvan salasanan luomiseksi suositellaan käyttämään suurta määrää satunn
 
 Satunnaisesti generoidut salasanat tarjoavat korkeamman turvallisuustason, vaikkakin ne saattavat olla vaikeampia muistaa. Salasanojen hallintajärjestelmät voivat generoida turvallisempia satunnaisia salasanoja. Salasanojen hallintajärjestelmää käyttämällä sinun ei tarvitse muistaa kaikkia salasanojasi. On tärkeää vaihtaa vanhat salasanasi vähitellen hallintajärjestelmän generoimiin, sillä ne ovat vahvempia ja pidempiä. Varmista, että salasanojen hallintajärjestelmäsi pääsalasana on myös vahva ja turvallinen.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Kahden tekijän tunnistautuminen
 
@@ -349,9 +350,9 @@ Jatka oppimista ja toteuta hyviä käytäntöjä asteittain!
 
 Kultainen sääntö: Kyberturvallisuus on liikkuva maali, joka mukautuu oppimismatkasi mukaan!
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Käytännön osio
 
@@ -363,7 +364,7 @@ https://planb.network/tutorials/others/security-key
 
 Sähköpostilaatikon suojaaminen on tärkeä askel online-toimintojen turvaamiseksi ja henkilökohtaisten tietojen suojaamiseksi. Tämä opas opastaa sinua askel askeleelta ProtonMail-tilin luomisessa ja konfiguroinnissa, palveluntarjoajassa, joka tunnetaan korkeasta turvallisuustasostaan ja tarjoaa viestiesi päästä päähän -salausta. Olitpa sitten aloittelija tai kokenut käyttäjä, täällä esitetyt parhaat käytännöt auttavat sinua vahvistamaan sähköpostisi turvallisuutta hyödyntäen samalla ProtonMailin edistyneitä ominaisuuksia:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 2FA:n turvaaminen
 
@@ -371,11 +372,11 @@ https://planb.network/tutorials/others/proton-mail
 
 Kaksivaiheinen todennus (2FA) on tullut oleelliseksi verkkotilien suojaamiseksi. Tässä oppaassa opit, kuinka määrittää ja käyttää 2FA-sovellusta Authy, joka luo dynaamisia 6-numeroisia koodeja tiliesi suojaamiseksi. Authy on erittäin helppokäyttöinen ja synkronoitavissa useille laitteille. Opi asentamaan ja konfiguroimaan Authy ja vahvista näin online-tiliesi turvallisuutta heti:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Toinen vaihtoehto on käyttää fyysistä turvakilpeä. Tämä toinen opas näyttää, kuinka määrittää ja käyttää turvakilpeä toisen autentikointitekijäna:
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Salasananhallintaohjelman luominen
 
@@ -385,11 +386,11 @@ Salasanojen hallinta on digitaalisen aikakauden haaste. Meillä kaikilla on luku
 
 Tässä oppaassa opit, kuinka määrittää Bitwarden, avoimen lähdekoodin salasananhallintaohjelma, ja kuinka synkronoida tunnistetietosi kaikilla laitteillasi yksinkertaistaaksesi päivittäistä käyttöä:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kokenutta käyttäjää varten tarjoan myös oppaan toisen ilmaisen ja avoimen lähdekoodin ohjelmiston käytöstä salasanojesi hallintaan paikallisesti:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Tilien turvaaminen
 
@@ -397,21 +398,9 @@ https://planb.network/tutorials/others/keepass
 
 Näissä kahdessa tutoriaalissa opastan sinua myös online-tiliesi suojaamisessa ja selitän, miten voit vähitellen omaksua turvallisempia käytäntöjä salasanojesi päivittäisessä hallinnassa.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
-
-## Varmuuskopiointiasetukset
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Henkilökohtaisten tiedostojen suojaaminen on myös olennaista. Tämä opas näyttää, kuinka ottaa käyttöön tehokas varmuuskopiointistrategia Proton Drive'n avulla. Opi käyttämään tätä turvallista pilvipalveluratkaisua 3-2-1-menetelmän soveltamiseen: kolme kopiota tiedoistasi kahdessa eri tallennusvälineessä, joista yksi kopio on sivuston ulkopuolella. Näin varmistat arkaluonteisten tiedostojesi saatavuuden ja turvallisuuden:
-
-https://planb.network/tutorials/others/proton-drive
-
-Ja suojataksesi USB-tikulla tai ulkoisella kovalevyllä tallennettuja tiedostoja, näytän myös, miten voit helposti salata ja purkaa näitä tallennusvälineitä VeraCryptin avulla:
-
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Selaimen vaihto & VPN
 
@@ -421,13 +410,25 @@ Verkkoprivasiutesi suojaaminen on myös olennaista turvallisuutesi varmistamisek
 
 Ehdotan, että tutustut kahteen luotettavaan VPN-ratkaisuun, joita voi maksaa bitcoinilla, nimittäin IVPN ja Mullvad. Nämä tutoriaalit opastavat sinua asentamaan, konfiguroimaan ja käyttämään Mullvadi tai IVPN:iä kaikilla laitteillasi:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lisäksi opi käyttämään Tor Browseria, selainta, joka on erityisesti suunniteltu suojaamaan online-p私siuttasi:
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Varmuuskopiointiasetukset
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Henkilökohtaisten tiedostojen suojaaminen on myös olennaista. Tämä opas näyttää, kuinka ottaa käyttöön tehokas varmuuskopiointistrategia Proton Drive'n avulla. Opi käyttämään tätä turvallista pilvipalveluratkaisua 3-2-1-menetelmän soveltamiseen: kolme kopiota tiedoistasi kahdessa eri tallennusvälineessä, joista yksi kopio on sivuston ulkopuolella. Näin varmistat arkaluonteisten tiedostojesi saatavuuden ja turvallisuuden:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Ja suojataksesi USB-tikulla tai ulkoisella kovalevyllä tallennettuja tiedostoja, näytän myös, miten voit helposti salata ja purkaa näitä tallennusvälineitä VeraCryptin avulla:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Syvennä osaamistasi
 
@@ -476,7 +477,7 @@ Hallitsemalla näitä taitoja ja työkaluja, olet hyvin varustautunut navigoimaa
 
 ### Tehokas salasanojen hallinta ja autentikoinnin vahvistaminen: Akateeminen lähestymistapa
 
-Koulutusmoduulissa "Security 101", jonka Découvre Bitcoin tarjoaa Akatemiassaan, keskustelimme salasanojen hallintajärjestelmien tärkeydestä. Kolme ulottuvuutta ovat olennaisia: salasanojen luominen, päivittäminen ja käyttöönotto verkkosivustoilla.
+Kolme keskeistä ulottuvuutta, jotka on otettava huomioon puhuessasi salasanojen hallinnasta:: salasanojen luominen, päivittäminen ja käyttöönotto verkkosivustoilla.
 Yleensä ei suositella selainlaajennusten käyttöä automaattiseen salasanojen täyttöön. Nämä työkalut voivat tehdä käyttäjästä haavoittuvaisemman phishing-hyökkäyksille. Renaud, tunnustettu kyberturvallisuuden asiantuntija, suosii manuaalista hallintaa käyttäen KeePassia, joka sisältää salasanan manuaalisen kopioimisen ja liittämisen. Laajennukset voivat lisätä hyökkäyspintaa, hidastaa selaimen suorituskykyä ja siten muodostaa merkittävän riskin. Näin ollen selainlaajennusten minimaalinen käyttö on suositeltavaa.
 
 Salasanojen hallintajärjestelmät yleensä kannustavat käyttämään lisäautentikointitekijöitä, kuten kaksivaiheista tunnistautumista. Optimaalisen turvallisuuden takaamiseksi on suositeltavaa säilyttää OTP:t (kertakäyttöiset salasanat) mobiililaitteessasi. AndoTP tarjoaa avoimen lähdekoodin ratkaisun OTP-koodien luomiseen ja säilyttämiseen puhelimessasi. Vaikka Google Authenticator mahdollistaa autentikointikoodien siementen viemisen, varmuuskopion luottamus Google-tilille on rajallinen. Siksi OTI- ja AndoTP-sovellukset ovat suositeltavia itsenäiseen OTP-hallintaan.
@@ -496,15 +497,15 @@ Suora autentikointi asiaankuuluvaan palveluun on mielenkiintoinen vaihtoehto rii
 ### Tietokoneturvallisuus: turvallisten käytäntöjen imperatiivit ja ihmisen huolimattomuuteen liittyvät riskit
 
 Tietokoneturvallisuus voi vaarantua yksinkertaisilla käytännöillä ja oletussalasanojen, kuten "admin", käytöllä. Monimutkaiset hyökkäykset eivät aina ole tarpeen tietokoneturvallisuuden vaarantamiseksi. Esimerkiksi erään YouTube-kanavan ylläpitäjän salasanat oli kirjoitettu yrityksen yksityiseen lähdekoodiin. Turvallisuusaukot ovat usein ihmisen huolimattomuuden tulosta.
-On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin amerikkalaisessa hallinnassa. DNS-palvelin voi olla sensuurin kohteena ja usein käyttää harhaanjohtavaa DNS:ää estääkseen pääsyn tietyille sivustoille. DNS on vanha ja riittämättömän turvallinen protokolla, mikä voi johtaa turvallisuusongelmiin. Uusia protokollia, kuten DNSsec, on kehitetty, mutta niitä ei vielä laajasti käytetä. Sensuurin ja mainosten eston kiertämiseksi on mahdollista valita vaihtoehtoisia DNS-palveluntarjoajia. Tunkeilevien mainosten vaihtoehtoja ovat Google DNS, OpenDNS ja muut riippumattomat palvelut. Standardi DNS-protokolla jättää DNS-kyselyt näkyviin internet-palveluntarjoajalle. DOH (DNS over HTTPS) ja DOT (DNS over TLS) salaavat DNS-yhteyden, tarjoten suurempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä niiden parannetun turvallisuuden vuoksi ja niitä tuetaan natiivisti Windowsissa, Androidissa ja iPhonessa. DOH:n ja DOT:n käyttämiseksi TLS-isäntänimi on syötettävä IP-osoitteen sijaan. Ilmaisia DOH- ja DOT-palveluntarjoajia on saatavilla verkossa. DOH ja DOT parantavat yksityisyyttä ja turvallisuutta välttämällä "man in the middle" -hyökkäykset. Muita keskeisiä huomioita
+On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin amerikkalaisessa hallinnassa. DNS-palvelin voi olla sensuurin kohteena ja usein käyttää harhaanjohtavaa DNS:ää estääkseen pääsyn tietyille sivustoille. DNS on vanha ja riittämättömän turvallinen protokolla, mikä voi johtaa turvallisuusongelmiin. Uusia protokollia, kuten DNSsec, on kehitetty, mutta niitä ei vielä laajasti käytetä. Sensuurin ja mainosten eston kiertämiseksi on mahdollista valita vaihtoehtoisia DNS-palveluntarjoajia. Tunkeilevien mainosten vaihtoehtoja ovat Google DNS, OpenDNS ja muut riippumattomat palvelut. Standardi DNS-protokolla jättää DNS-kyselyt näkyviin internet-palveluntarjoajalle. DOH (DNS over HTTPS) ja DOT (DNS over TLS) salaavat DNS-yhteyden, tarjoten suurempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä niiden parannetun turvallisuuden vuoksi ja niitä tuetaan natiivisti Windowsissa, Androidissa ja iPhonessa. DOH:n ja DOT:n käyttämiseksi TLS-isäntänimi on syötettävä IP-osoitteen sijaan. Ilmaisia DOH- ja DOT-palveluntarjoajia on saatavilla verkossa. DOH ja DOT parantavat yksityisyyttä ja turvallisuutta välttämällä "man in the middle" -hyökkäykset.
 
-Osana "Security 101" -koulutusmoduulia Découvre Bitcoin Academyssa keskustelimme myös Lightning-autentikoinnista. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
+On myös syytä mainita järjestelmä nimeltä "Lightning authentication".. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Arvioi tämä kurssi
+## Arviot & Arvosanat
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -517,35 +518,4 @@ Osana "Security 101" -koulutusmoduulia Découvre Bitcoin Academyssa keskustelimm
 ## Yhteenveto
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet onnistuneesti saavuttanut tämän virstanpylvään oppimismatkallasi.
-
-Omistautumisesi ja sitoutumisesi ansiosta olet hankkinut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Syventääksesi tietämystäsi Bitcoin-maailmasta kutsumme sinut tutustumaan muihin Plan ₿ Networkissa saatavilla oleviin kursseihin, kuten:
-
-#### Tutustu Bitcoiniin ja sen perusteisiin
-
-https://planb.network/courses/btc101
-
-#### Hanki ja turvaa ensimmäiset bitcoinisi
-
-https://planb.network/courses/btc102
-
-#### Tutustu Lightning-verkkoon
-
-https://planb.network/courses/lnp201
-
-#### Tutustu Itävallan koulukunnan talousajatteluun
-
-https://planb.network/courses/eco201
-
-#### Tutustu Bitcoinin syntyhistoriaan
-
-https://planb.network/courses/his201
-
-#### Ymmärrä Bitcoin-lompakon toiminta
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

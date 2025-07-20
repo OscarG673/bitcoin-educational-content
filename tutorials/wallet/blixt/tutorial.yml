@@ -1,90 +1,122 @@
 id: 04b319cf-8cbe-4027-b26f-840571f2244f
-builder: Blixt Wallet
 
-level: advanced
+level: intermediate
 
 category: mobile
 
-tags:
-  - self-custodial
-  - lightning
-  - open-source
+professor_id: 7261131b-4ede-4d68-a299-5941584f5592
 
-credits:
-  professor: motor-chef
+project_id: 06a7edcc-057f-446b-bef6-58b2686888dc
+
+tags:
+  - node
+  - lightning
+  - wallets
+
+credit_link: https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html
 
 # Proofreading metadata
+
 original_language: en
 proofreading:
+  - language: en
+    last_contribution_date: 2025-05-16
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 33178
+    contributor_names:
+    reward: 15.16
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 17839
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 8919
+    contributor_names:
+    reward: 11.39
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 25508
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 33178
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 17839
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 25508
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 48517
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 17839
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 33178
-  - language: vi
-    last_contribution_date: 2024-09-24
-    urgency: 1
-    contributors_id:
-      - Henry-Da0
-    reward: 24258
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 40847
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 40847
+    contributor_names:
+    reward: 11.39
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 33178
+    contributor_names:
+    reward: 15.16
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.16
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.39
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 26.45
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 18.92
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.39
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.68
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.16
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.16
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.39
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.16
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.16
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.16
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.68
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 18.92
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 18.92

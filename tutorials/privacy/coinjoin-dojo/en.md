@@ -38,7 +38,7 @@ To ensure that each participant is aware of the transactions, they must be publi
 
 The transparent and distributed nature of Bitcoin's blockchain means that any user of the network can follow and analyze the transactions of all other participants. As a result, anonymity at the transaction level is impossible. However, anonymity is preserved at the level of individual identification. Unlike the traditional banking system where each account is linked to a personal identity, on Bitcoin, funds are associated with pairs of cryptographic keys, thus offering users a form of pseudonymity behind cryptographic identifiers.
 
-Thus, confidentiality on Bitcoin is compromised when external observers manage to associate specific UTXOs with identified users. Once this association is established, it becomes possible to trace their transactions and analyze the history of their bitcoins. Coinjoin is precisely a technique developed to break the traceability of UTXOs, thereby offering a certain layer of confidentiality to Bitcoin users at the transaction level.
+Thus, privacy on Bitcoin is compromised when external observers manage to associate specific UTXOs with identified users. Once this association is established, it becomes possible to trace their transactions and analyze the history of their bitcoins. Coinjoin is precisely a technique developed to break the traceability of UTXOs, thereby offering a certain layer of privacy to Bitcoin users at the transaction level.
 
 ## How does Whirlpool work?
 Whirlpool stands out from other coinjoin methods by using "_ZeroLink_" transactions, which ensure that there is strictly no technical link possible between all the inputs and all the outputs. This perfect mixing is achieved through a structure where each participant contributes an identical amount in input (except for mining fees), thus generating outputs of perfectly equal amounts.
@@ -66,7 +66,7 @@ Whirlpool was designed taking into account two important requirements:
 These imperatives guided the choices of the developers of Samourai Wallet in the design of Whirlpool, leading them to limit the number of participants per cycle. Too few participants would have compromised the efficiency of the coinjoin, drastically reducing the anonsets generated each cycle, while too many participants would have posed management problems on mobile applications and would have hindered the flow of cycles.
 **Ultimately, there is no need to have a high number of participants per coinjoin on Whirlpool since the anonsets are achieved through the accumulation of several coinjoin cycles.**
 
-[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### The pools and coinjoin fees
 For these multiple cycles to effectively increase the anonsets of the mixed coins, a certain framework must be established to restrict the amounts of UTXO used. Whirlpool thus defines different pools.
@@ -105,7 +105,7 @@ Before proceeding to coinjoins, the user therefore has a choice between 2 strate
 - Opt for a smaller pool to minimize service fees, knowing that they will receive several small UTXOs in return;
 - Or prefer a larger pool, agreeing to pay higher fees to end up with a reduced number of larger-value UTXOs.
 
-It is generally advised against merging several mixed UTXOs after the coinjoin cycles, as this could compromise the acquired confidentiality, especially due to the Common-Input-Ownership Heuristic (CIOH). Therefore, it may be wise to choose a larger pool, even if it means paying more, to avoid having too many small-value UTXOs at the output. The user must weigh these trade-offs to choose the pool they prefer.
+It is generally advised against merging several mixed UTXOs after the coinjoin cycles, as this could compromise the acquired privacy, especially due to the Common-Input-Ownership Heuristic (CIOH). Therefore, it may be wise to choose a larger pool, even if it means paying more, to avoid having too many small-value UTXOs at the output. The user must weigh these trade-offs to choose the pool they prefer.
 
 In addition to service fees, the mining fees inherent to any Bitcoin transaction must also be considered. As a Whirlpool user, you will be required to pay the mining fees for the preparation transaction (`Tx0`) as well as those for the first coinjoin. All subsequent remixes will be free, thanks to Whirlpool's model which relies on the payment of new entrants.
 
@@ -150,7 +150,7 @@ For example, here is a real Whirlpool Tx0 (not from me): [edef60744f539483d868ca
 The surplus that could not be integrated into the pool, here equivalent to `40,000 sats`, is redirected to the **bad bank** account, also referred to as "doxxic change", to ensure a strict separation from the other UTXO in the wallet.
 
 This UTXO is dangerous for the user's privacy because not only is it still attached to its past, and therefore possibly to the identity of its owner, but additionally, it is noted as belonging to a user who has performed a coinjoin.
-If this UTXO is merged with mixed outputs, they will lose all the confidentiality gained during the coinjoin cycles, notably because of the Common-Input-Ownership-Heuristic (CIOH). If it is merged with other doxxic changes, the user risks losing confidentiality since this will link the different inputs of the coinjoin cycles. Therefore, it must be handled with caution. The way to manage this toxic UTXO will be detailed in the last part of this article, and future tutorials will cover these methods more thoroughly on PlanB Network.
+If this UTXO is merged with mixed outputs, they will lose all the privacy gained during the coinjoin cycles, notably because of the Common-Input-Ownership-Heuristic (CIOH). If it is merged with other doxxic changes, the user risks losing privacy since this will link the different inputs of the coinjoin cycles. Therefore, it must be handled with caution. The way to manage this toxic UTXO will be detailed in the last part of this article, and future tutorials will cover these methods more thoroughly on PlanB Network.
 
 **Step 3: The Initial Mix**
 After the `Tx0` is completed, the equalized UTXOs are sent to the **premix** account of our wallet, ready to be introduced into their first coinjoin cycle, also called the "initial mix". If, as in our example, the `Tx0` generates several UTXOs intended for mixing, each of them will be integrated into a separate initial coinjoin.
@@ -162,7 +162,7 @@ After the initial mix, the UTXOs are transferred to the **postmix** account. Thi
 
 As a reminder, the remixes are then 100% free: no additional service fees or mining fees are required. Keeping the UTXOs in the **postmix** account thus maintains their value intact and simultaneously improves their anonsets. That's why it's important to allow these coins to participate in multiple coinjoin cycles. It costs you strictly nothing, and it increases their levels of anonymity.
 
-When you decide to spend mixed UTXOs, you can do so directly from this **postmix** account. It is advisable to keep the mixed UTXOs in this account to benefit from free remixes and to avoid them leaving the Whirlpool circuit, which could decrease their confidentiality.
+When you decide to spend mixed UTXOs, you can do so directly from this **postmix** account. It is advisable to keep the mixed UTXOs in this account to benefit from free remixes and to avoid them leaving the Whirlpool circuit, which could decrease their privacy.
 
 As we will see in the following tutorial, there is also the `mix to` option which offers the possibility to automatically send your mixed coins to another wallet, such as a cold wallet, after a defined number of coinjoins.
 After covering the theory, let's dive into practice with a tutorial on using Whirlpool through the Samourai Wallet Android application, synchronized with Whirlpool CLI and GUI on your own Dojo!
@@ -172,14 +172,14 @@ There are many options for using Whirlpool. The one I want to introduce here is 
 Performing coinjoins via Samourai Wallet using your own Dojo is, in my opinion, the most effective strategy for conducting coinjoins on Bitcoin to date. This approach requires some initial investment in terms of setup, but once in place, it offers the possibility to mix and remix your bitcoins continuously, 24 hours a day, 7 days a week, without the need to keep your Samourai application active at all times. Indeed, thanks to Whirlpool CLI operating on a Bitcoin node, you are always ready to participate in coinjoins. The Samourai application then gives you the opportunity to spend your mixed funds at any time, wherever you are, directly from your smartphone. Moreover, this method has the advantage of never connecting you to servers managed by the Samourai teams, thus preserving your `xpub` from any external exposure.
 
 This technique is therefore ideal for those seeking maximum privacy and the highest quality coinjoin cycles. However, it requires having a Bitcoin node at your disposal and, as we will see later, requires some setup. It is thus more suited to intermediate to advanced users. For beginners, I recommend getting acquainted with coinjoin through these two other tutorials, which show how to do it from Sparrow Wallet or Samourai Wallet (without Dojo):
-- **[Sparrow Wallet coinjoin tutorial](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet)**;
-- **[Samourai Wallet coinjoin tutorial (without Dojo)](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet)**.
+- **[Sparrow Wallet coinjoin tutorial](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- **[Samourai Wallet coinjoin tutorial (without Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 ### Understanding the Setup
 To start, you're going to need a Dojo! Dojo is a Bitcoin node implementation based on Bitcoin Core, developed by the Samourai teams.
 
 To run your own Dojo, you have the option of either installing a Dojo node autonomously, or taking advantage of Dojo on top of another "node-in-box" Bitcoin node solution. Currently, the available options are:
-- [RoninDojo](https://ronindojo.io/), which is a Dojo enhanced with additional tools, including an installation assistant and an administration assistant. I detail the procedure for setting up and using RoninDojo in this other tutorial: [RONINDOJO V2](https://planb.network/en/tutorials/node/ronin-dojo-v2);
+- [RoninDojo](https://ronindojo.io/), which is a Dojo enhanced with additional tools, including an installation assistant and an administration assistant. I detail the procedure for setting up and using RoninDojo in this other tutorial: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) with the "Samourai Server" application;
 - [MyNode](https://mynodebtc.com/) with the "Dojo" application;
 - [Nodl](https://www.nodl.eu/) with the "Dojo" application;
@@ -261,7 +261,7 @@ In the next step, you will access the page dedicated to configuring your Dojo. S
 
 ![coinjoin](assets/notext/24.webp)
 
-*For new users of Samourai, it will then be necessary to create a wallet from scratch. If you need assistance, you can consult the instructions for setting up a new Samourai wallet [in this tutorial, specifically in the section "Creating a software wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*For new users of Samourai, it will then be necessary to create a wallet from scratch. If you need assistance, you can consult the instructions for setting up a new Samourai wallet [in this tutorial, specifically in the section "Creating a software wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 If you are proceeding with the restoration of an already existing Samourai wallet, select `Restore existing wallet`, then choose `I have a Samourai backup file`.
 
@@ -373,4 +373,7 @@ Whirlpool accounts are easily identifiable on Samourai Wallet by their blue colo
 
 ![coinjoin](assets/notext/53.webp)
 
-To keep track of your automatic coinjoins, I also recommend setting up a watch-only wallet via the Sentinel app. Add the ZPUB of your **Postmix** account and monitor the progress of your coinjoin cycles in real-time. If you want to understand how to use Sentinel, I recommend consulting this other tutorial on PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)
+To keep track of your automatic coinjoins, I also recommend setting up a watch-only wallet via the Sentinel app. Add the ZPUB of your **Postmix** account and monitor the progress of your coinjoin cycles in real-time. If you want to understand how to use Sentinel, I recommend consulting this other tutorial on PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+
+
+

@@ -6,6 +6,10 @@ description: How to set up your Ledger Nano S device
 
 ![image](assets/cover.webp)
 
+*Ledger has announced the end of software support for the classic Nano S as of June 25, 2025: this device will no longer receive security updates or be compatible with new features, exposing its users to potential vulnerabilities and future incompatibility. However, funds remain accessible via the recovery phrase, but it is strongly recommended to migrate to a newer model to ensure the security and long-term accessibility of your bitcoins. Please note, this concerns the **old Nano S**, not the **Nano S Plus**, which will continue to be supported.*
+
+___
+
 Cold physical wallet – €60 – Beginner – To secure €2,000 to €50,000
 
 Ledger is the French solution for securing bitcoins in a simple way.
@@ -49,7 +53,7 @@ You will see on your dashboard that you have a settings button, and a plus-sign 
 
 You could download Ledger Live from their webpage, but it’s better to get it from GitHub, where the source code is kept.
 
-Google “ledger live GitHub” or click this link https://github.com/LedgerHQ/ledger-live-desktop
+Google “ledger live GitHub” or click ![this](link https://github.com/LedgerHQ/ledger-live-desktop)
 
 ![image](assets/3.webp)
 
@@ -63,22 +67,18 @@ At the bottom, you’ll see the link: Instructions for verifying the hash and si
 
 At the top, there are link choices for the software package you need, depending on your operating system. Click the appropriate one to download.
 
-Next, we want to verify the download’s hash, for extra security.
+Next, we want to verify the download’s hash, for extra security. Ledger publishes the hash of each of the files available. We will now hash the download and compare the output. It needs to be identical to make sure the file hasn’t been tampered with.
 
-Ledger publishes the hash of each of the files available on this page. We will now hash the download and compare the output. It needs to be identical to make sure the file hasn’t been tampered with.
+Open terminal on a Mac or CMD on Windows; type inside it the following commands and press enter:
 
-Open terminal on a Mac or CMD on windows. Follow these commands…
-
+```bash
 cd Downloads
-
-<Enter>
+```
 
 ```bash
 shasum -a 512 ledger-live-desktop-2.32.2-mac.dmg # <--- For Mac
 certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- For Windows
 ```
-
-<Enter>
 
 Hopefully it’s obvious the commands begin after the arrows. Make sure, if this article is out of date, you change the file name in the commands to exactly the file name you downloaded. You need to hi the <Enter> key after each command. The commands as seen here might not fit on one line in your web browser. Note, it is all typed on one line.
 
@@ -217,5 +217,6 @@ https://armantheparman.com/ledgersparrow/
 
 To explore this topic further and strengthen the security of your wallet on a Ledger Nano with a BIP39 passphrase, I invite you to check out this comprehensive tutorial:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 

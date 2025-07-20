@@ -34,6 +34,7 @@ The goal of this training is to give you the keys to master the tools you use da
 
 Before diving into the details of the construction and operation of Bitcoin wallets, we will start with a few chapters on the cryptographic primitives to know for what follows.
 We will start with cryptographic hash functions, fundamental for both wallets and the Bitcoin protocol itself. You will discover their main characteristics, the specific functions used in Bitcoin, and in a more technical chapter, you will learn in detail about the workings of the queen of hash functions: SHA256.
+
 ![CYP201](assets/fr/010.webp)
 
 Next, we will discuss the operation of digital signature algorithms that you use every day to secure your UTXOs. Bitcoin uses two: ECDSA and the Schnorr protocol. You will learn which mathematical primitives underlie these algorithms and how they ensure the security of transactions.
@@ -62,14 +63,14 @@ This training will enable you to use your wallet software with confidence, while
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
-The first type of cryptographic algorithms used on Bitcoin encompasses hash functions. They play an essential role at different levels of the protocol, but also within Bitcoin wallets. Let's discover together what a hash function is and what it's used for in Bitcoin.
+The first type of cryptographic algorithms used in Bitcoin encompasses hash functions. They play an essential role at different levels of the protocol, but also within Bitcoin wallets. Let's discover together what a hash function is and what it's used for in Bitcoin.
 
 ### Definition and Principle of Hashing
 
 Hashing is a process that transforms information of arbitrary length into another piece of information of fixed length through a cryptographic hash function. In other words, a hash function takes an input of any size and converts it into a fixed-size fingerprint, called a "hash".
 The hash can also sometimes be referred to as "digest", "condensate", "condensed", or "hashed".
 
-For example, the SHA256 hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_Plan ₿_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
+For example, the SHA256 hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_PlanB_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -81,16 +82,16 @@ For example, the SHA256 hash function produces a hash of a fixed length of 256 b
 
 These cryptographic hash functions have several essential characteristics that make them particularly useful in the context of Bitcoin and other computer systems:
 
-1. Irreversibility (or preimage resistance)
-2. Tamper resistance (avalanche effect)
-3. Collision resistance
-4. Second preimage resistance
+- Irreversibility (or preimage resistance)
+- Tamper resistance (avalanche effect)
+- Collision resistance
+- Second preimage resistance
 
 #### 1. Irreversibility (preimage resistance):
 
-Irreversibility means that it is easy to calculate the hash from the input information, but the inverse calculation, that is, finding the input from the hash, is practically impossible. This property makes hash functions perfect for creating unique digital fingerprints without compromising the original information. This characteristic is often referred to as a one-way function or a "_trap door function_".
+Irreversibility means that it is easy to calculate the hash from the input information, but the inverse calculation, that is, finding the input from the hash, is practically impossible. This property makes hash functions perfect for creating unique digital fingerprints without compromising the original information. This characteristic is often referred to as a one-way function.
 
-In the given example, obtaining the hash `24f1b9…` by knowing the input "_Plan ₿_" is simple and quick. However, finding the message "_Plan ₿_" by only knowing `24f1b9…` is impossible.
+In the given example, obtaining the hash `24f1b9…` by knowing the input "_PlanB_" is simple and quick. However, finding the message "_PlanB_" by only knowing `24f1b9…` is impossible.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -100,7 +101,7 @@ Therefore, it is impossible to find a preimage $m$ for a hash $h$ such that $h =
 
 The second characteristic is tamper resistance, also known as the **avalanche effect**. This characteristic is observed in a hash function if a small change in the input message results in a radical change in the output hash.
 
-If we go back to our example with the input "_Plan ₿_" and the SHA256 function, we have seen that the generated hash is as follows:
+If we go back to our example with the input "_PlanB_" and the SHA256 function, we have seen that the generated hash is as follows:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -151,7 +152,7 @@ This function is used in many aspects of Bitcoin. At the protocol level, it is i
 
 SHA256 is also used in the construction of a Merkle tree, which is notably the accumulator used for recording transactions in blocks. This structure is also found in the Utreexo protocol, which allows for reducing the size of the UTXO Set. Additionally, with the introduction of Taproot in 2021, SHA256 is exploited in MAST (_Merkelised Alternative Script Tree_), which allows revealing only the spending conditions actually used in a script, without disclosing the other possible options. It is also used in the calculation of transaction identifiers, in the transmission of packets over the P2P network, in electronic signatures... Finally, and this is of particular interest in this training, SHA256 is used at the application level for the construction of Bitcoin wallets and the derivation of addresses.
 
-Most of the time, when you come across the use of SHA256 on Bitcoin, it will actually be a double hash SHA256, noted "**HASH256**", which simply consists of applying SHA256 twice successively:
+Most of the time, when you come across the use of SHA256 in Bitcoin, it will actually be a double hash SHA256, noted "**HASH256**", which simply consists of applying SHA256 twice successively:
 
 $$
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
@@ -175,7 +176,7 @@ You now know the essential basics about hashing functions for what follows. In t
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
-We have previously seen that hashing functions possess important characteristics that justify their use on Bitcoin. Let's now examine the internal mechanisms of these hashing functions that give them these properties, and to do this, I propose to dissect the operation of SHA256.
+We have previously seen that hashing functions possess important characteristics that justify their use in Bitcoin. Let's now examine the internal mechanisms of these hashing functions that give them these properties, and to do this, I propose to dissect the operation of SHA256.
 
 The SHA256 and SHA512 functions belong to the same SHA2 family. Their mechanism is based on a specific construction called **Merkle-Damgård construction**. RIPEMD160 also uses this same type of construction.
 
@@ -235,9 +236,9 @@ If we go back to our example with an initial message of 950 bits, we convert the
 
 This padding size is added following the bit padding. Therefore, the message after our preprocessing consists of three parts:
 
-1. The original message $M$;
-2. A bit `1` followed by several bits `0` to form the bit padding;
-3. A 64-bit representation of the length of $M$ to form the padding with the size.
+- The original message $M$;
+- A bit `1` followed by several bits `0` to form the bit padding;
+- A 64-bit representation of the length of $M$ to form the padding with the size.
 
 ![CYP201](assets/fr/006.webp)
 
@@ -361,6 +362,7 @@ $$
 Schematically, the right shift operation could be seen like this:
 
 ![CYP201](assets/fr/007.webp)
+
 Another operation used in SHA256 for bit manipulation is the right circular rotation, denoted $RotR_n(x)$, which shifts the bits of $x$ to the right by $n$ positions, reinserting the shifted bits at the beginning of the string.
 For example, for $x = 101100001$ (over 9 bits) and $n = 4$:
 
@@ -390,10 +392,7 @@ The first 16 words, $W_0$ to $W_{15}$, are directly extracted from the processed
 The next 48 words ($W_{16}$ to $W_{63}$) are generated using the following formula:
 
 $$
-
-W*i = W*{i-16} + \sigma*0(W*{i-15}) + W*{i-7} + \sigma_1(W*{i-2}) \mod 2^{32}
-
-
+W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
 $$
 
 With:
@@ -407,18 +406,19 @@ Once we have determined all the words $W_i$ for our 512-bit piece, we can move o
 
 ![CYP201](assets/fr/009.webp)
 For each round $i$ from 0 to 63, we have three different types of inputs. First, the $W_i$ that we have just determined, partly consisting of our message piece $P_n$. Next, the 64 constants $K_i$. Finally, we use the state variables $A$, $B$, $C$, $D$, $E$, $F$, $G$, and $H$, which will evolve throughout the hashing process and be modified with each compression function. However, for the first piece $P_1$, we use the initial constants given previously.
+
 We then perform the following operations on our inputs:
 
 - **Function $\Sigma_0$:**
 
 $$
-\Sigma*0(A) = RotR_2(A) \oplus RotR*{13}(A) \oplus RotR\_{22}(A)
+\Sigma_0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR_{22}(A)
 $$
 
 - **Function $\Sigma_1$:**
 
 $$
-\Sigma*1(E) = RotR_6(E) \oplus RotR*{11}(E) \oplus RotR\_{25}(E)
+\Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
 $$
 
 - **Function $Ch$ ("_Choose_"):**
@@ -474,19 +474,16 @@ We can already observe that this round outputs new state variables $A$, $B$, $C$
 After the 64 rounds, we update the initial values of the state variables by adding them to the final values at the end of round 64:
 
 $$
-
 \begin{cases}
-A = A*{\text{initial}} + A \mod 2^{32} \\
-B = B*{\text{initial}} + B \mod 2^{32} \\
-C = C*{\text{initial}} + C \mod 2^{32} \\
-D = D*{\text{initial}} + D \mod 2^{32} \\
-E = E*{\text{initial}} + E \mod 2^{32} \\
-F = F*{\text{initial}} + F \mod 2^{32} \\
-G = G*{\text{initial}} + G \mod 2^{32} \\
-H = H*{\text{initial}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
-
-
 $$
 
 These new values of $A$, $B$, $C$, $D$, $E$, $F$, $G$, and $H$ will serve as the initial values for the next block, $P_2$. For this block $P_2$, we replicate the same compression process with 64 rounds, then we update the variables for block $P_3$, and so on until the last block of our equalized input.
@@ -557,10 +554,10 @@ Now that we have looked in detail at the workings of hash functions, particularl
 
 In Bitcoin at the application level, in addition to hash functions, cryptographic derivation algorithms are used to generate secure data from initial inputs. Although these algorithms rely on hash functions, they serve different purposes, especially in terms of authentication and key generation. These algorithms retain some of the characteristics of hash functions, such as irreversibility, tamper resistance, and collision resistance.
 
-On Bitcoin wallets, mainly 2 derivation algorithms are used:
+In Bitcoin wallets, mainly 2 derivation algorithms are used:
 
-1. **HMAC (_Hash-based Message Authentication Code_)**
-2. **PBKDF2 (_Password-Based Key Derivation Function 2_)**
+- **HMAC (_Hash-based Message Authentication Code_)**
+- **PBKDF2 (_Password-Based Key Derivation Function 2_)**
 
 We will explore together the functioning and role of each of them.
 
@@ -581,13 +578,13 @@ Let's study in more detail what happens in this HMAC-SHA512 black box. The HMAC-
 - $\oplus$: the XOR (exclusive or) operation;
 - $\Vert$: the concatenation operator, linking bit strings end-to-end;
 - $\text{opad}$: constant composed of the byte $0x5c$ repeated 128 times
-- $\text{ipad}$: constant composed of the byte $0x36$ repeated 128 times
-  Before calculating the HMAC, it is necessary to equalize the key and constants according to the block size $B$. For example, if the key $K$ is shorter than 128 bytes, it is padded with zeros to reach the size $B$. If $K$ is longer than 128 bytes, it is compressed using SHA512, and then zeros are added until it reaches 128 bytes. In this way, an equalized key named $K'$ is obtained.
-  The values of $\text{opad}$ and $\text{ipad}$ are obtained by repeating their base byte ($0x5c$ for $\text{opad}$, $0x36$ for $\text{ipad}$) until the size $B$ is reached. Thus, with $B = 128$ bytes, we have:
+- $\text{ipad}$: constant composed of the byte $0x36$ repeated 128 times.
+  
+Before calculating the HMAC, it is necessary to equalize the key and constants according to the block size $B$. For example, if the key $K$ is shorter than 128 bytes, it is padded with zeros to reach the size $B$. If $K$ is longer than 128 bytes, it is compressed using SHA512, and then zeros are added until it reaches 128 bytes. In this way, an equalized key named $K'$ is obtained. The values of $\text{opad}$ and $\text{ipad}$ are obtained by repeating their base byte ($0x5c$ for $\text{opad}$, $0x36$ for $\text{ipad}$) until the size $B$ is reached. Thus, with $B = 128$ bytes, we have:
 
 $$
 
-\text{opad} = \underbrace{0x5c5c\ldots5c}\_{128 \, \text{bytes}}
+\text{opad} = \underbrace{0x5c5c\ldots5c}\_{128 \  \text{bytes}}
 
 
 $$
@@ -596,19 +593,19 @@ Once the preprocessing is done, the HMAC-SHA512 algorithm is defined by the foll
 
 $$
 
-\text {HMAC-SHA512}\_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
+\text{HMAC-SHA512}(K,m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
 
 
 $$
 
 This equation is broken down into the following steps:
 
-1. XOR the adjusted key $K'$ with $\text{ipad}$ to obtain $\text{iKpad}$;
-2. XOR the adjusted key $K'$ with $\text{opad}$ to obtain $\text{oKpad}$;
-3. Concatenate $\text{iKpad}$ with the message $m$.
-4. Hash this result with SHA512 to obtain an intermediate hash $H_1$.
-5. Concatenate $\text{oKpad}$ with $H_1$.
-6. Hash this result with SHA512 to obtain the final result $H_2$.
+- XOR the adjusted key $K'$ with $\text{ipad}$ to obtain $\text{iKpad}$;
+- XOR the adjusted key $K'$ with $\text{opad}$ to obtain $\text{oKpad}$;
+- Concatenate $\text{iKpad}$ with the message $m$.
+- Hash this result with SHA512 to obtain an intermediate hash $H_1$.
+- Concatenate $\text{oKpad}$ with $H_1$.
+- Hash this result with SHA512 to obtain the final result $H_2$.
 
 These steps can be summarized schematically as follows:
 
@@ -657,15 +654,15 @@ The second cryptographic method used in Bitcoin involves digital signature algor
 
 The term "_wallet_" in Bitcoin can be quite confusing for beginners. Indeed, what is called a Bitcoin wallet is software that does not directly hold your bitcoins, unlike a physical wallet that can hold coins or bills. Bitcoins are simply units of account. This unit of account is represented by **UTXO** (_Unspent Transaction Outputs_), which are unspent transaction outputs. If these outputs are unspent, it means they belong to a user. UTXOs are, in a way, pieces of bitcoins, of variable size, belonging to a user.
 
-The Bitcoin protocol is distributed and operates without a central authority. Therefore, it is not like traditional banking records, where the euros that belong to you are simply associated with your personal identity. On Bitcoin, your UTXOs belong to you because they are protected by spending conditions specified in the Script language. To simplify, there are two types of scripts: the locking script (_scriptPubKey_), which protects a UTXO, and the unlocking script (_scriptSig_), which allows unlocking a UTXO and thus spending the bitcoin units it represents.
+The Bitcoin protocol is distributed and operates without a central authority. Therefore, it is not like traditional banking records, where the euros that belong to you are simply associated with your personal identity. In Bitcoin, your UTXOs belong to you because they are protected by spending conditions specified in the Script language. To simplify, there are two types of scripts: the locking script (_scriptPubKey_), which protects a UTXO, and the unlocking script (_scriptSig_), which allows unlocking a UTXO and thus spending the bitcoin units it represents.
 The initial operation of Bitcoin with P2PK scripts involves using a public key to lock funds, specifying in a _scriptPubKey_ that the person wishing to spend this UTXO must provide a valid signature with the private key corresponding to this public key. To unlock this UTXO, it is therefore necessary to provide a valid signature in the _scriptSig_. As their names suggest, the public key is known to all since it is broadcast on the blockchain, while the private key is only known to the legitimate owner of the funds.
 This is the basic operation of Bitcoin, but over time, this operation has become more complex. First, Satoshi also introduced P2PKH scripts, which use a receiving address in the _scriptPubKey_, which represents the hash of the public key. Then, the system became even more complex with the arrival of SegWit and then Taproot. However, the general principle remains fundamentally the same: a public key or a representation of this key is used to lock UTXOs, and a corresponding private key is required to unlock them and thus spend them.
 
-A user who wishes to make a Bitcoin transaction must therefore create a digital signature using their private key on the transaction in question. The signature can be verified by other network participants. If it is valid, this means that the user initiating the transaction is indeed the owner of the private key, and therefore the owner of the bitcoins they wish to spend. Other users can then accept and propagate the transaction.
+A user who wishes to make a Bitcoin transaction must therefore create a digital signature using their private key on the transaction. The signature can be verified by other network participants. If it is valid, this means that the user initiating the transaction is indeed the owner of the private key, and therefore the owner of the bitcoins they wish to spend. Other users can then accept and propagate the transaction.
 
 As a result, a user who owns bitcoins locked with a public key must find a way to securely store what allows unlocking their funds: the private key. A Bitcoin wallet is precisely a device that will allow you to easily keep all your keys without other people having access to them. It is therefore more like a keychain than a wallet.
 
-The mathematical link between a public key and a private key, as well as the ability to perform a signature to prove the possession of a private key without revealing it, are made possible by a digital signature algorithm. In the Bitcoin protocol, 2 signature algorithms are used: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) and the **Schnorr signature scheme**. ECDSA is the digital signature protocol used in Bitcoin from its beginnings. Schnorr is more recent in Bitcoin, as it was introduced in November 2021 with the Taproot update.
+The mathematical link between a public key and a private key, as well as the ability to perform a signature to prove the possession of a private key without revealing it, are made possible by a digital signature algorithm. In the Bitcoin protocol, two signature algorithms are used: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) and the **Schnorr signature scheme**. ECDSA is the digital signature protocol used in Bitcoin from its beginnings. Schnorr is more recent in Bitcoin, as it was introduced in November 2021 with the Taproot update.
 These two algorithms are quite similar in their mechanisms. They are both based on elliptic curve cryptography. The major difference between these two protocols lies in the structure of the signature and some specific mathematical properties. We will therefore study the functioning of these algorithms, starting with the oldest: ECDSA.
 
 ### Elliptic Curve Cryptography
@@ -744,12 +741,12 @@ The mathematics of elliptic curves over finite fields are analogous to those ove
 
 If you wish to learn more about the mathematical foundations of modern cryptography, I also recommend consulting this other course on Plan ₿ Network:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calculating the Public Key from the Private Key
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
-As previously seen, the digital signature algorithms on Bitcoin are based on a pair of private and public keys that are mathematically linked. Let's explore together what this mathematical link is and how they are generated.
+As previously seen, the digital signature algorithms in Bitcoin are based on a pair of private and public keys that are mathematically linked. Let's explore together what this mathematical link is and how they are generated.
 
 ### The Private Key
 
@@ -759,16 +756,16 @@ The private key is simply a random or pseudo-random number. In the case of Bitco
 
 However, in practice, there are only $n$ distinct points on our elliptic curve secp256k1, where $n$ is the order of the generator point $G$ of the curve. We will see later what this number corresponds to, but simply remember that a valid private key is an integer between $1$ and $n-1$, knowing that $n$ is a number close to but slightly less than $2^{256}$. Therefore, there are some 256-bit numbers that are not valid for becoming a private key in Bitcoin, specifically, all the numbers between $n$ and $2^{256}$. If the generation of the random number (the private key) produces a value $k$ such that $k \geq n$, it is considered invalid, and a new random value must be generated.
 
-The number of possibilities for a Bitcoin private key is therefore about $n$, which is a number close to $1.158 \times 10^{77}$. This number is so large that if you choose a private key at random, it is statistically almost impossible to land on another user's private key. To give you an idea of scale, the number of possible private keys on Bitcoin is of an order of magnitude close to that of the estimated atoms in the observable universe.
+The number of possibilities for a Bitcoin private key is therefore about $n$, which is a number close to $1.158 \times 10^{77}$. This number is so large that if you choose a private key at random, it is statistically almost impossible to land on another user's private key. To give you an idea of scale, the number of possible private keys in Bitcoin is of an order of magnitude close to that of the estimated atoms in the observable universe.
 
-As we will see in the coming chapters, today, the majority of private keys used on Bitcoin are not generated randomly but are the result of deterministic derivation from a mnemonic phrase, itself pseudo-random (this is the famous phrase of 12 or 24 words). This information does not change anything for the use of signature algorithms like ECDSA, but it helps to refocus our popularization on Bitcoin.
+As we will see in the coming chapters, today, the majority of private keys used in Bitcoin are not generated randomly but are the result of deterministic derivation from a mnemonic phrase, itself pseudo-random (this is the famous phrase of 12 or 24 words). This information does not change anything for the use of signature algorithms like ECDSA, but it helps to refocus our popularization in Bitcoin.
 
-For the continuation of the explanation, the private key will be denoted by the lowercase letter $k$.
+For the rest of the explanation, the private key will be denoted by the lowercase letter $k$.
 
 ### The Public Key
 
 The public key is a point on the elliptic curve, denoted by the capital letter $K$, and is calculated from the private key $k$. This point $K$ is represented by a pair of coordinates $(x, y)$ on the elliptic curve, each coordinate being an integer modulo $p$, the prime number defining the finite field $\mathbb{F}_p$.
-In practice, an uncompressed public key is represented by 512 bits (or 64 bytes), corresponding to two 256-bit numbers ($x$ and $y$) placed end-to-end. These numbers are the abscissa ($x$) and the ordinate ($y$) of our point on secp256k1. If we add the prefix, the public key totals 520 bits.
+In practice, an uncompressed public key is represented by 520 bits (or 65 bytes), corresponding to two 256-bit numbers ($x$ and $y$) placed end-to-end, preceded by the 8-bit prefix $0x04$.
 
 However, it is also possible to represent the public key in a compressed form using only 33 bytes (264 bits) by keeping only the abscissa $x$ of our point on the curve and a byte indicating the parity of $y$. This is what is known as a compressed public key. I will talk more about this in the last chapters of this training. But what you need to remember is that a public key $K$ is a point described by $x$ and $y$.
 
@@ -787,11 +784,13 @@ where:
 - $G$ is the generator point of the elliptic curve used by all participants of the Bitcoin network;
 - $\cdot$ represents the scalar multiplication on the elliptic curve, which is equivalent to adding the point $G$ to itself $k$ times.
 
-The fact that this point $G$ is common to all public keys on Bitcoin allows us to be sure that the same private key $k$ will always give us the same public key $K$:
+The fact that this point $G$ is common to all public keys in Bitcoin allows us to be sure that the same private key $k$ will always give us the same public key $K$:
 
 ![CYP201](assets/fr/017.webp)
 
 The main characteristic of this operation is that it is a one-way function. It is easy to calculate the public key $K$ knowing the private key $k$ and the generator point $G$, but it is practically impossible to calculate the private key $k$ knowing only the public key $K$ and the generator point $G$. Finding $k$ from $K$ and $G$ amounts to solving the discrete logarithm problem on elliptic curves, a mathematically difficult problem for which no efficient algorithm is known. Even the most powerful current calculators are unable to solve this problem in a reasonable time.
+
+![CYP201](assets/fr/018.webp)
 
 ### Addition and Doubling of Points on Elliptic Curves
 
@@ -875,7 +874,7 @@ We have thus been able to easily calculate the public key $K$ by knowing $k$ and
 
 Now, if someone only knows the public key $K$, they are faced with the discrete logarithm problem: finding $k$ such that $K = k \cdot G$. This problem is considered difficult because there is no efficient algorithm to solve it on elliptic curves. This ensures the security of the ECDSA and Schnorr algorithms.
 
-Of course, in this simplified example with $k = 4$, it would be possible to find $k$ through trial and error, as the number of possibilities is low. However, in practice on Bitcoin, $k$ is a 256-bit integer, making the number of possibilities astronomically large (about $1.158 \times 10^{77}$). Therefore, it is infeasible to find $k$ by brute force.
+Of course, in this simplified example with $k = 4$, it would be possible to find $k$ through trial and error, as the number of possibilities is low. However, in practice, $k$ is a 256-bit integer, making the number of possibilities astronomically large (about $1.158 \times 10^{77}$). Therefore, it is infeasible to find $k$ by brute force.
 
 ## Signing with the Private Key
 
@@ -940,9 +939,9 @@ $$
 e = \text{HASH}(m)
 $$
 
-Next, we calculate a nonce. In cryptography, a nonce is simply a number generated in a random or pseudo-random manner that is used only once. That is to say, each time a new digital signature is made with this pair of keys, it will be very important to use a different nonce, otherwise, it will compromise the security of the private key. It is therefore sufficient to determine a random and unique integer $r$ such that $1 \leq r \leq n-1$, where $n$ is the order of the generating point $G$ of the elliptical curve.
+Next, we calculate a nonce. In cryptography, a nonce is simply a number generated in a random or pseudo-random manner that is used only once. That is to say, each time a new digital signature is made with this pair of keys, it will be very important to use a different nonce, otherwise, it will compromise the security of the private key. It is therefore sufficient to determine a random and unique integer $r$ such that $1 \leq r \leq n-1$, where $n$ is the order of the generating point $G$ of the elliptic curve.
 
-Then, we will calculate the point $R$ on the elliptical curve with the coordinates $(x_R, y_R)$ such that:
+Then, we will calculate the point $R$ on the elliptic curve with the coordinates $(x_R, y_R)$ such that:
 
 $$
 R = r \cdot G
@@ -1004,8 +1003,8 @@ The signature is valid only if $x_V \equiv x_R \mod n$, where $x_V$ is the $x$ c
 
 ### Signature with the Schnorr Protocol
 
-The Schnorr signature scheme is an alternative to ECDSA that offers many advantages. It has been possible to use it on Bitcoin since 2021 and the introduction of Taproot, with the P2TR script patterns. Like ECDSA, the Schnorr scheme allows signing a message using a private key, in such a way that the signature can be verified by anyone knowing the corresponding public key.
-In the case of Schnorr, the exact same curve as ECDSA is used with the same parameters. However, public keys are represented slightly differently compared to ECDSA. Indeed, they are designated only by the $x$ coordinate of the point on the elliptical curve. Unlike ECDSA, where compressed public keys are represented by 33 bytes (with the prefix byte indicating the parity of $y$), Schnorr uses 32-byte public keys, corresponding only to the $x$ coordinate of the point $K$, and it is assumed that $y$ is even by default. This simplified representation reduces the size of the signatures and facilitates certain optimizations in the verification algorithms.
+The Schnorr signature scheme is an alternative to ECDSA that offers many advantages. It has been possible to use it in Bitcoin since 2021 and the introduction of Taproot, with the P2TR script patterns. Like ECDSA, the Schnorr scheme allows signing a message using a private key, in such a way that the signature can be verified by anyone knowing the corresponding public key.
+In the case of Schnorr, the exact same curve as ECDSA is used with the same parameters. However, public keys are represented slightly differently compared to ECDSA. Indeed, they are designated only by the $x$ coordinate of the point on the elliptic curve. Unlike ECDSA, where compressed public keys are represented by 33 bytes (with the prefix byte indicating the parity of $y$), Schnorr uses 32-byte public keys, corresponding only to the $x$ coordinate of the point $K$, and it is assumed that $y$ is even by default. This simplified representation reduces the size of the signatures and facilitates certain optimizations in the verification algorithms.
 The public key is then the $x$ coordinate of the point $K$:
 
 $$
@@ -1016,7 +1015,7 @@ The first step to generate a signature is to hash the message. But unlike ECDSA,
 
 ![CYP201](assets/fr/023.webp)
 
-In addition to the message, the $x$ coordinate of the public key $K_x$, as well as a point $R$ calculated from the nonce $r$ ($R=r \cdot G$) which is itself a unique integer for each signature, calculated deterministically from the private key and the message to avoid vulnerabilities related to nonce reuse, are also passed into the labeled function. Just like for the public key, only the $x$ coordinate of the nonce point $R_x$ is retained to describe the point.
+In addition to the message, the $x$ coordinate of the public key $K_x$, as well as the point $R = r \cdot G$, calculated from the nonce $r$ (which is itself a unique integer for each signature, calculated deterministically from the private key and the message to avoid vulnerabilities related to nonce reuse), are also passed into the labeled function. Just like for the public key, only the $x$ coordinate of the nonce point $R_x$ is retained to describe the point.
 
 The result of this hashing noted $e$ is called the "challenge":
 
@@ -1026,13 +1025,13 @@ $$
 
 Here, $\text{HASH}$ is the SHA256 hash function, and $\text{``BIP0340/challenge''}$ is the specific tag for the hashing.
 
-Finally, the parameter $s$ is calculated in this manner from the private key $k$, the nonce $r$, and the challenge $e$:
+Finally, the parameter $s$ is calculated from the private key $k$, the nonce $r$, and the challenge $e$ as follows:
 
 $$
 s = (r + e \cdot k) \mod n
 $$
 
-The signature is then simply the pair $Rx$ and $s$.
+The signature is then simply the pair $R_x$ and $s$.
 
 $$
 \text{SIG} = R_x \Vert s
@@ -1040,8 +1039,8 @@ $$
 
 ### Verification of the Schnorr Signature
 
-The verification of a Schnorr signature is simpler than that of an ECDSA signature. Here are the steps to verify the signature $(R_x, s)$ with the public key $K_x$ and the message $m$:
-First, we verify that $K_x$ is a valid integer and less than $p$. If this is the case, we retrieve the corresponding point on the curve with $K_y$ being even. We also extract $R_x$ and $s$ by separating the signature $\text{SIG}$. Then, we check that $R_x < p$ and $s < n$ (the order of the curve).
+The verification of a Schnorr signature is simpler than that of an ECDSA signature. Here are the steps to verify the signature $(R_x, s)$ with the public key $K_x$ and the message $m$.
+First, we verify that $K_x$ is a valid integer less than $p$. If this is the case, we retrieve the corresponding point on the curve with $K_y$ being even. We also extract $R_x$ and $s$ by splitting the signature $\text{SIG}$. Then, we check that $R_x < p$ and $s < n$ (the order of the curve).
 Next, we calculate the challenge $e$ in the same way as the issuer of the signature:
 
 $$
@@ -1089,13 +1088,13 @@ And similarly, multiple signatures can be aggregated into a single valid signatu
 Moreover, signature aggregation improves privacy. With Schnorr, it becomes impossible to distinguish a multisignature transaction from a standard single-signature transaction. This homogeneity makes chain analysis more difficult, as it limits the ability to identify wallet fingerprints.
 
 Finally, Schnorr also offers the possibility of batch verification. By verifying multiple signatures simultaneously, nodes can gain efficiency, especially for blocks containing many transactions. This optimization reduces the time and resources needed to validate a block.
-Also, Schnorr signatures are not malleable, unlike signatures produced with ECDSA. This means that an attacker cannot modify a valid signature to create another valid signature for the same message and the same public key. This vulnerability was previously present on Bitcoin and notably prevented the secure implementation of the Lightning Network. It was resolved for ECDSA with the SegWit softfork in 2017, which involves moving the signatures to a separate database from the transactions to prevent their malleability.
+Also, Schnorr signatures are not malleable, unlike signatures produced with ECDSA. This means that an attacker cannot modify a valid signature to create another valid signature for the same message and the same public key. This vulnerability was previously present in Bitcoin and notably prevented the secure implementation of the Lightning Network. It was resolved for ECDSA with the SegWit softfork in 2017, which involves moving the signatures to a separate database from the transactions to prevent their malleability.
 
 ### Why did Satoshi choose ECDSA?
 
-As we have seen, Satoshi initially chose to implement ECDSA for digital signatures on Bitcoin. Yet, we have also seen that Schnorr is superior to ECDSA in many aspects, and this protocol was created by Claus-Peter Schnorr in 1989, 20 years before the invention of Bitcoin.
+As we have seen, Satoshi initially chose to implement ECDSA for digital signatures in Bitcoin. Yet, we have also seen that Schnorr is superior to ECDSA in many aspects, and this protocol was created by Claus-Peter Schnorr in 1989, 20 years before the invention of Bitcoin.
 
-Well, we don't really know why Satoshi didn't choose it, but a likely hypothesis is that this protocol was under patent until 2008. Although Bitcoin was created a year later, in January 2009, no open-source standardization for Schnorr signatures was available at that time. Perhaps Satoshi deemed it safer to use ECDSA, which was already widely used and tested in open-source software and had several recognized implementations (notably the OpenSSL library used until 2015 on Bitcoin Core, then replaced by libsecp256k1 in version 0.10.0). Or maybe he simply wasn't aware that this patent was going to expire in 2008. In any case, the most probable hypothesis seems related to this patent and the fact that ECDSA had a proven history and was easier to implement.
+Well, we don't really know why Satoshi didn't choose it, but a likely hypothesis is that this protocol was under patent until 2008. Although Bitcoin was created a year later, in January 2009, no open-source standardization for Schnorr signatures was available at that time. Perhaps Satoshi deemed it safer to use ECDSA, which was already widely used and tested in open-source software and had several recognized implementations (notably the OpenSSL library used until 2015 in Bitcoin Core, then replaced by libsecp256k1 in version 0.10.0). Or maybe he simply wasn't aware that this patent was going to expire in 2008. In any case, the most probable hypothesis seems related to this patent and the fact that ECDSA had a proven history and was easier to implement.
 
 ## The sighash flags
 
@@ -1112,9 +1111,9 @@ Obviously, once the transaction is confirmed on the blockchain, it becomes immut
 
 Generally, wallet software does not offer you the option to manually modify the sighash flag of your inputs when you construct a transaction. By default, `SIGHASH_ALL` is set. Personally, I only know of Sparrow Wallet that allows this modification from the user interface.
 
-### What are the existing sighash flags on Bitcoin?
+### What are the existing sighash flags in Bitcoin?
 
-On Bitcoin, there are first and foremost 3 basic sighash flags:
+In Bitcoin, there are first and foremost 3 basic sighash flags:
 
 - `SIGHASH_ALL` (`0x01`): The signature applies to all the inputs and all the outputs of the transaction. The transaction is thus entirely covered by the signature and can no longer be modified. `SIGHASH_ALL` is the most commonly used sighash in everyday transactions when one simply wants to make a transaction without it being able to be modified.
 
@@ -1127,7 +1126,8 @@ In all the diagrams of this chapter, the orange color represents the elements co
 ![CYP201](assets/fr/027.webp)
 
 - `SIGHASH_SINGLE` (`0x03`): The signature covers all inputs as well as a single output, corresponding to the index of the signed input. For example, if the signature unlocks the _scriptPubKey_ of input #0, then it also covers output #0. The signature also protects all other inputs, which can no longer be modified. However, anyone can add an additional output without invalidating the signature, provided that output #0, which is the only one covered by it, is not modified.
-  ![CYP201](assets/fr/028.webp)
+
+![CYP201](assets/fr/028.webp)
 
 In addition to these three sighash flags, there is also the modifier `SIGHASH_ANYONECANPAY` (`0x80`). This modifier can be combined with a basic sighash flag to create three new sighash flags:
 
@@ -1145,9 +1145,9 @@ In addition to these three sighash flags, there is also the modifier `SIGHASH_AN
 
 ### Projects to Add New Sighash Flags
 
-Currently (2024), only the sighash flags presented in the previous section are usable on Bitcoin. However, some projects are considering the addition of new sighash flags. For example, BIP118, proposed by Christian Decker and Anthony Towns, introduces two new sighash flags: `SIGHASH_ANYPREVOUT` and `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Any Previous Output"_).
+Currently (2024), only the sighash flags presented in the previous section are usable in Bitcoin. However, some projects are considering the addition of new sighash flags. For example, BIP118, proposed by Christian Decker and Anthony Towns, introduces two new sighash flags: `SIGHASH_ANYPREVOUT` and `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Any Previous Output"_).
 
-These two sighash flags would offer an additional possibility on Bitcoin: creating signatures that do not cover any specific input of the transaction.
+These two sighash flags would offer an additional possibility in Bitcoin: creating signatures that do not cover any specific input of the transaction.
 
 ![CYP201](assets/fr/032.webp)
 
@@ -1156,7 +1156,7 @@ If this sighash flag is integrated into Bitcoin, it will enable the use of coven
 
 To deepen your knowledge of the Lightning Network, after the CYP201 course, I highly recommend the LNP201 course by Fanis Michalakis, which covers the topic in detail:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In the next part, I propose to discover how the mnemonic phrase at the base of your Bitcoin wallet works.
 
@@ -1168,34 +1168,35 @@ In the next part, I propose to discover how the mnemonic phrase at the base of y
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
-Now that we have explored the workings of hash functions and digital signatures, we can study how Bitcoin wallets function. The goal will be to imagine how a wallet on Bitcoin is constructed, how it is decomposed, and what the different pieces of information that constitute it are used for. This understanding of the wallet mechanisms will allow you to improve your use of Bitcoin in terms of security and privacy.
+Now that we have explored the workings of hash functions and digital signatures, we can study how Bitcoin wallets function. The goal will be to describe how a wallet in Bitcoin is constructed, how it is decomposed, and what the different pieces of information that constitute it are used for. This understanding of the wallet mechanisms will allow you to improve your use of Bitcoin in terms of security and privacy.
 
 Before diving into the technical details, it is essential to clarify what is meant by "Bitcoin wallet" and to understand its utility.
 
 ### What is a Bitcoin wallet?
 
-Unlike traditional wallets, which allow you to store physical bills and coins, a Bitcoin wallet does not "contain" bitcoins per se. Indeed, bitcoins do not exist in a physical or digital form that can be stored, but are represented by units of account depicted in the system in the form of **UTXOs** (_Unspent Transaction Output_).
+Unlike traditional wallets, which allow you to store physical bills and coins, a Bitcoin wallet does not "contain" bitcoins per se. Indeed, bitcoins do not exist in a physical or digital form that can be stored, but are represented by units of account depicted in the Bitcoin system in the form of **UTXOs** (_Unspent Transaction Outputs_).
 
 UTXOs thus represent fragments of bitcoins, of varying sizes, that can be spent provided that their _scriptPubKey_ is satisfied. To spend his bitcoins, a user must provide a _scriptSig_ that unlocks the _scriptPubKey_ associated with his UTXO. This proof is generally made through a digital signature, generated from the private key corresponding to the public key present in the _scriptPubKey_. Thus, the crucial element that the user must secure is the private key.
 The role of a Bitcoin wallet is precisely to manage these private keys securely. In reality, its role is more akin to that of a keychain than a wallet in the traditional sense.
 
-### JBOK Wallets (_Just a Bunch Of Keys_)
+### JBOK Wallets
 
-The first wallets used on Bitcoin were JBOK (_Just a Bunch Of Keys_) wallets, which grouped together privately generated keys independently and without any link between them. These wallets operated on a simple model where each private key could unlock a unique Bitcoin receiving address.
+The first wallets used in Bitcoin were JBOK (_Just a Bunch Of Keys_) wallets, which grouped together private keys generated independently and without any link between them. These wallets operated on a simple model where each private key could unlock a unique Bitcoin receiving address.
 
 ![CYP201](assets/fr/033.webp)
 
-If one wished to use multiple private keys, it was then necessary to make as many backups to ensure access to funds in case of problems with the device hosting the wallet. If using a single private key, this wallet structure may suffice, since a single backup is enough. However, this poses a problem: on Bitcoin, it is strongly advised against always using the same private key. Indeed, a private key is associated with a unique address, and Bitcoin receiving addresses are normally designed for one-time use. Each time you receive funds, you should generate a new blank address.
+If one wished to use multiple private keys, it was then necessary to make as many backups to ensure access to funds in case of problems with the device hosting the wallet. If using a single private key, this wallet structure may suffice, since a single backup is enough. However, this poses a problem: in Bitcoin, it is strongly advised against using always the same private key. Indeed, a private key is associated with a unique address, and Bitcoin receiving addresses are normally designed for one-time use. Each time you receive funds, you should generate a new blank address.
 
-This constraint stems from Bitcoin's privacy model. By reusing the same address, it makes it easier for external observers to trace all of my Bitcoin transactions. That's why reusing a receiving address is strongly discouraged. However, to have multiple addresses and publicly separate our transactions, it is necessary to manage multiple private keys. In the case of JBOK wallets, this implies creating as many backups as there are new pairs of keys, a task that can quickly become complex and difficult to maintain for users.
+This constraint stems from Bitcoin's privacy model. By reusing the same address, it makes it easier for external observers to trace Bitcoin transactions. That's why reusing a receiving address is strongly discouraged. However, to have multiple addresses and publicly separate our transactions, it is necessary to manage multiple private keys. In the case of JBOK wallets, this implies creating as many backups as there are new pairs of keys, a task that can quickly become complex and difficult to maintain for users.
 
 To learn more about Bitcoin's privacy model and discover methods to protect your privacy, I also recommend following my BTC204 course on Plan ₿ Network:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-### HD Wallets (_Hierarchical Deterministic_)
+### HD Wallets
 
-To address the limitation of JBOK wallets, a new wallet structure was subsequently utilized. In 2012, Pieter Wuille introduced an improvement with BIP32, which introduces hierarchical deterministic wallets. The principle of an HD wallet is to derive all private keys from a single source of information, called a seed, in a deterministic and hierarchical manner. This seed is generated randomly when the wallet is created and constitutes a unique backup that allows for the recreation of all the wallet's private keys. Thus, the user can generate a very large number of private keys to avoid address reuse and preserve their privacy, while only needing to make a single backup of their wallet via the seed.
+To address the limitation of JBOK wallets, a new wallet structure was subsequently utilized. In 2012, Pieter Wuille proposed an improvement with BIP32, which introduces HD (Hierarchical Deterministic) wallets. The principle of an HD wallet is to derive all private keys from a single source of information, called a seed, in a deterministic and hierarchical manner. This seed is generated randomly when the wallet is created and constitutes a unique backup that allows for the recreation of all the wallet's private keys. Thus, the user can generate a very large number of private keys to avoid address reuse and preserve their privacy, while only needing to make a single backup of their wallet via the seed.
+
 ![CYP201](assets/fr/034.webp)
 
 In HD wallets, key derivation is performed according to a hierarchical structure that allows keys to be organized into derivation subspaces, each subspace being further subdividable, to facilitate fund management and interoperability between different wallet software. Nowadays, this standard is adopted by the vast majority of Bitcoin users. For this reason, we will examine it in detail in the following chapters.
@@ -1206,18 +1207,18 @@ In addition to BIP32, BIP39 standardizes the seed format as a mnemonic phrase, t
 
 The mnemonic phrase greatly simplifies backup for the user. In case of loss, damage, or theft of the device hosting the wallet, simply knowing this mnemonic phrase allows for the recreation of the wallet and recovery of access to all the funds secured by it.
 
-In the upcoming chapters, we will explore the internal workings of HD wallets, including key derivation mechanisms and the different possible hierarchical structures. This will allow you to better understand the cryptographic foundations upon which the security of funds on Bitcoin is based. And to start, in the next chapter, I propose we discover the role of entropy at the base of your wallet.
+In the upcoming chapters, we will explore the internal workings of HD wallets, including key derivation mechanisms and the different possible hierarchical structures. This will allow you to better understand the cryptographic foundations upon which the security of funds in Bitcoin is based. And to start, in the next chapter, I propose we discover the role of entropy at the base of your wallet.
 
-## Entropy and Random Number
+## Entropy and Random Numbers
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
-Modern HD wallets (deterministic and hierarchical) rely on a single initial piece of information called "entropy" to deterministically generate the entire set of wallet keys. This entropy is a pseudo-random number whose level of chaos partly determines the security of the wallet.
+Modern HD wallets rely on a single initial piece of information called "entropy" to deterministically generate the entire set of wallet keys. This entropy is a pseudo-random number that partly determines the security of the wallet.
 
 ### Definition of Entropy
 
 Entropy, in the context of cryptography and information, is a quantitative measure of the uncertainty or unpredictability associated with a data source or a random process. It plays an important role in the security of cryptographic systems, especially in the generation of keys and random numbers. High entropy ensures that the generated keys are sufficiently unpredictable and resistant to brute force attacks, where an attacker tries all possible combinations to guess the key.
 
-In the context of Bitcoin, entropy is used to generate the seed. When creating a deterministic and hierarchical wallet, the construction of the mnemonic phrase is done from a random number, itself derived from a source of entropy. The phrase is then used to generate multiple private keys, in a deterministic and hierarchical manner, to create spending conditions on UTXOs.
+In the context of Bitcoin, entropy is used to generate the seed. When creating an HD wallet, the construction of the mnemonic phrase is done from a random number, itself derived from a source of entropy. The phrase is then used to generate multiple private keys, in a deterministic and hierarchical manner, to create spending conditions on UTXOs.
 
 ### Methods of Generating Entropy
 
@@ -1226,7 +1227,7 @@ The initial entropy used for an HD wallet is generally 128 bits or 256 bits, whe
 - **128 bits of entropy** correspond to a mnemonic phrase of **12 words**;
 - **256 bits of entropy** correspond to a mnemonic phrase of **24 words**.
 
-In most cases, this random number is generated automatically by the wallet software using a PRNG (_Pseudo-Random Number Generator_). PRNGs are a category of algorithms used to generate sequences of numbers from an initial state, which have characteristics approaching that of a random number, without actually being one. A good PRNG must have properties such as output uniformity, unpredictability, and resistance to predictive attacks. Unlike true random number generators (TRNG), PRNGs are deterministic and reproducible.
+In most cases, this random number is generated automatically by the wallet software using a PRNG (_Pseudo-Random Number Generator_). PRNGs are a category of algorithms used to generate sequences of numbers from an initial state, which have characteristics approaching that of a random number, without actually being one. A good PRNG must have properties such as output uniformity, unpredictability, and resistance to predictive attacks. Unlike true random number generators (TRNGs), PRNGs are deterministic and reproducible.
 
 ![CYP201](assets/fr/035.webp)
 
@@ -1237,7 +1238,7 @@ In the next chapter, we will see how we go from a random number to a mnemonic ph
 ## The Mnemonic Phrase
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
-The mnemonic phrase, also called "seed phrase", "recovery phrase", "secret phrase", or "24-word phrase", is a sequence usually composed of 12 or 24 words, which is generated from entropy. It is used to deterministically derive all the keys of an HD wallet. This means that from this phrase, it is possible to deterministically generate and recreate all the private and public keys of the Bitcoin wallet, and consequently access the funds that are protected with it. The purpose of the mnemonic phrase is to provide a means of backup and recovery of bitcoins that is both secure and easy to use. It was introduced into standards in 2013 with BIP39.
+The mnemonic phrase, also called "seed phrase", "recovery phrase", "secret phrase", or "24-word phrase", is a sequence usually composed of 12 or 24 words, which is generated from entropy. It is used to deterministically derive all the keys of an HD wallet. This means that from this phrase, it is possible to deterministically generate and recreate all the private and public keys of the Bitcoin wallet, and consequently access the funds that are protected with it. The purpose of the mnemonic phrase is to provide a means of backup and recovery of bitcoins that is both secure and easy to use. It was introduced in 2013 with the BIP39 standard.
 
 Let's discover together how to go from entropy to a mnemonic phrase.
 
@@ -1289,7 +1290,7 @@ For example, for a 256-bit entropy, the result $\text{ENT} \Vert \text{CS}$ is 2
 
 ### Conversion of the Binary Sequence into a Mnemonic Phrase
 
-The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 
@@ -1307,7 +1308,7 @@ This correspondence is repeated for each of the 12 segments, in order to obtain 
 
 ### Characteristics of the BIP39 Word List
 
-A particularity of the BIP39 word list is that no word shares the same first four letters in the same order with another word. This means that noting only the first four letters of each word is sufficient to save the mnemonic phrase. This can be interesting for saving space, especially for those who wish to engrave it on a metal support.
+A particularity of the BIP39 word list is that no word shares the same first four letters in the same order with another word. This means that writing down only the first four letters of each word is sufficient to save the mnemonic phrase. This can be interesting for saving space, especially for those who wish to engrave it on a metal support.
 
 This list of 2048 words exists in several languages. These are not simple translations, but distinct words for each language. However, it is strongly recommended to stick to the English version, as versions in other languages are generally not supported by wallet software.
 
@@ -1317,7 +1318,7 @@ To determine the optimal length of your mnemonic phrase, one must consider the a
 
 However, this difference in phrase-level security does not improve the overall security of a Bitcoin wallet, as the private keys derived from this phrase only benefit from 128 bits of security. Indeed, as we have seen previously, Bitcoin private keys are generated from random numbers (or derived from a random source) ranging between $1$ and $n-1$, where $n$ represents the order of the generator point $G$ of the secp256k1 curve, a number slightly less than $2^{256}$. One might therefore think that these private keys offer 256 bits of security. However, their security lies in the difficulty of finding a private key from its associated public key, a difficulty established by the mathematical problem of the discrete logarithm on elliptic curves (_ECDLP_). To date, the best-known algorithm for solving this problem is Pollard's rho algorithm, which reduces the number of operations needed to break a key to the square root of its size.
 
-For 256-bit keys, such as those used on Bitcoin, Pollard's rho algorithm thus reduces the complexity to $2^{128}$ operations:
+For 256-bit keys, such as those used in Bitcoin, Pollard's rho algorithm thus reduces the complexity to $2^{128}$ operations:
 
 $$
 
@@ -1326,7 +1327,7 @@ O(\sqrt{2^{256}}) = O(2^{128})
 
 $$
 
-Therefore, it is considered that a private key used on Bitcoin offers 128 bits of security.
+Therefore, it is considered that a private key used in Bitcoin offers 128 bits of security.
 
 As a result, choosing a 24-word phrase does not provide additional protection for the wallet, as 256 bits of security on the phrase is pointless if the derived keys only offer 128 bits of security. To illustrate this principle, it's like having a house with two doors: an old wooden door and a reinforced door. In the event of a burglary, the reinforced door would be of no use, since the intruder would go through the wooden door. This is an analogous situation here.
 
@@ -1334,7 +1335,8 @@ A 12-word phrase, which also offers 128 bits of security, is therefore currently
 
 To go further and learn concretely how to manually generate a test mnemonic phrase, I advise you to discover this tutorial:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Before continuing with the derivation of the wallet from this mnemonic phrase, I will introduce you, in the following chapter, to the BIP39 passphrase, as it plays a role in the derivation process, and it is at the same level as the mnemonic phrase.
 
 ## The passphrase
@@ -1397,10 +1399,7 @@ The BIP39 standard defines the seed as a 512-bit sequence, which serves as the s
 The following equation illustrates the derivation of the seed from the mnemonic phrase and the passphrase:
 
 $$
-
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
-
-
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 $$
 
 ![CYP201](assets/fr/044.webp)
@@ -1432,18 +1431,15 @@ The output of this function is therefore 512 bits. It is then divided into 2 par
 
 - The left 256 bits form the **master private key**;
 - The right 256 bits form the **master chain code**.
-  Mathematically, these two values can be noted as follows with $k_M$ being the master private key and $C_M$ the master chain code:
-  $$
 
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
+Mathematically, these two values can be written as follows with $k_M$ being the master private key and $C_M$ the master chain code:
 
 $$
-
-
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
-
+$$
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 $$
 
 ![CYP201](assets/fr/045.webp)
@@ -1468,11 +1464,11 @@ The extended key consists of two parts:
 - The metadata, which are various pieces of information to facilitate interoperability between software and improve understanding for the user.
 
 ### How Extended Keys Work
-When the extended key contains a private key, it is referred to as an extended private key. It is recognized by its prefix which contains the mention `prv`. In addition to the private key, the extended private key also contains the associated chain code. With this type of extended key, it is possible to derive all types of child private keys, and therefore by addition and doubling of points on elliptical curves, it also allows for the derivation of the entirety of child public keys.
+When the extended key contains a private key, it is referred to as an extended private key. It is recognized by its prefix which contains the identifier `prv`. In addition to the private key, the extended private key also contains the associated chain code. With this type of extended key, it is possible to derive all types of child private keys. Therefore, by addition and doubling of points on elliptic curves, it also allows for the derivation of child public keys.
 
-When the extended key does not contain a private key, but instead, a public key, it is referred to as an extended public key. It is recognized by its prefix which contains the mention `pub`. Obviously, in addition to the key, it also contains the associated chain code. Unlike the extended private key, the extended public key allows for the derivation of only "normal" child public keys (meaning it cannot derive "hardened" child keys). We will see in the following chapter what these "normal" and "hardened" qualifiers mean.
+When the extended key does not contain a private key, but instead a public key, it is referred to as an extended public key. It is recognized by its prefix which contains the identifier `pub`. Obviously, in addition to the key, it also contains the associated chain code. Unlike the extended private key, the extended public key allows for the derivation of only "normal" child public keys (meaning it cannot derive "hardened" child keys). We will see in the following chapter what these "normal" and "hardened" qualifiers mean.
 
-But in any case, the extended public key does not allow for the derivation of child private keys. Therefore, even if someone has access to an `xpub`, they will not be able to spend the associated funds, as they will not have access to the corresponding private keys. They can only derive child public keys to observe the associated transactions.
+In any case, the extended public key does not allow for the derivation of child private keys. Therefore, even if someone has access to an `xpub`, they will not be able to spend the associated funds, as they will not have access to the corresponding private keys. They can only derive child public keys to observe the associated transactions.
 
 For the following, we will adopt the following notation:
 - $K_{\text{PAR}}$: a parent public key;
@@ -1515,22 +1511,21 @@ If one byte is added to the private key only, it's because the compressed public
 As we have just seen, extended keys include a prefix that indicates both the version of the extended key and its nature. The notation `pub` indicates that it refers to an extended public key, and the notation `prv` indicates an extended private key. The additional letter at the base of the extended key helps to indicate whether the standard followed is Legacy, SegWit v0, SegWit v1, etc.
 Here is a summary of the prefixes used and their meanings:
 
-| Base 58 Prefix | Base 16 Prefix     | Network  | Purpose              | Associated Scripts        | Derivation                 | Key Type    |
-|----------------|--------------------|----------|----------------------|---------------------------|----------------------------|-------------|
-| `xpub`         | `0488b21e`         | Mainnet  | Legacy and SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | public      |
-| `xprv`         | `0488ade4`         | Mainnet  | Legacy and SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | private     |
-| `tpub`         | `043587cf`         | Testnet  | Legacy and SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | public      |
-| `tprv`         | `04358394`         | Testnet  | Legacy and SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | private     |
-| `ypub`         | `049d7cb2`         | Mainnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/0'`                 | public      |
-| `yprv`         | `049d7878`         | Mainnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/0'`                 | private     |
-| `upub`         | `049d7cb2`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | public      |
-| `uprv`         | `044a4e28`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | private     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | public      |
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-This table provides a comprehensive overview of the prefixes used in extended keys, detailing their base 58 and base 16 prefixes, the network they are associated with (Mainnet or Testnet), their purpose, the scripts they are associated with, their derivation path, and whether they are public or private keys.
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | private     ||
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | public      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | private     |
 
 ### Details of an Extended Key's Elements
 
@@ -1550,25 +1545,27 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 This extended key breaks down into several distinct elements:
 
-1. **Version**: `0488B21E`
+1.**Version**: `0488B21E`
 
 The first 4 bytes are the version. Here, it corresponds to an extended public key on the Mainnet with a derivation purpose of either *Legacy* or *SegWit v1*.
 
-2. **Depth**: `03`
+2.**Depth**: `03`
 
 This field indicates the hierarchical level of the key within the HD wallet. In this case, a depth of `03` means that this key is three levels of derivation below the master key.
 
-3. **Parent fingerprint**: `6D5601AD`
+3.**Parent fingerprint**: `6D5601AD`
 
 These are the first 4 bytes of the HASH160 hash of the parent public key that was used to derive this `xpub`.
 
-4. **Index number**: `80000000`
+4.**Index number**: `80000000`
 
 This index indicates the key's position among its parent's children. The `0x80` prefix indicates that the key is derived in a hardened manner, and since the rest is filled with zeros, it indicates that this key is the first among its possible siblings.
 
-5. **Chain code**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
-6. **Public Key**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
-7. **Checksum**: `1F067C3A`
+5.**Chain code**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+
+6.**Public Key**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
+
+7.**Checksum**: `1F067C3A`
 
 The checksum corresponds to the first 4 bytes of the hash (double SHA256) of everything else.
 
@@ -1588,14 +1585,15 @@ Let's explore how this deterministic derivation works.
 
 ### The Different Types of Child Key Derivations
 
-As we briefly touched upon in the previous chapter: child keys are divided into two main types:
-1. **Normal child keys** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): These are derived from the extended public key ($K_{\text{PAR}}$), or the extended private key ($k_{\text{PAR}}$), by first deriving the public key.
-2. **Hardened child keys** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): These can only be derived from the extended private key ($k_{\text{PAR}}$) and are therefore invisible to observers who only have the extended public key.
+As we briefly touched upon in the previous chapter, child keys are divided into two main types.
+- **Normal child keys** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): These are derived from the extended public key ($K_{\text{PAR}}$), or the extended private key ($k_{\text{PAR}}$), by first deriving the public key.
+- **Hardened child keys** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): These can only be derived from the extended private key ($k_{\text{PAR}}$) and are therefore invisible to observers who only have the extended public key.
+
 Every child key pair is identified by a 32-bit **index** (named $i$ in our calculations). The indexes for normal keys range from $0$ to $2^{31}-1$, while those for hardened keys range from $2^{31}$ to $2^{32}-1$. These numbers are used to distinguish sibling key pairs during derivation. Indeed, each parent key pair must be capable of deriving multiple child key pairs. If we were to apply the same calculation systematically from the parent keys, all the sibling keys obtained would be identical, which is not desirable. The index thus introduces a variable that modifies the derivation calculation, allowing each sibling pair to be differentiated. Except for specific use in certain protocols and derivation standards, we generally start by deriving the first child key with the index `0`, the second with the index `1`, and so on.
 
 ### Derivation Process with HMAC-SHA512
 
-The derivation of each child key is based on the HMAC-SHA512 function, which we discussed in Section 2 on hash functions. It takes two inputs: the parent chain code $C_{\text{PAR}}$ and the concatenation of the parent key (either the public key $K_{\text{PAR}}$ or the private key $k_{\text{PAR}}$, depending on the type of child key desired) and the index. The output of the HMAC-SHA512 is a 512-bit sequence, divided into two parts:
+The derivation of each child key is based on the HMAC-SHA512 function, which we discussed in Section 2 on hash functions. It takes two inputs: the parent chain code $C_{\text{PAR}}$, and the concatenation of the parent key (either the public key $K_{\text{PAR}}$ or the private key $k_{\text{PAR}}$, depending on the type of child key desired) with the index. The output of the HMAC-SHA512 is a 512-bit sequence, divided into two parts:
 - **The first 32 bytes** (or $h_1$) are used to calculate the new child pair.
 - **The last 32 bytes** (or $h_2$) serve as the new chain code $C_{\text{CHD}}$ for the child pair.
 
@@ -1609,14 +1607,12 @@ To derive a child private key $k_{\text{CHD}}$ from a parent private key $k_{\te
 
 For a **normal child key** ($i < 2^{31}$), the calculation of $\text{hash}$ is as follows:
 
-
+$$
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}},  k_{\text{PAR}} \cdot G \Vert i)
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
-
-$$
 In this calculation, we observe that our HMAC function takes two inputs: first, the parent chain code, and then the concatenation of the index with the public key associated with the parent private key. The parent public key is used here because we are looking to derive a normal child key, not a hardened one.
-We now have a 64-byte $\text{hash}$ that we will split into 2 parts of 32 bytes each: $h_1$ and $h_2$:
+We now have a 64-byte $\text{hash}$ that we will split into 2 parts of 32 bytes each, $h_1$ and $h_2$:
 
 
 $$
@@ -1627,18 +1623,13 @@ $$
 
 
 $$
-
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
-
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 $$
 
 The child private key $k_{\text{CHD}}^n$ is then calculated as follows:
 
-
 $$
-
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
-
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 $$
 
 In this calculation, the operation $\text{parse256}(h_1)$ consists of interpreting the first 32 bytes of the $\text{hash}$ as a 256-bit integer. This number is then added to the parent private key, all taken modulo $n$ to stay within the order of the elliptic curve, as we saw in section 3 on digital signatures. Thus, to derive a normal child private key, although the parent public key is used as the basis for calculation in the inputs of the HMAC-SHA512 function, it is always necessary to have the parent private key to finalize the calculation.
@@ -1647,11 +1638,8 @@ From this child private key, it is possible to derive the corresponding public k
 
 Then, the second part of the $\text{hash}$ is simply interpreted as being the chain code for the child key pair that we have just derived:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Here is a schematic representation of the overall derivation:
@@ -1662,13 +1650,11 @@ For a **hardened child key** ($i \geq 2^{31}$), the calculation of the $\text{ha
 
 
 $$
-
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
-
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 $$
 
 In this calculation, we observe that our HMAC function takes two inputs: first, the parent chain code, and then the concatenation of the index with the parent private key. The parent private key is used here because we are looking to derive a hardened child key. Moreover, a byte equal to `0x00` is added at the beginning of the key. This operation equalizes its length to match that of a compressed public key.
-So, we now have a 64-byte $\text{hash}$ that we will split into 2 parts of 32 bytes each: $h_1$ and $h_2$:
+So, we now have a 64-byte $\text{hash}$ that we will split into 2 parts of 32 bytes each, $h_1$ and $h_2$:
 $$
 
 \text{hash} = h_1 \Vert h_2
@@ -1677,27 +1663,19 @@ $$
 
 
 $$
-
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
-
 $$
 
 The child private key $k_{\text{CHD}}^h$ is then calculated as follows:
 
-
 $$
-
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
-
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 $$
 
 Next, we simply interpret the second part of the $\text{hash}$ as being the chain code for the pair of child keys that we have just derived:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Here is a schematic representation of the overall derivation:
@@ -1712,16 +1690,13 @@ If we only know the parent public key $K_{\text{PAR}}$ and the associated chain 
 
 To perform this calculation, we will compute the $\text{hash}$ with an index $i < 2^{31}$ (normal derivation):
 
-
 $$
-
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
-
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 $$
 
 In this calculation, we observe that our HMAC function takes two inputs: first the parent chain code, then the concatenation of the index with the parent public key.
 
-So, we now have a $hash$ of 64 bytes that we will split into 2 parts of 32 bytes each: $h_1$ and $h_2$:
+So, we now have a $\text{hash}$ of 64 bytes that we will split into 2 parts of 32 bytes each, $h_1$ and $h_2$:
 
 
 $$
@@ -1739,22 +1714,18 @@ $$
 
 The child public key $K_{\text{CHD}}^n$ is then calculated as follows:
 
-
+$$
+K_{\text{CHD}}^n = \text{parse256}(h_1) \cdot G + K_{\text{PAR}}
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
-
-$$
 If $\text{parse256}(h_1) \geq n$ (order of the elliptic curve) or if $K_{\text{CHD}}^n$ is the point at infinity, the derivation is invalid, and another index must be chosen.
+
 In this calculation, the operation $\text{parse256}(h_1)$ involves interpreting the first 32 bytes of the $\text{hash}$ as a 256-bit integer. This number is used to calculate a point on the elliptic curve through addition and doubling from the generator point $G$. This point is then added to the parent public key to obtain the normal child public key. Thus, to derive a normal child public key, only the parent public key and the parent chain code are necessary; the parent private key never comes into this process, unlike the calculation of the child private key we saw earlier.
 
 Next, the child chain code is simply:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Here is a schematic representation of the overall derivation:
@@ -1765,7 +1736,7 @@ Here is a schematic representation of the overall derivation:
 
 A question that may arise is how a normal child public key derived from a parent public key can correspond to a normal child private key derived from the corresponding parent private key. This link is precisely ensured by the properties of elliptic curves. Indeed, to derive a normal child public key, HMAC-SHA512 is applied in the same way, but its output is used differently:
    - **Normal child private key**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
-   - **Normal child public key**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
+   - **Normal child public key**: $K_{\text{CHD}}^n = \text{parse256}(h_1) \cdot G + K_{\text{PAR}}$
 
 Thanks to the addition and doubling operations on the elliptic curve, both methods produce consistent results: the public key derived from the child private key is identical to the child public key derived directly from the parent public key.
 
@@ -1773,28 +1744,25 @@ Thanks to the addition and doubling operations on the elliptic curve, both metho
 
 To summarize, here are the different possible types of derivations:
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k*{\text{CHD}}^h \} & \{ n, h \} \\
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K\_{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
-To summarize, so far you have learned to create the basic elements of the HD wallet: the mnemonic phrase, the seed, and then the master key and master chain code. You have also discovered how to derive child key pairs in this chapter. In the next chapter, we will explore how these derivations are organized in Bitcoin wallets and what structure to follow to concretely obtain the receiving addresses as well as the key pairs used in the *scriptPubKey* and *scriptSig*.
+So far you have learned to create the basic elements of an HD wallet: the mnemonic phrase, the seed, and then the master key and master chain code. You have also discovered how to derive child key pairs in this chapter. In the next chapter, we will explore how these derivations are organized in Bitcoin wallets and what structure to follow to concretely obtain the receiving addresses as well as the key pairs used in the *scriptPubKey* and *scriptSig*.
 
 ## Wallet Structure and Derivation Paths
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
-The hierarchical structure of HD wallets on Bitcoin allows for the organization of key pairs in various ways. The idea is to derive, from the master private key and master chain code, several levels of depth. Each added level corresponds to the derivation of a child key pair from a parent key pair.
+The hierarchical structure of HD wallets in Bitcoin allows for the organization of key pairs in various ways. The idea is to derive, from the master private key and master chain code, several levels of depth. Each added level corresponds to the derivation of a child key pair from a parent key pair.
 
 Over time, different BIPs have introduced standards for these derivation paths, aiming to standardize their use across different software. So, in this chapter, we will discover the meaning of each level of derivation in HD wallets, according to these standards.
 
@@ -1809,7 +1777,8 @@ A derivation path, therefore, refers to the sequence of indices used to derive c
 This depth corresponds to the wallet's master private key and master chain code. It is represented by the notation $m/$.
 
 **Depth 1: Purpose (BIP43)**
-The goal determines the logical structure of derivation. For example, a P2WPKH address will have $/84'/$ at depth 1 (according to BIP84), while a P2TR address will have $/86'/$ (according to BIP86). This layer facilitates compatibility between wallets by indicating index numbers corresponding to the BIP numbers.
+
+The purpose determines the logical structure of derivation. For example, a P2WPKH address will have $/84'/$ at depth 1 (according to BIP84), while a P2TR address will have $/86'/$ (according to BIP86). This layer facilitates compatibility between wallets by indicating index numbers corresponding to the BIP numbers.
 
 In other words, once you have the master key and the master chain code, these serve as a parent key pair to derive a child key pair. The index used in this derivation can be, for example, $/84'/$ if the wallet is intended to use SegWit v0 type scripts. This key pair is then at depth 1. Its role is not to lock bitcoins, but simply to serve as a waypoint in the derivation hierarchy.
 
@@ -1829,7 +1798,9 @@ To give you other examples, here are the indexes of some currencies:
 Each wallet can be divided into several accounts, numbered from $2^{31}$, and represented at depth 3 by $/0'/$ for the first account, $/1'/$ for the second, and so on. Generally, when referring to an extended key `xpub`, it refers to keys at this depth of derivation.
 
 This separation into different accounts is optional. It aims to simplify the organization of the wallet for users. In practice, often only one account is used, usually the first by default. However, in some cases, if one wishes to clearly distinguish key pairs for different uses, this can be useful. For example, it is possible to create a personal account and a professional account from the same seed, with completely distinct groups of keys from this depth of derivation.
+
 **Depth 4: Chain (BIP32)**
+
 Each account defined at depth 3 is then structured into two chains:
 - **The external chain**: In this chain, what are known as "public" addresses are derived. These receiving addresses are intended to lock UTXOs coming from external transactions (that is, originating from the consumption of UTXOs that do not belong to you). To put it simply, this external chain is used whenever one wishes to receive bitcoins. When you click on "*receive*" in your wallet software, it is always an address from the external chain that is offered to you. This chain is represented by a pair of keys derived with the index $/0/$.
 - **The internal chain (change)**: This chain is reserved for receiving addresses that lock bitcoins coming from the consumption of UTXOs that belong to you, in other words, change addresses. It is identified by the index $/1/$.
@@ -1920,8 +1891,10 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 ```
 
 Next, the notation `/<0;1>/*` specifies that the descriptor can generate addresses from the external chain (`0`) and internal chain (`1`), with a wildcard (`*`) allowing for the sequential derivation of multiple addresses in a configurable manner, similar to managing a "gap limit" on traditional wallet software.
+
 Finally, `#jy0l7nr4` represents the checksum to verify the integrity of the descriptor.
-You now know everything about the operation of the HD wallet on Bitcoin and the process of deriving key pairs. However, in the last chapters, we limited ourselves to the generation of private and public keys, without addressing the construction of receiving addresses. This will precisely be the subject of the next chapter!
+
+You now know everything about the operation of HD wallets in Bitcoin and the process of deriving key pairs. However, in the last chapters, we limited ourselves to the generation of private and public keys, without addressing the construction of receiving addresses. This will precisely be the subject of the next chapter!
 
 ## Receiving Addresses
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
@@ -1932,7 +1905,7 @@ Receiving addresses are pieces of information embedded in *scriptPubKey* to lock
 
 As explained earlier, a transaction's role is to transfer the ownership of bitcoins from inputs to outputs. This process involves consuming UTXOs as inputs while creating new UTXOs as outputs. These UTXOs are secured by scripts, which define the necessary conditions to unlock the funds.
 
-When a user receives bitcoins, the sender creates an output UTXO and locks it with a *scriptPubKey*. This script contains the rules typically specifying the signatures and public keys required to unlock this UTXO. To spend this UTXO in a new transaction, the user must provide the requested information via a *scriptSig*. The execution of *scriptSig* in combination with *scriptPubKey* must return "true" or `1`. If this condition is met, the UTXO can be spent to create a new UTXO, itself locked by a new *scriptPubKey*, and so on.
+When a user receives bitcoins, the sender creates a UTXO and locks it with a *scriptPubKey*. This script contains the rules to unlock the UTXO, typically specifying the signatures and public keys required. To spend this UTXO in a new transaction, the user must provide the requested information via a *scriptSig*. The execution of *scriptSig* in combination with *scriptPubKey* must return "true" or `1`. If this condition is met, the UTXO can be spent to create a new UTXO, itself locked by a new *scriptPubKey*, and so on.
 
 ![CYP201](assets/fr/054.webp)
 
@@ -1964,11 +1937,11 @@ As we will see in this chapter, `<pubKeyHash>` actually represents the payload o
 <signature> <public key>
 ```
 
-In script language, the "stack" is a "*LIFO*" ("*Last In, First Out*") data structure used to temporarily store elements during script execution. Each script operation manipulates this stack, where elements can be added (*push*) or removed (*pop*). Scripts use these stacks to evaluate expressions, store temporary variables, and manage conditions.
+In script language, the stack is a *LIFO* ("*Last In, First Out*") data structure used to temporarily store elements during script execution. Each script operation manipulates this stack, where elements can be added (*push*) or removed (*pop*). Scripts use the stack to evaluate expressions, store temporary variables, and manage conditions.
 
 The execution of the script I just gave as an example follows this process:
 
-- We have the *scriptSig*, the *ScriptPubKey*, and the stack:
+- We have the *scriptSig*, the *scriptPubKey*, and the stack:
 
 ![CYP201](assets/fr/055.webp)
 
@@ -1991,7 +1964,10 @@ The execution of the script I just gave as an example follows this process:
 - `OP_EQUALVERIFY` verifies that the hashed public key matches the provided receiving address:
 
 ![CYP201](assets/fr/060.webp)
+
 `OP_CHECKSIG` checks the signature contained in the *scriptSig* using the public key. This opcode essentially performs a signature verification as we described in part 3 of this training:
+
+
 ![CYP201](assets/fr/061.webp)
 
 - If `1` remains on the stack, then the script is valid:
@@ -2017,6 +1993,7 @@ Like P2PK, the P2PKH script was introduced at the launch of Bitcoin. Unlike its 
 Introduced in 2012 with BIP16, the P2SH model allows using the hash of an arbitrary script in the *scriptPubKey*. This hashed script, called "*redeemScript*", contains the conditions for unlocking the funds. To spend a UTXO locked with P2SH, it is necessary to provide a *scriptSig* containing the original *redeemScript* as well as the necessary data to validate it. This model is notably used for old multisigs. The addresses associated with P2SH start with `3` and are encoded in *base58check*. This script also belongs to the "*Legacy*" standard.
 
 **P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
+
 This script is similar to P2PKH, as it also locks bitcoins using the hash of a public key. However, unlike P2PKH, the *scriptSig* is moved to a separate section called "*Witness*". This is sometimes referred to as "*scriptWitness*" to denote the set comprising the signature and the public key. Each SegWit input has its own *scriptWitness*, and the collection of *scriptWitnesses* constitutes the *Witness* field of the transaction. This movement of signature data is an innovation introduced by the SegWit update, aimed particularly at preventing the malleability of transactions due to ECDSA signatures.
 P2WPKH addresses use *bech32* encoding and always start with `bc1q`. This type of script corresponds to version 0 SegWit outputs.
 
@@ -2033,7 +2010,9 @@ The P2TR model was introduced with the implementation of Taproot in November 202
 Technically, a P2TR script locks bitcoins on a unique Schnorr public key, denoted as $Q$. This key $Q$ is actually an aggregate of a public key $P$ and a public key $M$, the latter being calculated from the Merkle root of a list of *scriptPubKey*. Bitcoins locked with this type of script can be spent in two ways:
 - By publishing a signature for the public key $P$ (*key path*).
 - By satisfying one of the scripts contained in the Merkle tree (*script path*).
+
 P2TR thus offers great flexibility, as it allows locking bitcoins either with a unique public key, with several scripts of choice, or both simultaneously. The advantage of this Merkle tree structure is that only the spending script used is revealed during the transaction, but all other alternative scripts remain secret.
+
 ![CYP201](assets/fr/063.webp)
 
 P2TR corresponds to version 1 SegWit outputs, which means that the signatures for P2TR inputs are stored in the transaction's *Witness* section, and not in the *scriptSig*. P2TR addresses use the *bech32m* encoding and start with `bc1p`, but they are quite unique because they do not use a hash function for their construction. Indeed, they directly represent the public key $Q$ which is simply formatted with metadata. It is, therefore, a script model close to P2PK.
@@ -2052,8 +2031,8 @@ Since the process of generating an address depends on the script model adopted, 
 After performing all the derivation steps from the master key to depth 5 using the appropriate indexes, we obtain a pair of keys ($k$, $K$) with $K = k \cdot G$. Although it is possible to use this public key as is to lock funds with the P2PK standard, that is not our goal here. Instead, we aim to create an address in P2WPKH in the first instance, and then in P2TR for another example.
 
 The first step is to compress the public key $K$. To understand this process well, let's first recall some fundamentals covered in part 3.
-A public key on Bitcoin is a point $K$ located on an elliptical curve. It is represented in the form $(x, y)$, where $x$ and $y$ are the coordinates of the point. In its uncompressed form, this public key measures 520 bits: 8 bits for a prefix (initial value of `0x04`), 256 bits for the $x$ coordinate, and 256 bits for the $y$ coordinate.
-However, elliptical curves have a symmetry property with respect to the x-axis: for a given $x$ coordinate, there are only two possible values for $y$: $y$ and $-y$. These two points are located on either side of the x-axis. In other words, if we know $x$, it is sufficient to specify whether $y$ is even or odd to identify the exact point on the curve.
+A public key in Bitcoin is a point $K$ located on an elliptic curve. It is represented in the form $(x, y)$, where $x$ and $y$ are the coordinates of the point. In its uncompressed form, this public key measures 520 bits: 8 bits for a prefix (initial value of `0x04`), 256 bits for the $x$ coordinate, and 256 bits for the $y$ coordinate.
+However, elliptic curves have a symmetry property with respect to the x-axis: for a given $x$ coordinate, there are only two possible values for $y$: $y$ and $-y$. These two points are located on either side of the x-axis. In other words, if we know $x$, it is sufficient to specify whether $y$ is even or odd to identify the exact point on the curve.
 
 ![CYP201](assets/fr/064.webp)
 
@@ -2112,7 +2091,7 @@ $$
 
 \begin{array}{|c|c|}
 \hline
-\text{Groupes de 5 bits} & \text{Valeur décimale} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -2160,15 +2139,15 @@ Once the hash is encoded into groups of 5 bits, a checksum is added to the addre
 
 For the old Bitcoin *Legacy* addresses, the checksum was simply calculated from the beginning of the address hash with the HASH256 function. With the introduction of SegWit and the *bech32* format, BCH codes (*Bose, Ray-Chaudhuri, and Hocquenghem*) are now used. These error-correcting codes are used to detect and correct errors in data sequences. They ensure that the transmitted information arrives intact at its destination, even in the case of minor alterations. BCH codes are used in many fields, such as SSDs, DVDs, and QR codes. For example, thanks to these BCH codes, a partially obscured QR code can still be read and decoded.
 
-In the context of Bitcoin, BCH codes offer a better compromise between size and error detection capability compared to the simple hash functions used for *Legacy* addresses. However, on Bitcoin, BCH codes are used only for error detection, not correction. Thus, wallet software will signal an incorrect receiving address but will not automatically correct it. This limitation is deliberate: allowing automatic correction would reduce the error detection capability.
+In the context of Bitcoin, BCH codes offer a better compromise between size and error detection capability compared to the simple hash functions used for *Legacy* addresses. However, in Bitcoin, BCH codes are used only for error detection, not correction. Thus, wallet software will signal an incorrect receiving address but will not automatically correct it. This limitation is deliberate: allowing automatic correction would reduce the error detection capability.
 
-To calculate the checksum with BCH codes, we need to prepare several elements:
+To calculate the checksum with BCH codes, we need to prepare several elements.
 - **The HRP (*Human Readable Part*)**: For the Bitcoin mainnet, the HRP is `bc`;
 
 The HRP must be expanded by separating each character into two parts:
 - Taking the characters of the HRP in ASCII:
 	- `b`: `01100010`
-- `c`: `01100011`
+	- `c`: `01100011`
 - Extracting the 3 most significant bits and the 5 least significant bits:
   - 3 most significant bits: `011` (3 in decimal)
   - 3 most significant bits: `011` (3 in decimal)
@@ -2241,13 +2220,13 @@ To convert a value into a _bech32_ character using this table, simply locate the
 By mapping all our values, we obtain the following address:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 All that remains is to add the HRP `bc`, which indicates that it is an address for the Bitcoin mainnet, as well as the separator `1`, to obtain the complete receiving address:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 The particularity of this _bech32_ alphabet is that it includes all alphanumeric characters except for `1`, `b`, `i`, and `o` to avoid visual confusion between similar characters, especially during their entry or reading by humans.
@@ -2262,7 +2241,7 @@ This is how to derive a P2WPKH (SegWit v0) receiving address from a pair of keys
 
 For Taproot addresses, the generation process differs slightly. Let's look at this together!
 
-From the step of public key compression, a first distinction appears compared to ECDSA: the public keys used for Schnorr on Bitcoin are represented only by their abscissa ($x$). Therefore, there is no prefix, and the compressed key measures exactly 256 bits.
+From the step of public key compression, a first distinction appears compared to ECDSA: the public keys used for Schnorr in Bitcoin are represented only by their abscissa ($x$). Therefore, there is no prefix, and the compressed key measures exactly 256 bits.
 As we saw in the previous chapter, a P2TR script locks bitcoins on a unique Schnorr public key, designated by $Q$. This key $Q$ is an aggregate of two public keys: $P$, a main internal public key, and $M$, a public key derived from the Merkle root of a list of _scriptPubKey_. The bitcoins locked with this type of script can be spent in two ways:
 
 - By publishing a signature for the public key $P$ (_key path_);
@@ -2273,7 +2252,7 @@ In reality, these two keys are not truly "aggregated." The key $P$ is instead tw
 
 $$
 
-P' = P + tG
+P' = P + t \cdot G
 
 $$
 
@@ -2284,7 +2263,7 @@ If you do not need to add alternative scripts (spending exclusively via the _key
 
 $$
 
-t = \text{H}\_{\text{TapTweak}}(P)
+t = \text{H}_{\text{TapTweak}}(P)
 
 $$
 
@@ -2346,7 +2325,7 @@ We then continue by concatenating the results two by two, passing them at each s
 
 ![CYP201](assets/fr/066.webp)
 
-Once the Merkle root $h*{\text{root}}$ is calculated, we can calculate the tweak. For this, we concatenate the internal public key of the wallet $P$ with the root $h*{\text{root}}$, and then pass the whole through the tagged hash function `TapTweak`:
+Once the Merkle root $h_{\text{root}}$ is calculated, we can calculate the tweak. For this, we concatenate the internal public key of the wallet $P$ with the root $h_{\text{root}}$, and then pass the whole through the tagged hash function `TapTweak`:
 
 
 $$
@@ -2366,10 +2345,10 @@ $$
 Then, the generation of the address follows the same process, using the raw public key $Q$ as the payload, accompanied by some additional metadata.
 
 And there you have it! We have reached the end of this CYP201 course. If you found this course helpful, I would be very grateful if you could take a few moments to give it a good rating in the following evaluation chapter. Feel free to also share it with your loved ones or on your social networks. Finally, if you wish to obtain your diploma for this course, you can take the final exam right after the evaluation chapter.
-# Conclusion
+# Final Section
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
-## Evaluate this course
+## Reviews & Ratings
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -2379,31 +2358,4 @@ And there you have it! We have reached the end of this CYP201 course. If you fou
 
 ## Conclusion
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
-
-We have reached the end of the CYP201 training. I hope it has been useful in your Bitcoin learning journey and has helped you better understand how the HD wallets you use daily work. Thank you for following this course to its completion!
-
-In my opinion, this knowledge about wallets is fundamental, as it connects a theoretical aspect of Bitcoin to its practical use. Indeed, if you use Bitcoin, you necessarily handle wallet software. Understanding their inner workings allows you to implement effective security strategies while mastering the underlying mechanisms, risks, and potential weaknesses. Thus, you can use Bitcoin more safely and with confidence.
-
-If you haven't already, I invite you to rate and comment on this training. It would help me enormously. You can also share this training on your social networks to spread this knowledge to as many people as possible.
-
-To continue your journey down the rabbit hole, I highly recommend the **BTC204** training, which I also produced on Plan ₿ Network. It is dedicated to Bitcoin privacy and explores key themes: What is the privacy model? How does chain analysis work? How to use Bitcoin optimally to maximize your privacy? A logical next step to deepen your skills!
-
-https://planb.network/courses/btc204
-
-Moreover, to continue deepening your knowledge in the Bitcoin universe, we invite you to explore other courses available on Plan ₿ Network such as:
-
-#### Learn to create your Bitcoin community with
-https://planb.network/courses/btc302
-
-#### Discover the Lightning Network with
-https://planb.network/courses/lnp201
-
-#### Discover the economic thought of the Austrian School with
-https://planb.network/courses/eco201
-
-#### Discover the history of Bitcoin's origins with
-https://planb.network/courses/his201
-
-#### Discover the evolution of freedom through the ages with
-https://planb.network/courses/phi201
-$$
+<isCourseConclusion>true</isCourseConclusion>

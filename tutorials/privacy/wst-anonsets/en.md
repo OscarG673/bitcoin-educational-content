@@ -12,7 +12,7 @@ _This tutorial is provided for educational and informational purposes only. We d
 
 ---
 
-*"Break the link your coins leave behind"*
+> *Break the link your coins leave behind*
 
 In this tutorial, we will study the concept of anonsets, indicators that allow us to estimate the quality of a coinjoin process on Whirlpool. We will cover the method of calculation and interpretation of these indicators. Following the theoretical part, we will move on to practice by learning to calculate the anonsets of a specific transaction using the Python tool *Whirlpool Stats Tools* (WST).
 
@@ -32,7 +32,9 @@ To carry out a coinjoin while ensuring that each user maintains control over the
 
 There are several implementations of coinjoin, such as Whirlpool, JoinMarket, or Wabisabi, each aiming to manage the coordination between participants and increase the efficiency of coinjoin transactions.
 In this tutorial, we will focus on my favorite implementation: Whirlpool, which is available on Samourai Wallet and Sparrow Wallet. In my opinion, it's the most efficient implementation for coinjoins on Bitcoin.
+
 ## What is the utility of coinjoin on Bitcoin?
+
 The utility of coinjoin lies in its ability to produce plausible deniability, by drowning your coin within a group of indistinguishable coins. The goal of this action is to break the traceability links, both from the past to the present and from the present to the past.
 
 In other words, an analyst who knows your initial transaction at the entry of the coinjoin cycles should not be able to identify with certainty your UTXO at the exit of the remix cycles (analysis from cycle entry to cycle exit).
@@ -55,7 +57,7 @@ Anonsets allow, where appropriate, to judge the quality of the coinjoins. A larg
 There are two types of anonsets:
 - **The prospective anonymity set;**
 - **The retrospective anonymity set.**
-The first indicator shows the size of the group among which the studied UTXO is hidden at the end of the cycle, knowing the UTXO at the entry, that is, the number of indistinguishable coins present within this group. This indicator allows measuring the resistance of the coin's confidentiality against an analysis from past to present (entry to exit). In English, the name of this indicator is "*forward anonset*", or "*forward-looking metrics*". 
+The first indicator shows the size of the group among which the studied UTXO is hidden at the end of the cycle, knowing the UTXO at the entry, that is, the number of indistinguishable coins present within this group. This indicator allows measuring the resistance of the coin's privacy against an analysis from past to present (entry to exit). In English, the name of this indicator is "*forward anonset*", or "*forward-looking metrics*". 
 ![coinjoin](assets/en/4.webp)
 
 This metric estimates the extent to which your UTXO is protected against attempts to reconstruct its history from its entry point to its exit point in the coinjoin process.
@@ -64,7 +66,7 @@ For example, if your transaction participated in its first coinjoin cycle and tw
 
 ![coinjoin](assets/en/5.webp)
 
-The second indicator shows the number of possible sources for a given coin, knowing the UTXO at the end of the cycle. This indicator measures the resistance of the coin's confidentiality against an analysis from present to past (exit to entry), that is, how difficult it is for an analyst to trace back to the origin of your coin, before the coinjoin cycles. In English, the name of this indicator is "*backward anonset*", or "*backward-looking metrics*".
+The second indicator shows the number of possible sources for a given coin, knowing the UTXO at the end of the cycle. This indicator measures the resistance of the coin's privacy against an analysis from present to past (exit to entry), that is, how difficult it is for an analyst to trace back to the origin of your coin, before the coinjoin cycles. In English, the name of this indicator is "*backward anonset*", or "*backward-looking metrics*".
 
 ![coinjoin](assets/en/6.webp)
 
@@ -182,7 +184,7 @@ After loading the data, type the `score` command followed by your TXID (transact
 score TXID
 ```
 
-**Attention**, the choice of TXID to use varies depending on the anonset you wish to calculate. To assess the prospective anonset of a coin, it is necessary to enter, via the `score` command, the TXID corresponding to its first coinjoin, which is the initial mix performed with this UTXO. On the other hand, to determine the retrospective anonset, you must enter the TXID of the last coinjoin performed. To summarize, the prospective anonset is calculated from the TXID of the first mix, while the retrospective anonset is calculated from the TXID of the last mix.
+**Attention:** the choice of TXID to use varies depending on the anonset you wish to calculate. To assess the prospective anonset of a coin, it is necessary to enter, via the `score` command, the TXID corresponding to its first coinjoin, which is the initial mix performed with this UTXO. On the other hand, to determine the retrospective anonset, you must enter the TXID of the last coinjoin performed. To summarize, the prospective anonset is calculated from the TXID of the first mix, while the retrospective anonset is calculated from the TXID of the last mix.
 
 WST then displays the retrospective score (*Backward-looking metrics*) and the prospective score (*Forward-looking metrics*). For example, I took the TXID of a random coin on Whirlpool that does not belong to me.
 

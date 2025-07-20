@@ -26,11 +26,11 @@ Théo; 貢献
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## コースの紹介
+## コース概要
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### 目標:セキュリティスキルを更新する！
+**目標:セキュリティスキルを更新する！**
 
 デジタルセキュリティに特化したこの教育プログラムへようこそ。このトレーニングは、誰でもアクセスできるように設計されており、コンピュータサイエンスの事前知識は必要ありません。私たちの主な目標は、デジタル世界をより安全かつプライベートにナビゲートするために必要な知識とスキルを提供することです。
 
@@ -40,13 +40,13 @@ Théo; 貢献
 
 - Renaud Lifchitz, サイバーセキュリティ専門家
 - Théo Pantamis, 応用数学の博士
-- Rogzy, DécouvreBitcoinのCEO
+- Rogzy, Plan ₿ Networkの共同創設者
 
 デジタル衛生は、ますますデジタル化する世界で非常に重要です。ハッキングと大量監視の増加にもかかわらず、自分自身を守るための最初の一歩を踏み出すのは遅くありません。
 このトレーニングでは、専門家、匿名性、または無敵になることを目指しているわけではありません。これは不可能です。代わりに、オンライン習慣を変え、デジタル主権を取り戻すためのシンプルでアクセスしやすい解決策を提供します。
 もし、このテーマに関するより高度なスキルを求めている場合は、私たちのリソース、チュートリアル、または他のサイバーセキュリティトレーニングが役立ちます。それでは、次の数時間でのプログラムの簡単な概要です。
 
-### セクション1: オンラインブラウジングについて知っておくべきすべて
+**セクション1: オンラインブラウジングについて知っておくべきすべて**
 
 - チャプター1 - オンラインブラウジング
 - チャプター2 - インターネットの安全な使用
@@ -54,13 +54,13 @@ Théo; 貢献
 まず、ウェブブラウザを選択することの重要性と、それがセキュリティに与える影響について話し合います。次に、特にクッキー管理に関するブラウザの特性を探ります。その後、TORなどのツールを使用して、より安全で匿名のブラウジング体験を実現する方法について見ていきます。その後、データの保護を強化するためのVPNの使用に焦点を当てます。最後に、WiFi接続の安全な使用に関する推奨事項で終わります。
 ![](assets/ja/1.webp)
 
-### セクション2: コンピュータ使用のベストプラクティス
+**セクション2: コンピュータ使用のベストプラクティス**
 
 - チャプター3 - コンピュータ使用
 - チャプター4 - ハッキング & バックアップ管理
   このセクションでは、コンピューターセキュリティの3つの主要な領域を取り上げます。まず、異なるオペレーティングシステム:Mac、PC、Linuxについて探求し、それぞれの特性と強みを強調します。次に、ハッキング試みに効果的に対抗し、デバイスのセキュリティを強化する方法について詳しく説明します。最後に、データの損失やランサムウェアを防ぐために、定期的にデータを保護しバックアップすることの重要性を強調します。![](assets/ja/2.webp)
 
-### セクション3:ソリューションの実装
+**セクション3:ソリューションの実装**
 
 - チャプター6 - メール管理
 - チャプター7 - パスワードマネージャー
@@ -71,6 +71,7 @@ Théo; 貢献
 まず、通信に不可欠であり、しばしばハッカーの標的となるメール受信箱を保護する方法を見ていきます。次に、パスワードマネージャーを紹介します。これは、パスワードを忘れたり混同したりすることなく、安全に保管するための実用的なソリューションです。最後に、アカウントに追加の保護層を加えるセキュリティ対策、二要素認証について話し合います。すべてが明確かつアクセスしやすい方法で説明されます。
 ![](assets/ja/3.webp)
 
+デジタルセキュリティを強化し、データを取り戻す準備はできましたか？さあ、始めましょう！
 # オンラインブラウジングについて知っておくべきすべて
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -113,7 +114,7 @@ Théo; 貢献
 TORは合法であり、ジャーナリスト、自由活動家、検閲を逃れたいと願う権威主義国の人々によって使用されています。しかし、TORが訪問したサイトやコンピュータ自体を保護するわけではないことを理解することが重要です。さらに、データが目的地に到達する前に他の3人のコンピュータを通過するため、TORを使用するとインターネット接続が遅くなる可能性があります。また、TORは100％の匿名性を保証する万能の解決策ではなく、違法活動には使用すべきではないことに注意することが重要です。
 ![](assets/notext/7.webp)
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPNとインターネット接続
 
@@ -134,9 +135,9 @@ VPNには主に2つのタイプがあります:企業向けVPNと消費者向け
 ![](assets/notext/9.webp)
 最終的に、VPNはオンライン広告をブロックするためにも使用でき、より楽しく安全なブラウジング体験を提供します。しかし、特定のニーズに最適なVPNを見つけるためには、自分自身で調査を行うことが重要です。自宅でインターネットを閲覧する際でも、セキュリティを強化するためにVPNの使用を推奨します。これにより、オンラインで交換されるデータのセキュリティレベルが高まります。最後に、訪問しようとしているサイトに実際にアクセスしていることを確認するために、URLとアドレスバーの小さな南京錠をチェックしてください。
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & 公共Wi-Fiネットワーク
 
@@ -236,9 +237,9 @@ Windows 10では、アップデートはほぼ連続しており、それらを�
 
 コンピューターにウイルスが検出された場合は、インターネットから切断し、完全なアンチウイルススキャンを実行し、感染したファイルを削除してください。その後、ソフトウェアとオペレーティングシステムを更新し、さらなる侵入を防ぐためにパスワードを変更してください。
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 解決策の実装。
 
@@ -271,7 +272,7 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 一般的に、新しい、よりセキュアなメールアドレスの使用を開始することは悪い習慣ではなく、健全な基盤で新たに始めたい場合には必要です。
 ボーナスBitcoin:Bitcoin活動（取引所アカウントの作成など）のために特定のメールアドレスを作成することが望ましい場合があります。これにより、私たちの生活の活動領域を真に分離することができます。
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## パスワードマネージャー
 
@@ -313,9 +314,9 @@ https://planb.network/tutorials/others/proton-mail
 
 ランダムに生成されたパスワードはより高いレベルのセキュリティを提供しますが、覚えにくい可能性があります。パスワードマネージャーは、より安全なランダムパスワードを生成することができます。パスワードマネージャーを使用することで、すべてのパスワードを記憶する必要はありません。マネージャーによって生成されたものに古いパスワードを徐々に置き換えることが重要です。これらはより強力で長いからです。パスワードマネージャーのマスターパスワードも強力で安全であることを確認してください。
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 二要素認証
 
@@ -356,9 +357,9 @@ https://planb.network/tutorials/others/keepass
 
 黄金律:サイバーセキュリティは、あなたの学習の旅に適応する移動目標です！
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # 実践セクション
 
@@ -370,7 +371,7 @@ https://planb.network/tutorials/others/security-key
 
 メールボックスを保護することは、オンラインでの活動を安全にし、個人データを守るための重要なステップです。このチュートリアルでは、高いセキュリティレベルで知られ、通信のエンドツーエンド暗号化を提供するプロバイダーであるProtonMailのアカウントの作成と設定を、一歩ずつガイドします。初心者でも経験豊富なユーザーでも、ここで提案されているベストプラクティスは、ProtonMailの高度な機能を活用しながら、メールのセキュリティを強化するのに役立ちます：
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 2FAでのセキュリティ強化
 
@@ -378,11 +379,11 @@ https://planb.network/tutorials/others/proton-mail
 
 二要素認証（2FA）は、オンラインアカウントを保護するために不可欠となっています。このチュートリアルでは、アカウントを保護するために6桁の動的コードを生成する2FAアプリAuthyの設定と使用方法を学びます。Authyは非常に使いやすく、複数のデバイスで同期できます。Authyのインストールと設定方法を確認し、今すぐオンラインアカウントのセキュリティを強化しましょう：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 もう一つのオプションは、物理的なセキュリティキーを使用することです。この別のチュートリアルでは、セキュリティキーを第二の認証要素として設定および使用する方法を示します：
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## パスワードマネージャーの作成
 
@@ -392,11 +393,11 @@ https://planb.network/tutorials/others/security-key
 
 このチュートリアルでは、オープンソースのパスワードマネージャーであるBitwardenの設定方法と、日常の使用を簡素化するためにすべてのデバイスで資格情報を同期する方法を学びます：
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 より上級のユーザー向けに、パスワードをローカルで管理するために使用できる別の無料かつオープンソースのソフトウェアに関するチュートリアルも提供しています：
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## アカウントのセキュリティ強化
 
@@ -404,21 +405,9 @@ https://planb.network/tutorials/others/keepass
 
 この2つのチュートリアルでは、オンラインアカウントのセキュリティ確保についてもガイドし、日常的なパスワード管理のためにより安全な方法を徐々に採用する方法を説明します。
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
-
-## バックアップの設定
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-個人ファイルを保護することも重要なポイントです。このチュートリアルでは、Proton Driveを使用して効果的なバックアップ戦略を構築する方法を紹介します。この安全なクラウドソリューションを使用して、3-2-1メソッドを適用する方法を学びましょう：データの3つのコピーを2つの異なるメディアに保存し、そのうち1つはオフサイトに保管します。これにより、機密ファイルのアクセス性とセキュリティが確保されます：
-
-https://planb.network/tutorials/others/proton-drive
-
-また、USBメモリや外付けハードディスクなどのリムーバブルメディアに保存されたファイルを保護するために、VeraCryptを使用してこれらのメディアを簡単に暗号化および復号化する方法も紹介します：
-
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## ブラウザとVPNの変更
 
@@ -428,13 +417,25 @@ https://planb.network/tutorials/others/veracrypt
 
 ビットコインで支払える信頼性の高いVPNソリューションであるIVPNとMullvadの二つをご紹介します。これらのチュートリアルでは、MullvadまたはIVPNをすべてのデバイスにインストール、設定、および使用する方法をご案内します：
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 また、オンラインでのプライバシーを保護するために特別に設計されたブラウザであるTor Browserの使用方法についても学びましょう：
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## バックアップの設定
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+個人ファイルを保護することも重要なポイントです。このチュートリアルでは、Proton Driveを使用して効果的なバックアップ戦略を構築する方法を紹介します。この安全なクラウドソリューションを使用して、3-2-1メソッドを適用する方法を学びましょう：データの3つのコピーを2つの異なるメディアに保存し、そのうち1つはオフサイトに保管します。これにより、機密ファイルのアクセス性とセキュリティが確保されます：
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+また、USBメモリや外付けハードディスクなどのリムーバブルメディアに保存されたファイルを保護するために、VeraCryptを使用してこれらのメディアを簡単に暗号化および復号化する方法も紹介します：
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # より深く掘り下げる
 
@@ -483,7 +484,7 @@ https://planb.network/tutorials/others/tor-browser
 
 ### 効率的なパスワード管理と認証強化:学術的アプローチ
 
-Découvre Bitcoinのアカデミーで提供されているトレーニングモジュール「セキュリティ101」では、パスワードマネージャーの重要性について議論しました。考慮すべき3つの次元があります:パスワードの作成、更新、およびウェブサイトへの実装です。
+パスワードマネージャーについて話す際に考慮すべき3つの重要な次元があります。考慮すべき3つの次元があります:パスワードの作成、更新、およびウェブサイトへの実装です。
 一般的に、自動パスワード入力のためのブラウザ拡張機能の使用は推奨されません。これらのツールは、ユーザーをフィッシング攻撃に対してより脆弱にする可能性があります。サイバーセキュリティの認定専門家であるRenaudは、KeePassを使用した手動管理を好みます。これには、パスワードを手動でコピー＆ペーストする作業が含まれます。拡張機能は攻撃面を増加させる傾向があり、ブラウザのパフォーマンスを低下させる可能性があり、したがって重大なリスクを提示します。したがって、ブラウザ上での拡張機能の最小限の使用が推奨される実践です。
 
 パスワードマネージャーは一般的に、2要素認証などの追加の認証要素の使用を奨励します。最適なセキュリティのためには、モバイルデバイス上でOTP（ワンタイムパスワード）を保持することが望ましいです。AndoTPは、電話上でOTPコードを生成および保存するためのオープンソースソリューションを提供します。Google Authenticatorは認証コードのシードをエクスポートすることを可能にしますが、Googleアカウントへのバックアップに対する信頼は限定的です。したがって、OTIおよびAndoTPアプリケーションは、自律的なOTP管理のために推奨されます。
@@ -506,13 +507,13 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 インターネットは非常に集中化されており、大部分がアメリカの管理下にあるということに留意する必要があります。DNSサーバーは検閲の対象となることがあり、特定のサイトへのアクセスをブロックするために欺瞞的なDNSを頻繁に使用します。DNSは古く、十分に安全ではないプロトコルであり、セキュリティ問題につながる可能性があります。DNSsecのような新しいプロトコルが登場していますが、まだ広く使用されていません。検閲や広告ブロックを回避するために、代替のDNSプロバイダーを選択することが可能です。
 侵入的な広告の代替手段には、Google DNS、OpenDNS、その他の独立したサービスが含まれます。標準のDNSプロトコルでは、DNSクエリがインターネットサービスプロバイダーに見える状態になります。DOH（DNS over HTTPS）とDOT（DNS over TLS）はDNS接続を暗号化し、より高いプライバシーとセキュリティを提供します。これらのプロトコルは、強化されたセキュリティのために企業で広く使用されており、Windows、Android、iPhoneにネイティブでサポートされています。DOHとDOTを使用するには、IPアドレスの代わりにTLSホスト名を入力する必要があります。無料のDOHとDOTプロバイダーはオンラインで利用可能です。DOHとDOTは「中間者攻撃」を避けることでプライバシーとセキュリティを向上させます。その他の重要な考慮事項
 
-"Découvre Bitcoin Academy"の「セキュリティ101」トレーニングモジュールの一環として、Lightning認証についても議論しました。このシステムは、メールアドレスや個人情報を提供する必要なく、各サービスに異なる識別子を生成します。ユーザーが制御する分散型アイデンティティが可能ですが、分散型アイデンティティプロジェクトには標準化と正規化が不足しています。Microsoft Storeの外でオープンソースソフトウェアをダウンロードすることを可能にするパッケージマネージャー、例えばNugetやChocolatéは、悪意のある攻撃を避けるために推奨されます。要約すると、DNSはオンラインセキュリティにとって重要ですが、DNSサーバーに対する潜在的な攻撃に対して警戒を続ける必要があります。
+「Lightning authentication」と呼ばれるシステムについても言及する価値があります。。このシステムは、メールアドレスや個人情報を提供する必要なく、各サービスに異なる識別子を生成します。ユーザーが制御する分散型アイデンティティが可能ですが、分散型アイデンティティプロジェクトには標準化と正規化が不足しています。Microsoft Storeの外でオープンソースソフトウェアをダウンロードすることを可能にするパッケージマネージャー、例えばNugetやChocolatéは、悪意のある攻撃を避けるために推奨されます。要約すると、DNSはオンラインセキュリティにとって重要ですが、DNSサーバーに対する潜在的な攻撃に対して警戒を続ける必要があります。
 
 # まとめ
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## このコースを評価する
+## レビュー & 評価
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -525,35 +526,4 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 ## まとめ
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-このコースを修了おめでとうございます！
-
-学習の道のりでこの節目に到達されたことを心よりお喜び申し上げます。
-
-あなたの献身と取り組みのおかげで、専門的な発展に役立つ貴重な知識とスキルを習得されました。
-
-ビットコインの世界についての知識をさらに深めるため、Plan ₿ Networkで利用可能な他のコースもご覧ください：
-
-#### ビットコインとその基礎を学ぶ
-
-https://planb.network/courses/btc101
-
-#### 初めてのビットコインを取得し、安全に保管する
-
-https://planb.network/courses/btc102
-
-#### ライトニングネットワークを発見する
-
-https://planb.network/courses/lnp201
-
-#### オーストリア学派の経済思想を学ぶ
-
-https://planb.network/courses/eco201
-
-#### ビットコインの起源の歴史を探る
-
-https://planb.network/courses/his201
-
-#### ビットコインウォレットの仕組みを理解する
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

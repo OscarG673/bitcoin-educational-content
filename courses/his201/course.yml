@@ -1,21 +1,134 @@
+id: a51c7ceb-e079-4ac3-bf69-6700b985a082
 topic: social studies
 subtopic: history
 level: intermediate
 hours: 15
 
-professors:
-  - satoshi-brother
+professors_id:
+  - 81e18c30-579e-46c1-a197-98cd32cb37ae
+published_at: 2024-09-03
 
 original_language: fr
 proofreading:
   - language: fr
     last_contribution_date: 2024-08-20
     urgency: 1
-    contributors_id:
+    contributor_names:
       - lugaxker
-    reward: 41794
+    reward: 36.54
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 83588
+    contributor_names:
+    reward: 73.08
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 97.41
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 73.08
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 73.08
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 97.41
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 97.41
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 121.74
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 73.08
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 146.07
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 97.41
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 73.08
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 97.41
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 146.07
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 121.74
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 97.41
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 170.39
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 97.41
+  - language: sw
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 48.71
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 121.74
+tags:
+  - historical
+  - protocols
+  - decentralization
+videos:
+  - id: 056364f2-a222-4d79-a4a1-cb0dc4cea751
+    youtube:
+      - fr: f9KqSgRZYgg
+  - id: 03dfd302-1e05-4cad-a91a-e5e65f1d0932
+    youtube:
+      - fr: AiGCuyRJe8s
+  - id: 92b9aa30-1479-4d4f-b57f-f07b660145f2
+    youtube:
+      - fr: koIq58UoNfE
+  - id: bca0217c-29ee-49b2-8d16-d9efe6f390da
+    youtube:
+      - fr: 0ljx4bbJrYE
+  - id: 6147a351-da80-4331-9d79-d3156889ac62
+    youtube:
+      - fr: Um63OQz3bjo

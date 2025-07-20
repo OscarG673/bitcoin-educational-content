@@ -20,41 +20,24 @@ Zde zdůrazníme trendy a společné vzorce v epizodách hyperinflace v průběh
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Úvod
+## Přehled kurzu
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Tento program má za cíl poskytnout hluboké porozumění vzniku hyperinflací ve světě ovládaném Fiat měnou a zkoumat jejich významné důsledky. Účastníci budou podrobně prozkoumávat cykly hyperinflace, analyzovat příčiny, spouštěče a historické i současné příklady. Také se budou zabývat hmatatelným dopadem hyperinflací na ekonomiku a každodenní život, studovat důsledky na hodnotu měny, kupní sílu a individuální i kolektivní úspory.
+Vítejte v kurzu ECO204!
 
-Zde zdůrazníme trendy a společné vzorce v epizodách hyperinflace v průběhu historie, zatímco poskytneme účinné a konkrétní strategie, jak se během období hyperinflace chránit. Účastníci budou mít příležitost prozkoumat různé investiční možnosti a finanční obranné mechanismy, získají praktické nástroje a nezbytné znalosti pro klidné navigování v nestabilním ekonomickém klimatu.
+Cílem tohoto kurzu je pomoci vám pochopit hlubší příčiny, mechanismy a důsledky hyperinflací v kontextu fiat měnového systému. Pomocí konkrétních příkladů a historických analýz se naučíte rozpoznávat opakující se vzorce, které předcházejí obdobím hyperinflace, a identifikovat nástroje, jak se proti nim chránit.
 
-### Učební plán
+**Sekce 2: Co je to inflace?**  
+Než se ponoříme do hlavního tématu, vrátíme se k základům: co je to inflace? Tato sekce představí její měnové kořeny, různé typy inflace a jak zapadají do širší ekonomické dynamiky. Je to nezbytný krok k pochopení toho, jak se běžná inflace může změnit v hyperinflaci.
 
-Sekce 1 - Úvod
+**Sekce 3: Co je to hyperinflace?**  
+V této sekci se seznámíte s přesnými definicemi hyperinflace a několika významnými historickými epizodami, včetně Výmarského Německa a Zimbabwe. Budeme analyzovat jejich společné rysy, rozdíly a současné paralely. Objevíte také méně známé případy, jako jsou opakované redenominace v Latinské Americe, a cesty, kterými se některé země dostaly z krize.
 
-- 1.1 - Úvod do kurzu od Rogzy & David
+**Sekce 4: Jak jsme se sem dostali?**  
+Tato část se zaměřuje na pochopení strukturálních mechanismů, které činí hyperinflace možnou, zejména prostřednictvím rozvoje „druhé vrstvy“ měny a role centrálních bank. Budou navrženy doplňkové zdroje pro hlubší porozumění a inspirativní čtení.
 
-Sekce 2 - Co je inflace?
-
-- 2.1 - Monetární jev
-- 2.2 - Typy inflace
-- 2.3 - Deflace
-
-Sekce 3 - Co je hyperinflace?
-
-- 3.1 - Definice
-- 3.2 - Podobnosti mezi Weimarem a Zimbabwe
-- 3.3 - Rozdíly mezi Weimarem a Zimbabwe a současné paralely
-- 3.4 - Redenominace v Latinské Americe
-- 3.5 - Jak se dostat z hyperinflace
-- 3.6 - Prezentace sbírky bankovek z období hyperinflace
-
-Sekce 4 - Jak jsme se sem dostali?
-
-- 4.1 - Vznik druhé vrstvy peněz a centrálních bank
-- 4.2 - Knihy a zdroje
-
-Hodně štěstí!
+A co když se historie měny právě opakuje před našima očima? Posuďte sami v následujících kapitolách!
 
 # Co je inflace?
 
@@ -504,7 +487,7 @@ Když měna rychle ztrácí svou hodnotu, i ty nejjednodušší transakce se moh
 
 > Zimbabwe: "Manažeři obchodů také mohli najmout dočasného pracovníka, který nahradil zaměstnance, který celý den počítal peníze. Samozřejmě, počítání peněz v obchodě pro účely správy a vkladu do banky bylo jedna věc, ale celý proces musel být opakován v bance během vkladu."
 
-![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Technika počítání peněz z Uzbekistánu
 
@@ -932,11 +915,11 @@ Hyperinflace je fascinující téma, které bylo studováno prostřednictvím r�
 - "Pád peněz: Hyperinflace v Německu a zničení střední třídy" od Fredericka Taylora. Vyprávění o sociálním a ekonomickém dopadu hyperinflace na německou společnost.
 - "Měnové rady pro rozvojové země: Příručka" od Steve Hanke a Kurta Schuler. Ačkoliv je zaměření na měnové rady, tato kniha nabízí perspektivu, jak se vyhnout situacím hyperinflace.
 
-# Závěr
+# Sekce finále
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Zhodnoťte tento kurz
+## Recenze & Hodnocení
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -949,34 +932,4 @@ Hyperinflace je fascinující téma, které bylo studováno prostřednictvím r�
 ## Závěr
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme potěšeni, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
-
-Díky vaší oddanosti a odhodlání jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
-
-Pro další podrobné prozkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
-
-#### Objevte život F. Bastiata s
-
-https://planb.network/courses/eco102
-
-#### Objevte ekonomické myšlení rakouské školy s
-
-https://planb.network/courses/eco201
-
-#### Objevte Bitcoin a jeho základy s
-
-https://planb.network/courses/btc101
-
-#### Aktualizujte svou online bezpečnost s
-
-https://planb.network/courses/scu101
-
-#### Získejte a zabezpečte své první bitcoiny s
-
-https://planb.network/courses/btc102
-
-#### Objevte historii původu Bitcoinu s
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

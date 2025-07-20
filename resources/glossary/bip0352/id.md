@@ -1,0 +1,7 @@
+---
+term: BIP0352
+
+---
+Proposal untuk perbaikan oleh Josibake dan Ruben Somsen yang memperkenalkan _Silent Payments_, sebuah metode untuk menggunakan alamat Bitcoin statis untuk menerima pembayaran tanpa penggunaan ulang alamat, interaksi, dan tanpa hubungan _on-chain_ yang terlihat antara pembayaran yang berbeda. Teknik ini menghilangkan kebutuhan untuk membuat alamat penerima baru yang tidak terpakai untuk setiap transaksi, sehingga menghindari interaksi yang biasa terjadi pada Bitcoin di mana penerima harus memberikan alamat baru kepada pembayar.
+
+Dalam sistem ini, pembayar menggunakan kunci publik penerima dan kunci privat mereka sendiri untuk menghasilkan alamat baru untuk setiap pembayaran. Hanya penerima, dengan kunci pribadi mereka, yang dapat menghitung kunci pribadi yang sesuai dengan alamat ini. ECDH (*Eliptic-Curve Diffie-Hellman*), sebuah algoritma pertukaran kunci kriptografi, digunakan untuk membuat rahasia bersama yang kemudian digunakan untuk mendapatkan alamat penerima dan kunci privat (hanya di sisi penerima). Untuk mengidentifikasi Pembayaran Senyap yang ditujukan kepada mereka, penerima harus memindai _blockchain_ dan memeriksa setiap transaksi yang sesuai dengan kriteria _Silent Payments_. Tidak seperti BIP47, yang menggunakan transaksi notifikasi untuk membuat saluran pembayaran, _Silent Payments_ menghilangkan kebutuhan akan langkah ini. Akan tetapi, penerima harus memindai semua transaksi potensial untuk menentukan, dengan menerapkan ECDH, apakah transaksi tersebut ditujukan kepada mereka.

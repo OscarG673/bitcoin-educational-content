@@ -39,11 +39,12 @@ Tento kurz byl sponzorován společností TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Úvod
+## Přehled kurzu
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Vítejte v kurzu ECO104!
 
-### Žijeme ve světě, kde:
+**Žijeme ve světě, kde:**
 
 ● Pouhých [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) lidí žije ve společnostech považovaných za "demokraticky svobodné". Přesto i v této privilegované části jsou porušování lidských práv stále běžnější - od zmrazení bankovních účtů po cenzuru. Zbylých 80% se potýká s postupujícím autoritářstvím. Před dvěma desetiletími si téměř polovina světové populace užívala základní svobody.
 
@@ -62,7 +63,7 @@ To řečeno, tento kurz není určen pouze pro ty, kteří čelí nekontrolovan�
 
 S tímto na mysli je naším posláním přivést vás na přední linii změn v naší současné finanční krajině, vyzvat stávající normy a nabídnout alternativní řešení. Prostřednictvím zkoumání historie peněz, odhalování Bitcoinu a prozkoumávání Tetheru a světa stablecoinů, máme za cíl inspirovat jednotlivce, aby přepracovali svou finanční budoucnost.
 
-### Co očekávat:
+**Co očekávat:**
 
 **Modul 1: Cena pokroku - Podrobnější pohled na náš finanční systém**
 Začneme naším průzkumem tím, že se podíváme za oponu našeho současného finančního systému, kde finanční cenzura, nerovnost bohatství a inflace sužují náš každodenní život. Prostřednictvím stručné historie peněz se podíváme, jak jsme se dostali tam, kde jsme, a osvětlíme některé z hlavních bodů bolesti, které všichni zažíváme.
@@ -480,7 +481,7 @@ Před vznikem Bitcoinu položila řada vizionářů základy pro Bitcoin, když 
 
 #### Cypherpunks
 
-Cypherpunks jsou skupina technicky zdatných rebelů, kteří se v 70. letech spojili, aby bojovali za individuální svobodu a občanská práva pomocí jednoho silného nástroje: kryptografie. Věřili, že schopnost šifrovat informace by lidem dala sílu vzít zpět kontrolu od centralizovaných autorit. Představte si, že můžete udržet vaši online komunikaci soukromou a bezpečnou před zvědavými očima - to je to, za co bojovali!
+Cypherpunks jsou skupina technicky zdatných rebelů, kteří se v 80. letech spojili, aby bojovali za individuální svobodu a občanská práva pomocí jednoho silného nástroje: kryptografie. Věřili, že schopnost šifrovat informace by lidem dala sílu vzít zpět kontrolu od centralizovaných autorit. Představte si, že můžete udržet vaši online komunikaci soukromou a bezpečnou před zvědavými očima - to je to, za co bojovali!
 
 Jedním z nejvýznamnějších výsledků Cypherpunks byl mailing list Cypherpunks, založený v roce 1992. Prostřednictvím seznamu mohli jednotlivci sdílet nápady a diskutovat o kryptografických technologiích, konceptech digitální měny a iniciativách zaměřených na soukromí. To vedlo k vytvoření komunity stejně smýšlejících jednotlivců, včetně vývojářů, aktivistů a výzkumníků.
 
@@ -1637,11 +1638,11 @@ Ať vás toto nově nabyté porozumění posiluje v navigaci v se měnícím sv�
 
 Budoucnost je světlá!
 
-# Závěr
+# Sekce finále
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Ohodnoťte kurz
+## Recenze & Hodnocení
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1649,35 +1650,4 @@ Budoucnost je světlá!
 ## Závěr
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme nadšeni, že jste úspěšně dosáhli tohoto milníku ve své vzdělávací cestě.
-
-Díky vaší oddanosti a zapojení jste získali cenné znalosti a dovednosti, které vám dobře poslouží ve vašem profesním rozvoji.
-
-Pro další hlubší ponoření do světa Bitcoinu vás zveme k prozkoumání všech dalších kurzů dostupných na Plan ₿ Network:
-
-#### Objevte Bitcoin a jeho základy s
-
-https://planb.network/courses/btc101
-
-#### Aktualizujte svou online bezpečnost s
-
-https://planb.network/courses/scu101
-
-#### Objevte Lightning Network s
-
-https://planb.network/courses/lnp201
-
-#### Naučte se o ekonomickém myšlení rakouské školy s
-
-https://planb.network/courses/eco201
-
-#### Objevte historii počátků Bitcoinu s
-
-https://planb.network/courses/his201
-
-#### Pochopte vznik hyperinflací s
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

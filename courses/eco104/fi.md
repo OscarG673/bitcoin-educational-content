@@ -39,11 +39,12 @@ Tämän kurssin on sponsoroinut TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Johdanto
+## Kurssin yleiskatsaus
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Tervetuloa ECO104-kurssille!
 
-### Elämme maailmassa, jossa:
+**Elämme maailmassa, jossa:**
 
 ● Vain [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) ihmisistä asuu yhteiskunnissa, joita pidetään "demokraattisesti vapaana". Silti, jopa tässä etuoikeutetussa osassa, ihmisoikeusrikkomukset ovat yhä yleisempiä – pankkitilien jäädyttämisestä sensuuriin. Loput 80% kamppailevat autoritaarisen hallinnon tunkeutumisen kanssa. Vain kaksi vuosikymmentä sitten lähes puolet maailman väestöstä nautti perusvapauksista.
 
@@ -62,7 +63,7 @@ Sanottuamme tämän, kurssi ei ole tarkoitettu vain niille, jotka kohtaavat hill
 
 Tämän mielessä pitäen, tehtävämme on tuoda sinut nykyisen rahoitusmaiseman muutoksen eturintamaan, haastaa olemassa olevat normit ja tarjota vaihtoehtoisia ratkaisuja. Syventymällä rahan historiaan, demystifioimalla Bitcoinin ja tutkimalla Tetheriä sekä stablecoinien maailmaa, pyrimme inspiroimaan yksilöitä uudelleenkuvittelemaan taloudellisen tulevaisuutensa.
 
-### Mitä odottaa:
+**Mitä odottaa:**
 
 **Moduuli 1: Edistyksen hinta - Lähempi katsaus rahoitusjärjestelmäämme**
 Aloitamme tutkimuksen kurkistamalla nykyisen rahoitusjärjestelmämme kulissien taakse, missä taloudellinen sensuuri, varallisuuserot ja inflaatio vaivaavat päivittäistä elämäämme. Lyhyen rahan historian kautta tarkastelemme, miten olemme päätyneet tähän pisteeseen, tuoden valoa joillekin pääkivunaiheillemme, joita me kaikki koemme.
@@ -484,7 +485,7 @@ Ennen Bitcoinin luomista joukko visionäärejä loi pohjan Bitcoinille, kun he v
 
 #### Cypherpunkit
 
-Cypherpunkit ovat ryhmä teknologiataitoisia kapinallisia, jotka tulivat yhteen 70-luvulla taistelemaan yksilön vapauden ja kansalaisoikeuksien puolesta käyttäen yhtä voimakasta työkalua: kryptografiaa. He uskoivat, että tiedon salaamisen kyky antaisi ihmisille voiman ottaa kontrolli takaisin keskitetyiltä auktoriteeteilta. Kuvittele, että pystyisit pitämään online-viestintäsi yksityisenä ja turvattuna uteliailta silmiltä - juuri sitä he taistelivat!
+Cypherpunkit ovat ryhmä teknologiataitoisia kapinallisia, jotka tulivat yhteen 80-luvulla taistelemaan yksilön vapauden ja kansalaisoikeuksien puolesta käyttäen yhtä voimakasta työkalua: kryptografiaa. He uskoivat, että tiedon salaamisen kyky antaisi ihmisille voiman ottaa kontrolli takaisin keskitetyiltä auktoriteeteilta. Kuvittele, että pystyisit pitämään online-viestintäsi yksityisenä ja turvattuna uteliailta silmiltä - juuri sitä he taistelivat!
 
 Yksi merkittävimmistä Cypherpunkkien saavutuksista oli Cypherpunkkien postituslista, perustettu vuonna 1992. Listan kautta yksilöt saattoivat jakaa ideoita ja keskustella kryptografisista teknologioista, digitaalisen valuutan käsitteistä ja yksityisyyteen keskittyvistä aloitteista. Tämä johti samanhenkisten yksilöiden, kuten kehittäjien, aktivistien ja tutkijoiden, yhteisön muodostumiseen.
 
@@ -1635,11 +1636,11 @@ Toivottavasti tämä uusi ymmärrys valtuuttaa sinut navigoimaan muuttuvassa rah
 
 Tulevaisuus on valoisa!
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1647,35 +1648,4 @@ Tulevaisuus on valoisa!
 ## Yhteenveto
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet onnistuneesti saavuttanut tämän virstanpylvään oppimismatkallasi.
-
-Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi syvemmälle Bitcoinin maailmaan, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Tutustu Bitcoiniin ja sen perusteisiin kurssilla
-
-https://planb.network/courses/btc101
-
-#### Päivitä verkkotietoturvasi kurssilla
-
-https://planb.network/courses/scu101
-
-#### Tutustu Lightning Networkiin kurssilla
-
-https://planb.network/courses/lnp201
-
-#### Opi Itävallan koulukunnan taloudellisesta ajattelusta kurssilla
-
-https://planb.network/courses/eco201
-
-#### Tutustu Bitcoinin alkuperän historiaan kurssilla
-
-https://planb.network/courses/his201
-
-#### Ymmärrä hyperinflaatioiden synty kurssilla
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

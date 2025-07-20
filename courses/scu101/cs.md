@@ -26,11 +26,11 @@ Théo; příspěvek
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Úvod do kurzu
+## Přehled kurzu
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Cíl: Aktualizujte své bezpečnostní dovednosti!
+**Cíl: Aktualizujte své bezpečnostní dovednosti!**
 
 Vítejte všichni v tomto vzdělávacím programu věnovaném digitální bezpečnosti. Tento trénink je navržen tak, aby byl přístupný pro každého, takže předchozí znalosti informatiky nejsou vyžadovány. Naším hlavním cílem je poskytnout vám znalosti a dovednosti nezbytné pro bezpečnější a soukromější pohyb v digitálním světě.
 
@@ -40,13 +40,13 @@ Tento trénink je společným úsilím tří našich profesorů:
 
 - Renaud Lifchitz, expert na kybernetickou bezpečnost
 - Théo Pantamis, PhD v aplikované matematice
-- Rogzy, generální ředitel DécouvreBitcoin
+- Rogzy, Spoluzakladatel sítě Plan ₿ Network
 
 Vaše digitální hygiena je zásadní ve stále více digitalizovaném světě. Přestože neustále roste počet hackerů a masové sledování, není příliš pozdě udělat první krok a chránit se.
 V tomto tréninku se nesnažíme udělat z vás experta, anonymního uživatele nebo někoho, kdo je nezranitelný, protože to je nemožné. Místo toho vám nabízíme několik jednoduchých a přístupných řešení pro každého, jak začít měnit vaše online návyky a znovu získat kontrolu nad vaší digitální suverenitou.
 Pokud hledáte pokročilejší dovednosti na toto téma, naše zdroje, tutoriály nebo další školení kybernetické bezpečnosti jsou zde pro vás. Mezitím zde je stručný přehled našeho programu pro následující hodiny společně.
 
-### Sekce 1: Vše, co potřebujete vědět o online prohlížení
+**Sekce 1: Vše, co potřebujete vědět o online prohlížení**
 
 - Kapitola 1 - Online prohlížení
 - Kapitola 2 - Bezpečné používání internetu
@@ -55,13 +55,13 @@ Začneme diskusí o důležitosti výběru webového prohlížeče a jeho důsle
 
 ![](assets/en/1.webp)
 
-### Sekce 2: Nejlepší postupy pro používání počítače
+**Sekce 2: Nejlepší postupy pro používání počítače**
 
 - Kapitola 3 - Používání počítače
 - Kapitola 4 - Hacking & správa záloh
   V této sekci se zaměříme na tři klíčové oblasti počítačové bezpečnosti. Nejprve prozkoumáme různé operační systémy: Mac, PC a Linux, přičemž zdůrazníme jejich specifika a silné stránky. Poté se ponoříme do metod, jak účinně chránit před pokusy o hacking a posílit bezpečnost vašich zařízení. Nakonec zdůrazníme význam pravidelné ochrany a zálohování vašich dat, aby se předešlo jakékoli ztrátě nebo ransomwaru. ![](assets/en/2.webp)
 
-### Sekce 3: Implementace řešení
+**Sekce 3: Implementace řešení**
 
 - Kapitola 6 - Správa e-mailů
 - Kapitola 7 - Správce hesel
@@ -71,6 +71,7 @@ V této praktické třetí sekci přejdeme k implementaci vašich konkrétních 
 
 Nejprve se podíváme, jak chránit vaši e-mailovou schránku, která je zásadní pro vaši komunikaci a často cílem hackerů. Poté vám představíme správce hesel: praktické řešení, jak už nikdy nezapomenout nebo nezaměnit vaše hesla, přičemž je udržíte v bezpečí. Nakonec probereme další bezpečnostní opatření, dvoufaktorové ověřování, které přidává další vrstvu ochrany k vašim účtům. Vše bude vysvětleno jasně a přístupně. ![](assets/en/3.webp)
 
+Připraveni posílit své digitální zabezpečení a převzít kontrolu nad svými daty? Pojďme na to!
 # Vše, co potřebujete vědět o prohlížení internetu
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -110,7 +111,7 @@ Pokročilejší alternativou je síť TOR (The Onion Router), která nabízí an
 TOR je legální a používají ho novináři, aktivisté za svobodu a další, kteří se snaží uniknout cenzuře v autoritářských zemích. Je však důležité pochopit, že TOR nezabezpečuje navštívené stránky ani samotný počítač. Navíc používání TORu může zpomalit internetové připojení, protože data procházejí přes počítače dalších tří lidí, než dosáhnou svého cíle. Je také nezbytné poznamenat, že TOR není stoprocentně spolehlivé řešení pro zajištění 100% anonymity a neměl by být používán pro nelegální aktivity.
 ![](assets/notext/7.webp)
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN a internetové připojení
 
@@ -129,9 +130,9 @@ Existují dva hlavní typy VPN: firemní VPN a spotřebitelské VPN, jako je Nor
 Používání spotřebitelského VPN nezaručuje úplnou anonymitu. Mnoho poskytovatelů VPN si uchovává informace o svých uživatelích, což může ohrozit jejich anonymitu. Ačkoliv VPN mohou být užitečné pro zlepšení online bezpečnosti, nejsou univerzálním řešením. Jsou efektivní pro určité konkrétní použití, jako je přístup k geograficky omezeným službám nebo zlepšení bezpečnosti při cestování, ale nezaručují úplnou bezpečnost. Při výběru VPN je zásadní dát přednost spolehlivosti a technickým aspektům před popularitou. Poskytovatelé VPN, kteří shromažďují nejméně osobních informací, jsou obecně nejbezpečnější. Služby jako iVPN a Mullvad neshromažďují osobní informace a dokonce umožňují platby v Bitcoinu pro zvýšení soukromí. ![](assets/notext/9.webp)
 Nakonec může být VPN také použito k blokování online reklam, což poskytuje příjemnější a bezpečnější zážitek z prohlížení. Je však důležité provést vlastní výzkum, aby se našlo VPN, které nejlépe vyhovuje vašim konkrétním potřebám. Používání VPN se doporučuje pro zvýšení bezpečnosti, i když procházíte internetem doma. To pomáhá zajistit vyšší úroveň bezpečnosti pro vyměňovaná data online. Nakonec nezapomeňte zkontrolovat URL adresy a malý zámek v adresním řádku, abyste potvrdili, že jste na webu, který máte v úmyslu navštívit.
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & veřejné Wi-Fi sítě
 
@@ -229,9 +230,9 @@ NE, obecně se nedoporučuje platit hackery v případě ransomwaru nebo jiných
 
 Pokud na svém počítači detekujete virus, odpojte ho od internetu, proveďte úplnou antivirovou kontrolu a smažte infikované soubory. Poté aktualizujte svůj software a operační systém a změňte svá hesla, abyste zabránili dalším narušením.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementace řešení.
 
@@ -264,7 +265,7 @@ Je doporučeno použít web Have I Been Pwned (https://haveibeenpwned.com/) k ov
 Obecně platí, že začít používat novou, bezpečnější emailovou adresu není špatná praxe a je dokonce nutné, pokud chceme začít znovu na zdravém základě.
 Bonus Bitcoin: Může být vhodné vytvořit specifickou emailovou adresu pro naše aktivity s Bitcoinem (vytváření účtů na burzách), aby bylo možné skutečně oddělit oblasti aktivit v našem životě.
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Správce hesel
 
@@ -305,9 +306,9 @@ Pro vytvoření silného hesla se doporučuje použít velké množství náhodn
 
 Náhodně generovaná hesla nabízejí vyšší úroveň bezpečnosti, ačkoliv mohou být obtížněji zapamatovatelná. Správci hesel mohou generovat bezpečnější náhodná hesla. Používáním správce hesel nemusíte pamatovat všechna svá hesla. Je důležité postupně nahradit vaše stará hesla těmi, která generuje správce, protože jsou silnější a delší. Ujistěte se, že hlavní heslo vašeho správce hesel je také silné a bezpečné.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Dvoufaktorové ověření
 
@@ -349,9 +350,9 @@ Pokračujte ve vzdělávání a postupně implementujte dobré praktiky!
 
 Zlaté pravidlo: Kybernetická bezpečnost je pohyblivým cílem, který se přizpůsobí vaší cestě učení!
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktická sekce
 
@@ -363,7 +364,7 @@ https://planb.network/tutorials/others/security-key
 
 Chrání své e-mailové schránky je důležitým krokem k zabezpečení online aktivit a ochraně osobních údajů. Tento návod vás krok za krokem provede vytvořením a nastavením účtu ProtonMail, poskytovatele známého pro svou vysokou úroveň bezpečnosti, který nabízí end-to-end šifrování vašich komunikací. Ať už jste začátečník nebo zkušený uživatel, zde navrhované osvědčené postupy vám pomohou posílit zabezpečení vaší pošty a zároveň využít pokročilé funkce ProtonMail:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Zabezpečení pomocí 2FA
 
@@ -371,11 +372,11 @@ https://planb.network/tutorials/others/proton-mail
 
 Dvoufaktorová autentizace (2FA) se stala nezbytnou pro zabezpečení vašich online účtů. V tomto tutoriálu se naučíte, jak nastavit a používat aplikaci 2FA Authy, která generuje dynamické 6místné kódy pro ochranu vašich účtů. Authy je velmi snadné používat a synchronizuje se na více zařízeních. Objevte, jak nainstalovat a nastavit Authy a tím posilte zabezpečení svých online účtů již nyní:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Další možností je použití fyzického bezpečnostního klíče. Tento další tutoriál vám ukáže, jak nastavit a používat bezpečnostní klíč jako druhý autentizační faktor:
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Vytvoření správce hesel
 
@@ -385,11 +386,11 @@ Správa hesel je výzvou v digitálním věku. Všichni máme mnoho online účt
 
 V tomto tutoriálu se dozvíte, jak nastavit Bitwarden, open-source správce hesel, a jak synchronizovat své přihlašovací údaje na všech zařízeních, aby bylo vaše každodenní používání jednodušší:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Pro pokročilejší uživatele nabízím také tutoriál na další bezplatný a open-source software, který můžete používat lokálně pro správu svých hesel:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Zabezpečení vašich účtů
 
@@ -397,21 +398,9 @@ https://planb.network/tutorials/others/keepass
 
 V těchto dvou tutoriálech vás také provedu zabezpečením vašich online účtů a vysvětlím, jak postupně přijímat bezpečnější postupy pro každodenní správu vašich hesel.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
-
-## Nastavení zálohování
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Chránit vaše osobní soubory je také klíčovým bodem. Tento tutoriál vám ukazuje, jak zavést efektivní zálohovací strategii díky Proton Drive. Objevte, jak používat toto zabezpečené cloudové řešení k aplikaci metody 3-2-1: tři kopie vašich dat na dvou různých médiích, z nichž jedna kopie je mimo místo. Tím zajistíte přístupnost a bezpečnost vašich citlivých souborů:
-
-https://planb.network/tutorials/others/proton-drive
-
-A pro zabezpečení vašich souborů uložených na přenosných médiích, jako je USB klíč nebo pevný disk, vám také ukazuji, jak snadno šifrovat a dešifrovat tato média pomocí VeraCrypt:
-
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Změna prohlížeče & VPN
 
@@ -421,13 +410,25 @@ Ochrana vašeho online soukromí je také klíčovým bodem pro zajištění va�
 
 Nabízím vám seznámit se se dvěma spolehlivými VPN řešeními, která jsou platitelná pomocí bitcoinu, a to IVPN a Mullvad. Tyto návody vás provedou instalací, konfigurací a používáním Mullvad nebo IVPN na všech vašich zařízeních:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Dále se dozvíte, jak používat Tor Browser, prohlížeč speciálně navržený pro ochranu vašeho online soukromí:
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Nastavení zálohování
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Chránit vaše osobní soubory je také klíčovým bodem. Tento tutoriál vám ukazuje, jak zavést efektivní zálohovací strategii díky Proton Drive. Objevte, jak používat toto zabezpečené cloudové řešení k aplikaci metody 3-2-1: tři kopie vašich dat na dvou různých médiích, z nichž jedna kopie je mimo místo. Tím zajistíte přístupnost a bezpečnost vašich citlivých souborů:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+A pro zabezpečení vašich souborů uložených na přenosných médiích, jako je USB klíč nebo pevný disk, vám také ukazuji, jak snadno šifrovat a dešifrovat tato média pomocí VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Jít dále
 
@@ -476,7 +477,7 @@ Ovládnutím těchto dovedností a nástrojů budete dobře vybaveni pro úspě�
 
 ### Efektivní správa hesel a posílení autentizace: Akademický přístup
 
-V rámci tréninkového modulu "Security 101" nabízeného Découvre Bitcoin v rámci Akademie jsme diskutovali o důležitosti správců hesel. Tři dimenze jsou zásadní k zvážení: vytváření, aktualizace a implementace hesel na webových stránkách.
+Existují tři klíčové dimenze, které je třeba zvážit, když mluvíme o správci hesel: vytváření, aktualizace a implementace hesel na webových stránkách.
 Obecně se nedoporučuje používat rozšíření prohlížeče pro automatické vyplňování hesel. Tyto nástroje mohou uživatele více vystavit riziku phishingových útoků. Renaud, uznávaný expert na kybernetickou bezpečnost, dává přednost ručnímu spravování pomocí KeePass, což zahrnuje ruční kopírování a vkládání hesla. Rozšíření mají tendenci zvyšovat riziko útoku, mohou zpomalit výkon prohlížeče a tím představují významné riziko. Proto se doporučuje minimální používání rozšíření v prohlížeči.
 
 Správci hesel obecně podporují používání dalších ověřovacích faktorů, jako je dvoufaktorové ověření. Pro optimální bezpečnost je doporučeno uchovávat OTP (One-Time Passwords) na mobilním zařízení. AndoTP nabízí open-source řešení pro generování a uchovávání OTP kódů na telefonu. Zatímco Google Authenticator umožňuje exportovat semínka ověřovacích kódů, důvěra v zálohu na účtu Google zůstává omezená. Proto se doporučují aplikace OTI a AndoTP pro autonomní správu OTP.
@@ -499,13 +500,13 @@ Počítačová bezpečnost může být ohrožena jednoduchými postupy a použí
 Je třeba poznamenat, že internet je silně centralizovaný a většinou pod americkou kontrolou. DNS server může být předmětem cenzury a často používá klamavé DNS k blokování přístupu k určitým stránkám. DNS je starý a nedostatečně bezpečný protokol, což může vést k bezpečnostním problémům. Nové protokoly, jako je DNSsec, se objevily, ale stále nejsou široce používány. Pro obejití cenzury a blokování reklam je možné vybrat alternativní poskytovatele DNS.
 Alternativy k rušivým reklamám zahrnují Google DNS, OpenDNS a další nezávislé služby. Standardní DNS protokol nechává DNS dotazy viditelné pro poskytovatele internetových služeb. DOH (DNS přes HTTPS) a DOT (DNS přes TLS) šifrují DNS spojení, čímž poskytují větší soukromí a bezpečnost. Tyto protokoly jsou široce používány v podnicích díky jejich zvýšené bezpečnosti a jsou nativně podporovány Windows, Androidem a iPhonem. Pro použití DOH a DOT je nutné místo IP adresy zadat TLS hostname. Online jsou dostupní bezplatní poskytovatelé DOH a DOT. DOH a DOT zlepšují soukromí a bezpečnost tím, že se vyhnou útokům "man in the middle". Další klíčové úvahy
 
-Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy jsme také diskutovali o autentizaci Lightning. Tento systém generuje pro každou službu odlišný identifikátor, aniž by bylo nutné poskytovat e-mailovou adresu nebo osobní informace. Je možné mít uživatelem kontrolované decentralizované identity, ale chybí standardizace a normalizace v projektech decentralizované identity. Doporučují se správci balíčků, jako jsou Nuget a Chocolaté, které umožňují stahování open-source softwaru mimo Microsoft Store, aby se předešlo škodlivým útokům. Shrnutí, DNS je pro online bezpečnost zásadní, ale je nutné zůstat ostražitý vůči možným útokům na DNS servery.
+It is also worth mentioning the system called "Lightning authentication", generuje pro každou službu odlišný identifikátor, aniž by bylo nutné poskytovat e-mailovou adresu nebo osobní informace. Je možné mít uživatelem kontrolované decentralizované identity, ale chybí standardizace a normalizace v projektech decentralizované identity. Doporučují se správci balíčků, jako jsou Nuget a Chocolaté, které umožňují stahování open-source softwaru mimo Microsoft Store, aby se předešlo škodlivým útokům. Shrnutí, DNS je pro online bezpečnost zásadní, ale je nutné zůstat ostražitý vůči možným útokům na DNS servery.
 
-# Závěr
+# Sekce finále
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Ohodnoťte tento kurz
+## Recenze & Hodnocení
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -518,35 +519,4 @@ Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy js
 ## Závěr
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme potěšeni, že jste úspěšně dosáhli tohoto milníku ve své vzdělávací cestě.
-
-Díky vaší oddanosti a odhodlání jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
-
-Pro další prohlubování znalostí ve světě Bitcoinu vás zveme k prozkoumání dalších kurzů dostupných na Plan ₿ Network, jako jsou:
-
-#### Objevte Bitcoin a jeho základy s
-
-https://planb.network/courses/btc101
-
-#### Získejte a zabezpečte své první bitcoiny s
-
-https://planb.network/courses/btc102
-
-#### Objevte síť Lightning s
-
-https://planb.network/courses/lnp201
-
-#### Objevte ekonomické myšlení Rakouské školy s
-
-https://planb.network/courses/eco201
-
-#### Objevte historii vzniku Bitcoinu s
-
-https://planb.network/courses/his201
-
-#### Pochopte, jak funguje Bitcoin peněženka s
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

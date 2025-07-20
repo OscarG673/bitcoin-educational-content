@@ -17,11 +17,43 @@ Renessansist valgustusajastuni uurib kursus vabaduse tõusu, mida iseloomustab r
 
 +++
 
+# Sissejuhatus
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Kursuse ülevaade
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Tere tulemast kursusele PHI201!
+
+See kursus kutsub teid uurima vabaduse arengut läbi ajaloo, analüüsides peamisi mõttesuundi, mis on seda kujundanud. Avastate, kuidas on vabaduse mõiste kujunenud sajandite jooksul, kas võimule vastu seistes või sellega koostööd tehes, läbi ajaloolise rännaku antiikajast tänapäevastesse aruteludesse.
+
+**Osa 1: Vabadus või võim**  
+Alustame ülevaatega kahest suurest poliitilisest filosoofiast, mis on kujundanud ajalugu: vabadusest ja võimust. See osa uurib mõtlejate, nagu Frédéric Bastiat tootmise ja röövimise vastandamist, Lord Actoni nägemust vabadusest kui ajaloo liikumapanevast jõust, Karl Marxi klassivõitluse teooriat ja Murray Rothbardi, kes seab riigi vastandiks ühiskonnale. See kontseptuaalne sissejuhatus annab analüüsiraamistiku ajaloo perioodidele.
+
+**Osa 2: Vabaduse päritolu: Antiikaeg**  
+Siin naaseme filosoofilise mõtlemise juurte juurde kreeklastega, kes leiutasid kriitilise ratsionaalsuse, ja roomlastega, kes panid aluse kaasaegsele õigusele. Samuti uurime Rooma langemist kui olulist hetke, mis määratles poliitilise ja sotsiaalse korralduse ümber vabaduse mõiste.
+
+**Osa 3: Vabaduse päritolu: Keskaja**  
+Keskaja peetakse sageli pimedaks ajastuks, kuid me avastame, et see pani tegelikult aluse kaasaegsele vabadusele. Uurime inimvabaduse kinnistamist, mõistuse ja usu vahelisi debatte, suveräänse riigi sündi, piibellikku eetikat, mis väärtustab üksikisikut, ning esimesi kapitalismi märke, mis sel ajal ilmuvad.
+
+**Osa 4: Vabaduse tõus: Renessansist valgustusajani**  
+See osa keskendub usulise sallivuse ja majandusvabaduse tekkimisele, mis said hoogu renessansi ja valgustusaja jooksul. Analüüsime ka aasta 1776 tähtsust, mis tähistas olulist pöördepunkti oluliste sündmustega vaba maailma jaoks, enne kui sukeldume revolutsioonide ajastusse, mis määratlesid ümber vabaduse mõiste.
+
+**Osa 5: Tõus ja langus: 19.–20. sajand**  
+Jätkame 19. ja 20. sajandi murrangute uurimist, keskendudes demokraatia tugevustele ja nõrkustele, marksistlikule kapitalismikriitikale ja Austria koolkonna vastusele neile kriitikatele. Samuti uurime hoiatavaid sõnumeid kollektivismi ohtude kohta oluliste teoste kaudu, nagu "Teekond orjusesse".
+
+**Osa 6: Heaoluriigi tõus 20. sajandil**  
+Lõpuks uurime, kuidas heaoluriik järk-järgult tõrjus välja majandusvabaduse ideid, eriti Keynesi triumfi ja kullastandardi hülgamise kaudu. Kokkuvõtteks rõhutame ideede tähtsust ajaloo kulgu mõjutamisel ja rolli, mida vabadus meie kaasaegsetes ühiskondades endiselt mängib.
+
+Kas olete valmis alustama seda ainulaadset filosoofilist teekonda vabaduse otsingul? Alustame!
+
 # Vabadus või Võim
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Sissejuhatus: On olemas ainult kaks poliitilist filosoofiat
+## On ainult kaks poliitilist filosoofiat
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1401,7 +1433,7 @@ Hayeki jaoks tuleneb turumajanduse varasem ebastabiilsus asjaolust, et turumehha
 ![image](assets/6/img-006.webp)
 Hayek uskus, et eraomanduses olevate valuutade vaba turg viiks suurema rahalise stabiilsuseni. Peaaegu 50 aastat hiljem kehastab krüptoraha nagu Bitcoin Hayeki konkurentsivõimelist visiooni, pakkudes detsentraliseeritud alternatiivi keskpankade monopolistlikule süsteemile. Bitcoin, mille emiteerimislimiit on 21 miljonit ühikut, on garantii inflatsiooni ja regulaatorite meelevaldsuse vastu.
 
-## Hinda kursust
+## Hinnangud & Reitingud
 
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1429,11 +1461,12 @@ Teatud mõttes on meie olukord parem kui minevikus. Pärast mitmesuguste sotsial
 Kõik, mis toimub meie globaalses ühiskonnas, on ideede tulemus. Nii heade kui halbade. Vajalik on võidelda valede ideedega. (...) Meie tsivilisatsioon võib ellu jääda, ja see peab ellu jääma. Ja see jääb ellu tänu parematele ideedele kui need, mis täna maailma juhivad; ja need paremad ideed arendab välja tõusev põlvkond.
 (_Majanduspoliitika: Mõtteid tänaseks ja homseks_, 1979).
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 
-## Hinda seda kursust
+## Ülevaade & Hinnang
+
 
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1446,34 +1479,4 @@ Kõik, mis toimub meie globaalses ühiskonnas, on ideede tulemus. Nii heade kui 
 ## Kokkuvõte
 
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-Õnnitleme kursuse läbimise puhul!
-
-Meil on hea meel, et olete jõudnud selle olulise verstapostini oma õppimisteel.
-
-Tänu teie pühendumusele ja pühendumisele olete omandanud väärtuslikke teadmisi ja oskusi, mis aitavad teid teie professionaalses arengus.
-
-Et jätkata Bitcoini universumi põhjalikku uurimist, kutsume teid avastama kõiki teisi Plan ₿ Networkis saadaolevaid kursusi:
-
-#### Avasta F. Bastiat' elu koos
-
-https://planb.network/courses/eco102
-
-#### Avasta Bitcoin ja selle põhitõed koos
-
-https://planb.network/courses/btc101
-
-#### Avasta Lightning Network koos
-
-https://planb.network/courses/lnp201
-
-#### Valda Bitcoini privaatsuse põhimõtteid
-
-https://planb.network/courses/btc204
-
-#### Avasta Bitcoini alguse ajalugu koos
-
-https://planb.network/courses/his201
-
-#### Mõista, kuidas Bitcoin rahakott töötab koos
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

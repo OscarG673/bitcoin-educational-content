@@ -16,27 +16,36 @@ Denne skolen har allerede flere århundrer bak seg og har et helt panorama av fo
 
 +++
 
-# Introduksjon til ECON
+# Introduksjon
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Introduksjon
+## Kursoversikt
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Hallo alle sammen og velkommen til Econ 201: Introduksjon til Østerriksk Økonomi.
+Velkommen til kurset ECO201!
 
-I dette kurset tilbudt av Théo Mogenet, vil du oppdage denne grenen av økonomi som skiller seg sterkt fra Keynesiansk doktrine. Til nå kan du ha lært at produksjon og håndtering av penger var sentralbankenes ansvar, med ideen om at pengetrykking og utgifter fremmer vekst. Det finnes imidlertid en annen skole innen økonomisk tenkning: Østerriksk økonomi. Med over 200 års forskning og utvikling, filosofiske refleksjoner og skrifter av anerkjente forfattere, legger denne tilnærmingen vekt på en mer nøktern visjon av vekst og menneskelig rasjonalitet i vår økonomi.
+I dette kurset, som tilbys av Théo Mogenet, vil du oppdage en økonomisk skole som fundamentalt skiller seg fra den dominerende keynesianske doktrinen. Så langt har du kanskje lært at pengestyring og økonomisk politikk primært er sentralbankenes ansvar, med ideen om at pengetrykking og offentlige utgifter stimulerer økonomisk vekst. Det finnes imidlertid en mer sammenhengende alternativ tilnærming: **Den østerrikske økonomiske skolen**.
 
-I virkeligheten er økonomi et ekstremt sosialt og komplekst felt, sammensatt av en myriade av sammenkoblede små aktører som sammen bidrar til å danne en sammenhengende helhet. I stedet for å nærme seg denne disiplinen gjennom matematiske ligninger, må vi forstå den fra perspektivet av menneskelig logikk og sosiologi. I dette kurset vil vi utforske de grunnleggende konseptene i østerriksk økonomi. Din instruktør, Théo Mogenet, er en lidenskapelig og kompetent professor i østerriksk økonomi.
+Med over to århundrer med forskning, filosofiske refleksjoner og skrifter fra anerkjente forfattere som Carl Menger, Ludwig von Mises og Friedrich Hayek, tar denne skolen et annet perspektiv, som favoriserer en desentralisert tilnærming til økonomien, basert på individet og menneskelig rasjonalitet.
 
-For å starte, tilbyr vi deg en bonusvideo som vil forklare hvordan vårt nåværende finanssystem fungerer. Du vil oppdage hvordan kommersielle banker og sentralbanker samhandler og driver økonomien. Vi vil adressere de store aktørene i vår finansielle verden og hvordan denne sentraliseringen av makt blant visse økonomiske institusjoner kan føre til misbruk og finanskriser.
+Økonomi er i realiteten et dypt sosialt og komplekst felt, bestående av mange uavhengige aktører som fritt samhandler for å danne en helhet. For å forstå dette dynamiske systemet, foretrekker den østerrikske økonomiske skolen kvalitativ analyse basert på menneskelig logikk, sosiologi og studier av markedsprosesser, i stedet for rigide matematiske ligninger.
 
-I den andre delen av dette kurset vil vi undersøke forskjellen mellom Keynesianismen og østerriksk økonomi, utforske deres respektive skoler, refleksjonsmetoder og verktøy de bruker for å etablere økonomisk sannhet. Vi vil også studere dannelsen av økonomiske kriser. Skyldes det menneskelig inkompetanse, markedmanipulasjon eller kollektiv eufori blant folk? Vi vil utforske hvordan våre sykluser av vekst, nedgang, resesjon og gullalder skapes av menneskelige følelser.
+I dette kurset vil du utforske de grunnleggende prinsippene til denne tankegangen. Théo Mogenet, din instruktør, er en lidenskapelig tilhenger av denne økonomiske tilnærmingen og vil pedagogisk lede deg gjennom de sentrale konseptene i østerriksk økonomi, og vise hvordan disse ideene særlig gjelder for Bitcoin-verdenen.
 
-Dette kurset vil være en kombinasjon av økonomi og filosofi, med en åpen diskusjon mellom Théo og meg selv. Hvis du har noen spørsmål i løpet av dette kurset, nøl ikke med å stille dem i vår Discord, som du vil finne lenken til i beskrivelsen.
-Jeg takker varmt Théo for å ha produsert dette kurset, og jeg håper han vil være en utmerket lærer for dere. Vi hadde det veldig gøy med å skape dette innholdet. Dette kurset er tilgjengelig for alle og vil, tror jeg, være essensielt for å følge våre fremtidige mer dyptgående kurs om økonomi. Dette kurset vil legge de nødvendige grunnlagene for å utforske visse økonomiske teorier mer detaljert som vi bare vil berøre kort her.
-Hvis du er klar til å begi deg ut på dette eventyret, inviterer jeg deg til å klikke på følgende video og starte med bonusvideoen om vårt nåværende finanssystem. Jeg gir nå ordet til Théo. Takk til ham for å samarbeide med Descoupes Bitcoin for realiseringen av denne videoen. Vi sees veldig snart. Ha det!
+**Del 1: Introduksjon til ECON**  
+Vi starter med en generell introduksjon til østerriksk økonomi, utforsker dens historiske røtter og grunnlaget for dens tankegang. Denne delen dekker også essensielle begreper som penger, kreditt, banker og sentralbanker. Du vil forstå hvorfor disse institusjonene spiller en sentral rolle i østerriksk tanke, spesielt i kritikken mot pengeintervensjoner.
+
+**Del 2: Teoretiske Grunnlag**  
+Denne delen vil utdype de grunnleggende konseptene i østerriksk økonomi, som den subjektive verditeorien, som forklarer hvorfor verdien av en vare ikke er objektiv, men avhenger av den oppfattede nytten for hver enkelt person. Du vil også oppdage hvordan penger naturlig oppstår som et sosialt fenomen, samt begreper som tidspreferanse, rente og kapital som er sentrale i den østerrikske frimarkedsteorien.
+
+**Del 3: Østerrikske Økonomiske Perspektiver**  
+Her vil vi utforske de praktiske anvendelsene av østerriksk teori. Du vil lære detaljert om den østerrikske konjunkturteorien, som forklarer hvordan monetære manipulasjoner skaper kunstige oppgangstider etterfulgt av resesjoner.
+
+Dette kurset er en fusjon mellom økonomi og filosofi, drevet av en åpen diskusjon mellom Théo og meg (Rogzy). Jeg vil gjerne takke Théo Mogenet hjertelig for opprettelsen av dette kurset. Vi har hatt stor glede av å utvikle dette innholdet, som er utformet for å være tilgjengelig for alle. Dette kurset utgjør en viktig introduksjon og vil legge grunnlaget for våre fremtidige, mer avanserte moduler om økonomi.
+
+Og hva om nøkkelen til å forstå dagens økonomi ligger i en teori som er flere hundre år gammel? La oss oppdage den sammen!
 
 ## Penger, Kreditt, Banker og Sentralbanker
 
@@ -56,7 +65,7 @@ Når en finansinstitusjon holder en banklisens, betyr det i hovedsak at forplikt
 
 Når du kjøper huset, instruerer du bankmannen din til å overføre penger til selgerens konto. Hvis selgerens konto er i en annen bank, varsler bankmannen din den tilsvarende bankmannen ved den andre institusjonen for å sikre at selgerens konto blir kreditert tilsvarende, samtidig som din konto debiteres med det tilsvarende beløpet.
 
-![image](assets/Image/1.webp)
+![image](assets/en/01.webp)
 
 Figur 1: Pengeopprettelse som Bokføringsposter
 
@@ -73,7 +82,7 @@ Dette dilemmaet førte til opprettelsen av moderne sentralbanker. På 1800-talle
 
 I tillegg til å opprettholde finansiell stabilitet, er sentralbanker ansvarlige for å sette nøkkelrenter. Disse rentene bestemmer kostnaden ved hvilken lisensierte banker kan låne midler fra sentralbanken, og definerer i hovedsak kostnaden for likviditet for de finansielle institusjonene som spiller en avgjørende rolle i utlån i våre økonomier. Derfor fungerer disse rentene som en referanse for hele det finansielle systemet. Som enkeltperson kan rentene du betaler på boliglånet ditt brytes ned i politikkraten og bankens margin.
 
-![bilde](assets/Image/2.webp)
+![bilde](assets/en/02.webp)
 
 Figur2: Lehman Brothers’ Konkurs (15/09/2008)
 
@@ -81,7 +90,7 @@ Under den store finanskrisen i 2008 erklærte Lehman Brothers, en stor investeri
 
 Selv om disse tiltakene forhindret en kaskade av konkurser, gjorde de lite for å lette den påfølgende økonomiske nedgangen. Millioner mistet jobbene og hjemmene sine, forbrukerutgiftene stupte, bedrifter gikk under, og banker pådro seg betydelige tap. Til tross for historisk lave renter, var få villige til å låne, noe som resulterte i en ond sirkel der den opprinnelige nedgangen i forbruk og investering forsterket seg selv. Følgelig tok sentralbankene ytterligere skritt ved å implementere programmer for kvantitativ lettelse (QE). Disse programmene involverte sentralbanker som kjøpte statsobligasjoner og boliglånssikrede verdipapirer fra kommersielle banker med sentralbankreserver.
 
-![bilde](assets/Image/3.webp)
+![bilde](assets/en/03.webp)
 
 Figur3: Rentesatser i store økonomier / Kilde: ECB
 
@@ -90,7 +99,7 @@ I motsetning til mange forventninger, gjenopplivet ikke QE-programmene økonomis
 ### Cantillon-effekten
 
 Likevel kan et vesentlig økonomisk prinsipp trekkes fra denne episoden: når nytt penger skapes, gagner det først og fremst de som er nærmest pengekilden, på bekostning av de som er lenger unna. Denne økonomiske innsikten går tilbake til det 18. århundret da Richard Cantillon skisserte den i sitt "Essay om handelens natur generelt." Det er nå uformelt referert til som "Cantillon-effekten".
-![image](assets/Image/4.webp)
+![image](assets/en/04.webp)
 
 Figur4: Cantillon-effekten i et nøtteskall / Kilde: River Financial
 
@@ -98,7 +107,7 @@ I dette tilfellet mottok bankfolk, bankdirektører, eiere av aksjer og obligasjo
 
 I bunn og grunn er systemet skjevt. Banker er i utgangspunktet ustabile, men deres svikt kan sette hele økonomien i fare. Denne moralske risikoen motiverer bankdirektører til å ta overdrevne risikoer for å maksimere bankens inntekter, vel vitende om at sentralbanken til slutt vil redde dem ut, og skyve kostnadene over på skattebetalerne. I slike scenarioer skaper sentralbankfolk forhold for en massiv overføring av kjøpekraft fra hardtarbeidende individer og sparere til eiere av eiendeler og de som er tilknyttet finanssystemet, og dermed koble prosessen med rikdomsskaping fra rikdomsakkumulering.
 
-![image](assets/Image/5.webp)
+![image](assets/en/05.webp)
 
 Figur5: Formuesfordeling i Kina + Europa + USA / Kilde: OECD
 
@@ -108,7 +117,7 @@ Under utvidede perioder med nullrentepolitikk (ZIRP) har banker begrensede mulig
 
 En annen utilsiktet konsekvens av ZIRP er at det oppmuntrer regjeringer til å engasjere seg i omfattende utgifter. Siden regjeringer ikke står overfor lånekostnader og kan stole på at sentralbanker kjøper deres obligasjoner gjennom QE-programmer, har de en naturlig insentiv til å bruke så mye som mulig, spesielt i demokratiske kontekster hvor utgifter kan skaffe stemmer. Denne tendensen overser ofte de langsiktige konsekvensene av slik finansiell uansvarlighet, noe som fører til en betydelig økning i offentlig gjeldsnivå over utviklede økonomier siden den globale finanskrisen (GFC).
 
-![image](assets/Image/6.webp)
+![image](assets/en/06.webp)
 
 Figur 6: Offentlig & Privat Gjeld som % av BNP (Verden, vektet etter BNP per land) / Kilde IMF
 
@@ -144,7 +153,7 @@ Slike spørsmål har opptatt økonomer og filosofer i mange århundrer og har mo
 
 Etter at fysiokratenes teori om landverdi, som hevdet at all verdi kommer fra land, ble tilbakevist av de klassiske økonomienes arbeidsteori om verdi, som postulerte at verdien av en vare stammer fra mengden arbeid som går inn i produksjonen, var det den marginale verditeoriens tur til å avløse sistnevnte. På 1870-tallet, etter Marx, den siste av de klassiske økonomene, dukket det opp tre nye skoler for økonomisk tankegang nesten samtidig rundt en marginal verditeori: Lausanne-skolen med Léon Walras, den moderne eller nyklassiske skolen med William Stanley Jevons, og den østerrikske skolen med Carl Menger. Denne revolusjonen i verditeorien utgjorde en betydelig fornyelse av økonomisk tenkning.
 
-![bilde](assets/Image/7.webp)
+![bilde](assets/en/07.webp)
 
 Fra venstre til høyre: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -153,7 +162,7 @@ Det er vanlig å presentere marginalismen til disse tre skolene som lik. Faktisk
 
 ### Subjektiv Verdi
 
-![bilde](assets/Image/15.webp)
+![bilde](assets/en/08.webp)
 
 Den østerrikske økonomen avviser oppfatningen til Adam Smiths etterfølgere og forlater ideen om at verdien av en vare kommer fra mengden arbeid brukt i produksjonen, til fordel for oppfatningen om at verdien bestemmes av individet, som, i hver kontekst, utfører en mental verdsettingshandling angående en spesifikk mengde av en vare eller tjeneste. Dette intellektuelle spranget gjort av Menger utfordrer objektiviteten av verdi: for ham er ikke verdi en objektiv egenskap ved varer; det er kun resultatet av forholdet som individet har med den tingen: "verdi eksisterer ikke utenfor menneskelig bevissthet."
 
@@ -175,7 +184,7 @@ Denne subjektive oppfatningen av verdi, forstått som et psykologisk forhold som
 
 ### Arbeidsdeling
 
-![bilde](assets/Image/16.webp)
+![bilde](assets/en/09.webp)
 
 Besøk i en spikerfabrikk, Léonard Defrance (18. århundre)
 
@@ -238,7 +247,7 @@ Dette spillet illustrerer et problem som ofte møtes i det virkelige liv: i frav
 
 ### Penger for å Løse Koordineringsproblemer
 
-![bilde](assets/Image/17.webp)
+![bilde](assets/en/10.webp)
 
 Dette problemet har mindre innvirkning i små samfunn (f.eks., familie, vennegrupper) fordi, i slike tilfeller, kjenner alle hverandre direkte, noe som gjør det mulig å huske hverandres bidrag. Under forutsetningen av at det å forlate samfunnet (desertering) medfører en kostnad, er et ryktesystem basert på individuelle agenters minne vanligvis tilstrekkelig for å unngå fallgruvene som fangens dilemma stiller.
 
@@ -256,7 +265,7 @@ I før-sivilisasjonstiden eksisterte ikke disse teknologiene. Derfor måtte vår
 
 ### Dobbel Sammentreff av Ønsker og Salgbarhet
 
-![bilde](assets/Image/18.webp)
+![bilde](assets/en/11.webp)
 
 Penger kan ses på som løsningen våre forfedre oppdaget for å adressere det økonomer kaller "problemet med dobbelt sammentreff av ønsker". Dette problemet har tre dimensjoner: romlig, tidsmessig og mellommenneskelig.
 
@@ -300,7 +309,7 @@ Denne subjektive vurderingen av verdien av fremtidige goder sammenlignet med nå
 
 Dette konseptet med relativ verdsetting av fremtidige goder over nåværende goder er i kjernen av rentefenomenet. Faktisk, i en økonomi med umanipulerte kapitalmarkeder, bestemmes referanserentene (ansett som risikofrie fra mislighold) ved skjæringspunktet mellom kapitaltilbud og etterspørsel. Derfor representerer disse ratene tilstanden til tidspreferanser for hele økonomien: en økning i renten resulterer fra en relativ økning i etterspørselen etter kapital sammenlignet med tilbudet, noe som indikerer høyere tidspreferanser. Omvendt skjer en nedgang i rentene på grunn av en økning i sparing, som er en økning i kapitaltilbudet, noe som indikerer en reduksjon i tidspreferanser.
 
-![bilde](assets/Image/9.webp)
+![bilde](assets/en/12.webp)
 
 I en økonomi der rentene ikke manipuleres av sentralbanken, har vi en tendens til å observere en oppadgående rentekurve: jo lengre løpetid på gjelden, desto høyere er renten. Den motsatte situasjonen kan ikke skje fordi det ville innebære at fremtiden er mer sikker enn nåtiden, noe som er en logisk umulighet.
 
@@ -308,7 +317,7 @@ Konseptet med tidspreferanse og hvordan vi uttrykker vår egen tidspreferanse gj
 
 ### Kapitalteori
 
-![bilde](assets/Image/19.webp)
+![bilde](assets/en/13.webp)
 
 I begynnelsen av dette kurset så vi at, for Carl Menger, anses goder kun som økonomiske goder (verdsatt) fordi de tjener som midler til ender valgt og verdsatt av individer. Ifølge dette synet dreier all økonomisk analyse seg om forbruk fordi det til syvende og sist er det motiverende målet bak all økonomisk aktivitet. Derfor, for Menger, er utgangspunktet for økonomisk analyse forbruksgoder, eller sluttgoder, ettersom de representerer det ultimate formålet med økonomisk aktivitet. Alle andre goder i økonomien, som vi kan kalle "mellomgoder", har bare verdi fordi de muliggjør for individer å skaffe disse forbruksgodene: de er goder brukt i produksjonen av andre goder.
 
@@ -322,13 +331,13 @@ På grunn av den sekvensielle naturen til menneskelig handling, har disse intert
 
 For å illustrere dette poenget, la oss gjenbesøke eksemplet gitt av Böhm-Bawerk, i hans verk "Kapital og Rente":
 
-![bilde](assets/Image/10.webp)
+![bilde](assets/en/14.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe og Produksjonsomvei:
 
-![bilde](assets/Image/20.webp)
+![bilde](assets/en/15.webp)
 
 Robinson Crusoe lander forsyninger fra vraket, John Alexander Gilfillan (1793-1864)
 
@@ -350,7 +359,7 @@ Nå, som antydet i det første kapittelet, har renter blitt manipulert i flere t
 
 Dette illustreres perfekt av diagrammet nedenfor: langrenter er lavere enn kortrenter. Først gir dette absolutt ingen mening, fordi det ville innebære at fremtiden er mer sikker enn nåtiden. For det andre, det ber om en undersøkelse om konsekvensene for kapitalallokering: hvis alle er incentivert til å handle som om sparing var rikelig, mens sparere er ingensteds å finne fordi de ikke belønnes for å spare, hvilke konsekvenser kunne dette gi for økonomien?
 
-![bilde](assets/Image/11.webp)
+![bilde](assets/en/16.webp)
 
 Dette er hva vi vil finne ut i neste kapittel dedikert til den østerrikske teorien om forretningsyklusen!
 
@@ -378,13 +387,13 @@ For å beskrive dette fenomenet av temporal misforståelse og dets konsekvenser 
 
 For å lette vår forklaring, vil vi vende tilbake til Mengers klassifisering av varer og representere den produktive strukturen på et diagram bestående av et vilkårlig antall stadier:
 
-![bilde](assets/Image/12.webp)
+![bilde](assets/en/17.webp)
 
 I diagrammet ovenfor passerer opprinnelige ressurser gjennom ulike produksjonsstadier, og gjennomgår transformasjoner som bringer dem nærmere tilstanden av endelige forbruksvarer (gjennom interaksjon med originale produksjonsfaktorer: tid, land, arbeidskraft). Høyden på høyre side av trekanten representerer skjematisk BNP, siden den betegner summen av alle forbruksvarer solgt i en periode. Gapet mellom hver stolpe tilsvarer verdien som er lagt til (i monetære termer) generert av hvert stadium i prosessen. Denne forskjellen kan også ses som inntekten assosiert med hvert stadium (inntekter - kostnader).
 
 Hvis, på aggregatnivå, økonomiske aktører øker sin sparing, vil mengden av endelige varer som konsumeres reduseres - alt annet likt, nødvendigvis innebærer sparing å utsette en del av ens forbruk til et senere tidspunkt. Som et resultat vil rentenivået falle - fordi tilbudet av kapital øker, noe som tillater entreprenører å bruke denne tilstrømningen av kapital til å skape nye investeringsvarer og dermed forlenge produksjonsstrukturen.
 Vi vil da oppnå en utvidet produksjonsstruktur, en endring som kvalitativt kan representeres ved følgende diagram:
-![image](assets/Image/13.webp)
+![image](assets/en/18.webp)
 
 Her har den monetære verdien av etterspurte forbruksvarer minsket, noe som frigjør ressurser for opprettelsen av et ekstra produksjonstrinn. I dette scenarioet, hvor nedgangen i renten er en konsekvens av redusert konsum, det vil si økt sparing, forblir området av trekanten, som representerer mengden penger i omløp, uendret. Transformasjonen av produksjonsstrukturen (forlengelsen) resulterer simpelthen fra en overføring av kjøpekraft fra en del av strukturen til en annen.
 
@@ -400,7 +409,7 @@ Med lavere renter kan entreprenører låne flere ressurser og dermed skape høye
 
 Merk at dette er en helt logisk konsekvens av kredittutvidelsen. Så langt som banker produserer fidusiære medier ved å innvilge lån, bør man naturlig forvente at den generelle kjøpekraften vil øke.
 
-![image](assets/Image/14.webp)
+![image](assets/en/19.webp)
 
 Ettersom kreditt kommer inn i økonomien gjennom lån til entreprenører, bør vi observere en økning i profitt i produksjonssektorene langt fra konsum, og en nedgang i relative profitter i sektorer nærmere konsum. Denne høyere lønnsomheten støtter deretter en reallokering av kapital mot disse nye, mer kapitalintensive stadiene (skipsbygging, bilindustri, bygging, avanserte teknologier osv.), og en nedgang i investeringer i sektorer nærmere konsum.
 Nå tjener entreprenørene som er involvert i disse høyere produksjonsstadiene høyere pengeinntekter, og, siden tidspreferansen forble den samme, burde vi også se økt etterspørsel etter forbruksprodukter. Men ettersom, under denne oppgangen, den relative lønnsomheten av investert kapital har vært høyere i sektorer langt fra forbruk, har det vært en overføring av ressurser fra aktiviteter nær forbruk til mer fjerne aktiviteter. Følgelig mangler entreprenørene i de lavere produksjonsstadiene ressursene til å møte den økte etterspørselen. Dette skaper spenning mellom disse to delene av produksjonsstrukturen: hver prøver å skaffe kapital på bekostning av den andre, og siden etterspørselen etter forbruk representerer mer presserende behov, vil på et tidspunkt entreprenører engasjert i aktiviteter langt fra forbruk mangle ressursene som trengs for å fullføre sine investeringer. Profittgraden i disse sektorene begynner da å falle, bedrifter går konkurs, og den relative økningen i forbrukerpriser motiverer en rask reallokering av kapital mot produksjon av varer av lavere orden. Når denne plutselige reallokeringen av ressurser manifesterer seg, går økonomien inn i en resesjon: eiendomspriser faller, reallønninger synker, forbrukerpriser faller, og lagerbeholdninger hoper seg opp.
@@ -448,7 +457,7 @@ Med sin artikkel introduserte Mises en ny dimensjon til debatten. Ved å sette t
 
 ### Forklaring av umuligheten av økonomisk kalkulasjon
 
-![bilde](assets/Image/24.webp)
+![bilde](assets/en/21.webp)
 
 De fleste misforståelsene om Mises sine argumenter oppstår fra en misforståelse av rollene som leder- og entreprenørklassene spiller i en kapitalistisk økonomi. Mises avviste aldri lederes evne til å utarbeide effektive produksjonsplaner innenfor sine egne operasjoner. I stedet understreket han betydningen av entreprenører og aksjeeiere, som, som eiere av produksjonsmidlene, allokerer kapital på tvers av ulike industrier, og dermed danner priser som fungerer som inndata i de økonomiske kalkulasjonene til ledere.
 
@@ -510,11 +519,11 @@ Et eksempel på metodologisk forskjell er posisjonen til tilhengere av Moderne M
 Det er viktig å merke seg at kirsebærplukking, som innebærer selektivt valg av data for å etablere relasjoner mellom variabler, er en uvitenskapelig og lite grundig metode i økonomi. Pengekreasjon, for eksempel, fører ikke nødvendigvis til inflasjon, og en mer nyansert tilnærming er nødvendig for å forstå komplekse økonomiske mekanismer. Aksiomer spiller en avgjørende rolle i østerriksk økonomisk resonnement. De er grunnleggende elementer som logiske slutninger kan trekkes fra. Det er imidlertid viktig å anerkjenne at nøyaktig forutsigelse av fremtiden i økonomi ofte er vanskelig på grunn av kompleksiteten i økonomiske fenomener og iboende usikkerhet.
 Metodologi er et essensielt aspekt i økonomi og i samfunnsvitenskapene generelt. Det påvirker hvordan spørsmål stilles, hypoteser formuleres, og data tolkes. Å forstå de metodologiske forskjellene mellom økonomiske skoler kan hjelpe oss med å sette pris på ulike perspektiver og utvikle våre egne meninger om temaene diskutert i tidligere episoder.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-## Evaluer kurset
+## Vurderinger & Karakterer
 
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -524,76 +533,8 @@ Metodologi er et essensielt aspekt i økonomi og i samfunnsvitenskapene generelt
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Videre studier
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Gratulerer med å ha fullført dette ECON 201-kurset! Jeg håper inderlig at du likte det og at det åpnet dører for deg. Din oppdagelse av Bitcoin er bare i begynnelsen, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige ved universitetet.
-
-### Videre lesning
-
-For å fordype din forståelse av økonomiske og sosiale fenomener, spesielt med tanke på østerriksk økonomi, her er noen bokanbefalinger:
-
-- "The Austrian School" av Ressus Huerta de Soto: Denne rimelige boken gir en omfattende introduksjon til utviklingen av østerriksk økonomisk tenkning, som dekker nøkkelkonsepter og teorier.
-- "Human Action" av Ludwig von Mises: Ansett som det største verket til den østerrikske skolen, utforsker dette arbeidet i dybden de teoretiske grunnlagene for menneskelig handling og økonomi.
-- "The Use of Knowledge in Society" av Friedrich Hayek: Denne korte teksten undersøker hvordan spredt kunnskap i samfunnet brukes til å veilede økonomiske beslutninger, og fremhever viktigheten av priser og konkurranse.
-- Joseph Schumpeters Nobelpris-tale i 1974: Denne talen gir en oversikt over Schumpeters visjon om entreprenørskap, innovasjon og kapitalisme.
-- "Capitalism, Socialism and Democracy" eller "The Theory of Economic Development" av Joseph Schumpeter: Disse ikoniske bøkene av Schumpeter utforsker dynamikken i kapitalismen, innovasjon og økonomiske sykluser.
-
-I tillegg til disse lesningene, kan du også finne informasjon om østerriksk økonomi ved å utforske online ressurser. Mises-instituttet, basert i det sørøstlige USA, tilbyr artikler og videoer av anerkjente økonomer. Savedin Amoos Academy tilbyr interaktive seminarer med fremtredende gjester, selv om dette alternativet er betalt. I Frankrike deler personer som Yorick de Montbin, Fergan Aziri, og Richard Hamelin ofte analyser og diskusjoner om østerriksk økonomi på forskjellige YouTube-kanaler. Til slutt kan også Bitcoin-instituttet være en kilde til informasjon om de økonomiske aspektene knyttet til Bitcoin.
-
-Ved å lese disse verkene og utforske disse online ressursene, kan du utvikle en dypere forståelse av de nøkkelprinsippene og ideene til den østerrikske skolen for økonomi.
-
-# Konklusjon
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Evaluer dette kurset
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Avsluttende eksamen
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Konklusjon
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
-Gratulerer med fullført kurs!
-
-Vi er glade for at du har nådd denne viktige milepælen i din læringsprosess.
-
-Takket være din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
-
-For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle andre kurs tilgjengelig på Plan ₿ Network:
-
-#### Oppdag F. Bastiats liv med
-
-https://planb.network/courses/eco102
-
-#### Forstå fremveksten av hyperinflasjon med
-
-https://planb.network/courses/eco204
-
-#### Oppdag Bitcoin og dens grunnleggende prinsipper med
-
-https://planb.network/courses/btc101
-
-#### Oppdater din nettsikkerhet med
-
-https://planb.network/courses/scu101
-
-#### Oppdag Lightning Network med
-
-https://planb.network/courses/lnp201
-
-#### Lær å skape ditt Bitcoin-fellesskap med
-
-https://planb.network/courses/btc302
-
-#### Forstå hvordan Bitcoin-lommeboken fungerer med
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>
